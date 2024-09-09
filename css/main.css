@@ -8,6 +8,7 @@ html, body
 h1, h2, h3, h4, h5, h6 
 {
 	margin: 0;
+	display: block;
 }
 
 body, div
@@ -29,24 +30,40 @@ body, div
 {	
 	height: 100vh;
 	max-width: 100%;
-	background-color: rgb(192, 77, 23);
+	background-color: rgb(255, 255, 255);
 	margin: 0 20%;
+	display: flex;
 }
 
 .front-page{
 	margin: 0;
-	background-image: url('../images/wide_eating_reflection.jfif');
+	background-image: url('../images/side_red_dress_edited.jpg');
 	width: 100%; /* Or a specific width */
 	background-size: cover; /* Ensures the image covers the whole div */
 	background-position: center; /* Centers the image in the div */
 }
 
+.front-page > .header-wrap > h1
+{
+	font-size: 10em;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+.header-wrap
+{
+	position: relative;  /* Or absolute if you need specific positioning */
+    justify-content: center;  /* Horizontally center */
+    align-items: center; 
+	background-color: rgba(0, 0, 0, 0);
+}
+
 .about-me-section
 {
-	background-color: rgb(241, 85, 23);
+	background-color: rgb(18, 156, 29);
 }
 
 .videos-section
 {
-	background-color: rgb(148, 110, 40);
+	background-color: rgb(29, 99, 35);
 }
