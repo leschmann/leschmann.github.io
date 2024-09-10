@@ -92,8 +92,14 @@ header > a {
 }
 
 .front-page > .header-wrap > h1 {
-  font-size: 3vw;
+  font-size: 2em;
   z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .front-page > .header-wrap > h1 {
+    font-size: 1em;
+  }
 }
 
 .header-wrap {
