@@ -92,7 +92,7 @@ header > a {
 }
 
 .front-page > .header-wrap > h1 {
-  font-size: 3em;
+  font-size: 3vw;
   z-index: 3;
 }
 
@@ -108,6 +108,7 @@ header > a {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .header-wrap:hover {

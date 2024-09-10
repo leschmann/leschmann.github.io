@@ -6,7 +6,7 @@ function setAnimationSpeed() {
 
   // Calculate animation duration based on viewport dimensions
   // (Here, we use an example formula. You can adjust it as needed.)
-  const animationDuration = viewportWidth / 100; // Example: 1 second per 100px of viewport size
+  const animationDuration = Math.sqrt(viewportWidth) / 3; // Example: 1 second per 100px of viewport size
 
   // Select the element with the class "header-wrap"
   const headerWrap = document.querySelector(".header-wrap");
