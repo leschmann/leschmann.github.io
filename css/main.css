@@ -1,28 +1,57 @@
+:root{
+	--white: #d3d3d3;
+	--grey: rgb(66, 66, 66);
+}
+
 /* RESET */
+
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 html, body
 {
 	height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 
-{
-	margin: 0;
-	display: block;
-}
-
 body, div
 {
-	margin: 0px;
-	padding: 0px;
-	background: #8f8f8f;
+	background: var(--white);
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: var(--grey);
 }
 
 /* HEADER -------------- */
+header
+{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 15px min(5%, 100px);
+	background-color: var(--white);
+	color: var(--grey);
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.navbar > a, header > a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--grey);
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 10px;
+}
 
 
 /* MAIN ---------------- */
@@ -36,26 +65,52 @@ body, div
 }
 
 .front-page{
+	position: relative;
 	margin: 0;
 	background-image: url('../images/side_red_dress_edited.jpg');
 	width: 100%; /* Or a specific width */
 	background-size: cover; /* Ensures the image covers the whole div */
 	background-position: center; /* Centers the image in the div */
+	overflow-x: hidden;
+}
+
+.front-page::before{
+	content: '';
+	position: relative;
+	margin: 0;
+	background-image: url('../images/side_red_dress_edited_only_eunbee.png');
+	width: 100%; /* Or a specific width */
+	background-size: cover; /* Ensures the image covers the whole div */
+	background-position: center; /* Centers the image in the div */
+	z-index: 10;
 }
 
 .front-page > .header-wrap > h1
 {
-	font-size: 10em;
-	margin-top: 20px;
-	margin-left: 10%;
+	font-size: 8em;
 }
 
 .header-wrap
-{
-	position: relative;  /* Or absolute if you need specific positioning */
+{	
+	display: flex;
+	top: 40vh;
+	position: absolute;  /* Or absolute if you need specific positioning */
     justify-content: center;  /* Horizontally center */
     align-items: center; 
 	background-color: rgba(0, 0, 0, 0);
+	animation-name: vertical-banner;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes vertical-banner {
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(100vw);
+	}
 }
 
 .about-me-section
