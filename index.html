@@ -3,43 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Eunbee Park - Coloratura Soprano</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>My Projects Hub</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+        background-color: #141414;
+        color: #e5e5e5;
+        margin: 0;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 2.5em;
+      }
+      p.subtitle {
+        color: #aaa;
+        margin-bottom: 40px;
+        font-size: 1.1em;
+      }
+
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        width: 100%;
+        max-width: 1000px;
+      }
+
+      .project-card {
+        background-color: #2b2b2b;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s, box-shadow 0.2s;
+        border: 1px solid #333;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(245, 197, 24, 0.2);
+        border-color: #f5c518;
+      }
+
+      .project-img {
+        width: 100%;
+        height: 180px;
+        background-color: #1f1f1f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+        color: #444;
+      }
+      .project-info {
+        padding: 20px;
+      }
+      .project-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+      .project-desc {
+        font-size: 0.95em;
+        color: #bbb;
+        line-height: 1.5;
+      }
+      .badge {
+        display: inline-block;
+        background-color: #f5c518;
+        color: #000;
+        font-size: 0.75em;
+        font-weight: bold;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
-  <!--HIER WURDE ETWAS GEAENDERT-->
   <body>
-    <header>
-      <a href="#" class="home-button">Eunbee Park</a>
-      <nav class="navbar">
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Videos</a>
-      </nav>
-      <a href="#">Contact</a>
-    </header>
-    <main>
-      <div class="container front-page">
-        <div class="header-wrap">
-          <h1>안녕하세요</h1>
-          <h1>Hello</h1>
-          <h1>Hallo</h1>
-          <h1>안녕하세요</h1>
-          <h1>Hello</h1>
-          <h1>Hallo</h1>
+    <h1>Welcome to My Hub</h1>
+    <p class="subtitle">A collection of my coding projects and databases.</p>
+
+    <div class="project-grid">
+      <!-- Project 1: DVD Collection -->
+      <a href="dvd_collection.html" class="project-card">
+        <div class="project-img">🎬</div>
+        <div class="project-info">
+          <span class="badge">Python / JS</span>
+          <div class="project-title">My DVD Collection</div>
+          <div class="project-desc">
+            A fully sortable, searchable, and filterable database of my physical
+            DVD collection, scraped using the OMDb API.
+          </div>
         </div>
-      </div>
-      <div class="container about-me-section">
-        <div class="content-wrap">
-          <h1>About Me</h1>
+      </a>
+
+      <!-- Project 2: Placeholder for the future -->
+      <a href="#" class="project-card">
+        <div class="project-img">🚀</div>
+        <div class="project-info">
+          <span class="badge">Coming Soon</span>
+          <div class="project-title">Future Project</div>
+          <div class="project-desc">
+            Another awesome project will go here. The grid will automatically
+            expand to fit it!
+          </div>
         </div>
-      </div>
-      <div class="container videos-section">
-        <h1>Videos</h1>
-        <h1>은비 박</h1>
-      </div>
-    </main>
-    <script src="js/index.js"></script>
+      </a>
+    </div>
   </body>
 </html>
