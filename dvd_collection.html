@@ -746,6 +746,14 @@
         document.body.style.overflow = ""; // Restore background scrolling
       };
 
+      // Close Modal with the ESC key
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          // Call closeModal without an event so it bypasses the click check
+          closeModal();
+        }
+      });
+
       function initFilters() {
         allGenres.forEach((genre) => {
           const label = document.createElement("label");
