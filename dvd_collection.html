@@ -28,6 +28,25 @@
         overflow: hidden;
       }
 
+      /* Sleek Dark Scrollbars */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--bg);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #444;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--accent);
+      }
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #444 var(--bg);
+      }
+
       .sidebar {
         width: 300px;
         background-color: #1f1f1f;
@@ -37,28 +56,11 @@
         flex-shrink: 0;
         transition: margin-left 0.3s ease;
         margin-left: 0;
+        z-index: 1000;
       }
       .sidebar.hidden {
         margin-left: -300px;
       }
-
-      .sidebar::-webkit-scrollbar {
-        width: 8px;
-      }
-      .sidebar::-webkit-scrollbar-track {
-        background: #1f1f1f;
-      }
-      .sidebar::-webkit-scrollbar-thumb {
-        background: #444;
-        border-radius: 4px;
-      }
-      .sidebar::-webkit-scrollbar-thumb:hover {
-        background: #f5c518;
-      }
-      .sidebar {
-        scrollbar-width: thin;
-        scrollbar-color: #444 #1f1f1f;
-      } /* For Firefox */
 
       .sidebar h2 {
         margin-top: 0;
@@ -166,6 +168,7 @@
         overflow-y: auto;
         display: flex;
         flex-direction: column;
+        position: relative;
       }
 
       .header-top {
@@ -178,6 +181,7 @@
       .header-top h1 {
         margin: 0;
         color: #fff;
+        font-size: 1.8em;
       }
 
       .toggle-btn-header {
@@ -228,7 +232,7 @@
       .movie-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(var(--card-size), 1fr));
-        gap: 25px;
+        gap: 20px;
         align-items: start;
       }
 
@@ -240,9 +244,12 @@
         display: flex;
         flex-direction: column;
         transition: transform 0.2s;
+        cursor: pointer;
       }
       .movie-card:hover {
         transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(245, 197, 24, 0.2);
+        border: 1px solid #555;
       }
 
       .cover-img {
@@ -257,7 +264,6 @@
         display: flex;
         flex-direction: column;
       }
-
       .title {
         font-size: 1.1em;
         font-weight: bold;
@@ -287,68 +293,158 @@
       .genres {
         font-size: 0.8em;
         color: #888;
-        margin-bottom: 10px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
 
-      .toggle-btn {
-        background: transparent;
-        border: 1px solid #555;
-        color: #bbb;
-        padding: 8px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 0.85em;
-        transition: 0.2s;
-        margin-top: 5px;
+      /* =========================================
+           🔥 NEW OVERLAY MODAL STYLES
+           ========================================= */
+      .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        padding: 20px;
+        backdrop-filter: blur(5px);
       }
-      .toggle-btn:hover {
+      .modal-overlay.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .modal-content {
+        display: flex;
+        background: var(--card-bg);
+        border-radius: 12px;
+        max-width: 900px;
+        width: 100%;
+        max-height: 90vh;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+        transform: scale(0.95);
+        transition: transform 0.3s ease;
+      }
+      .modal-overlay.show .modal-content {
+        transform: scale(1);
+      }
+
+      .modal-close-btn {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.6);
+        border: 1px solid #555;
+        color: #fff;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s;
+      }
+      .modal-close-btn:hover {
+        background: var(--accent);
+        color: #000;
+        border-color: var(--accent);
+      }
+
+      .modal-img {
+        width: 350px;
+        flex-shrink: 0;
+        object-fit: cover;
+        background: #000;
+      }
+
+      .modal-details {
+        padding: 40px 30px;
+        overflow-y: auto;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .modal-title {
+        font-size: 2em;
+        font-weight: bold;
+        color: #fff;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+      }
+      .modal-meta {
+        font-size: 0.9em;
+        color: #aaa;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .modal-meta span {
         background: #444;
+        padding: 4px 8px;
+        border-radius: 4px;
+        color: #fff;
+      }
+      .modal-genres {
+        font-size: 1em;
+        color: var(--accent);
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      .modal-plot {
+        font-size: 1em;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        color: #ddd;
+      }
+      .modal-credits {
+        font-size: 0.9em;
+        color: #aaa;
+        line-height: 1.8;
+        margin-bottom: 25px;
+        background: #222;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #333;
+      }
+      .modal-credits strong {
         color: #fff;
       }
 
-      .expanded-content {
-        display: none;
-        margin-top: 15px;
-        border-top: 1px solid #444;
-        padding-top: 15px;
-      }
-      .expanded-title {
-        font-size: 1em;
-        font-weight: bold;
-        color: var(--accent);
-        margin-bottom: 10px;
-        line-height: 1.3;
-      }
-      .plot {
-        font-size: 0.85em;
-        line-height: 1.4;
-        margin-bottom: 15px;
-        color: #ccc;
-      }
-      .credits {
-        font-size: 0.8em;
-        color: #999;
-        line-height: 1.5;
-      }
-      .imdb-link {
-        display: block;
-        margin-top: 15px;
-        padding: 8px;
+      .modal-imdb-btn {
+        display: inline-block;
+        padding: 12px 25px;
         background-color: var(--accent);
         color: #000;
         text-decoration: none;
         border-radius: 5px;
         font-weight: bold;
         text-align: center;
+        align-self: flex-start;
+        transition: 0.2s;
       }
-      .imdb-link:hover {
+      .modal-imdb-btn:hover {
         background-color: #e3b616;
+        transform: translateY(-2px);
       }
 
+      /* =========================================
+           📱 MOBILE OVERRIDES
+           ========================================= */
       @media (max-width: 800px) {
         .sidebar {
           position: fixed;
@@ -356,7 +452,7 @@
           left: 0;
           width: 100%;
           height: 100vh;
-          z-index: 2000;
+          z-index: 4000;
           border-right: none;
         }
         .sidebar.hidden {
@@ -385,11 +481,40 @@
           flex-direction: column;
           align-items: flex-start;
         }
+
+        /* Keep Mobile as a Poster Wall! Hide the small text under the card */
+        .movie-info {
+          display: none;
+        }
+
+        /* Adjust Modal for Mobile Screens */
+        .modal-overlay {
+          padding: 10px;
+        }
+        .modal-content {
+          flex-direction: column;
+          max-height: 95vh;
+        }
+        .modal-img {
+          width: 100%;
+          height: 350px;
+          object-fit: cover;
+          object-position: top;
+        }
+        .modal-details {
+          padding: 25px 20px;
+        }
+        .modal-title {
+          font-size: 1.5em;
+        }
+        .modal-imdb-btn {
+          width: 100%;
+          margin-top: 10px;
+        }
       }
     </style>
   </head>
   <body>
-    <!-- Sidebar for Controls -->
     <div class="sidebar" id="sidebar">
       <button class="close-mobile-btn" onclick="toggleSidebar()">
         ✕ Apply Filters & Close
@@ -491,7 +616,6 @@
       </button>
     </div>
 
-    <!-- Main Content -->
     <div class="main-content">
       <div class="header-top">
         <button
@@ -508,7 +632,7 @@
         <div class="movie-count" id="movieCount">0 Movies</div>
         <div class="size-control">
           <label>Card Size:</label>
-          <input type="range" id="sizeSlider" min="150" max="450" value="280" />
+          <input type="range" id="sizeSlider" min="120" max="450" value="280" />
         </div>
       </div>
 
@@ -517,7 +641,35 @@
       </div>
     </div>
 
-    <!-- Pulling Data from the External JS File -->
+    <!-- 🔥 NEW OVERLAY MODAL HTML -->
+    <div class="modal-overlay" id="movieModal" onclick="closeModal(event)">
+      <!-- stopPropagation prevents closing when clicking inside the white box -->
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="modal-close-btn" onclick="closeModal()">✕</button>
+
+        <img
+          class="modal-img"
+          id="modalImg"
+          src=""
+          alt="Cover"
+          onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';"
+        />
+
+        <div class="modal-details">
+          <h2 class="modal-title" id="modalTitle">Title</h2>
+          <div class="modal-meta" id="modalMeta"></div>
+          <div class="modal-genres" id="modalGenres"></div>
+          <div class="modal-plot" id="modalPlot"></div>
+
+          <div class="modal-credits" id="modalCredits"></div>
+
+          <a id="modalLink" href="#" target="_blank" class="modal-imdb-btn"
+            >View on IMDb</a
+          >
+        </div>
+      </div>
+    </div>
+
     <script src="data.js"></script>
 
     <script>
@@ -535,9 +687,13 @@
       const directorFilter = document.getElementById("directorFilter");
       const starFilter = document.getElementById("starFilter");
       const sizeSlider = document.getElementById("sizeSlider");
+      const modal = document.getElementById("movieModal");
 
+      // --- MOBILE INITIALIZATION ---
       if (window.innerWidth <= 800) {
         sidebar.classList.add("hidden");
+        document.documentElement.style.setProperty("--card-size", "140px");
+        sizeSlider.value = 140;
       }
 
       window.toggleSidebar = function () {
@@ -551,15 +707,43 @@
         );
       });
 
-      window.toggleDetails = function (btn) {
-        const content = btn.nextElementSibling;
-        if (content.style.display === "none" || content.style.display === "") {
-          content.style.display = "block";
-          btn.textContent = "▲ Hide Details";
-        } else {
-          content.style.display = "none";
-          btn.textContent = "▼ Show Details";
-        }
+      // --- 🔥 MODAL OVERLAY LOGIC ---
+      window.openModal = function (imdbId) {
+        // Find the exact movie object from our database
+        const m = allMovies.find((movie) => movie.imdb_id === imdbId);
+        if (!m) return;
+
+        // Populate Modal Data
+        document.getElementById("modalImg").src = m.img_uri;
+        document.getElementById("modalTitle").textContent = `${m.title} (${
+          m.year > 0 ? m.year : "?"
+        })`;
+        document.getElementById("modalMeta").innerHTML = `
+                <span>⭐ ${m.imdb_rating_str}</span>
+                <span>${m.fsk_rating}</span>
+                <span>${m.duration_str}</span>
+            `;
+        document.getElementById("modalGenres").textContent = m.genres_str;
+        document.getElementById("modalPlot").textContent = m.outline;
+        document.getElementById("modalCredits").innerHTML = `
+                <strong>Director:</strong> ${m.director}<br><br>
+                <strong>Stars:</strong> ${m.stars}
+            `;
+        document.getElementById(
+          "modalLink"
+        ).href = `https://www.imdb.com/title/${m.imdb_id}/`;
+
+        // Show Modal & Lock background scrolling
+        modal.classList.add("show");
+        document.body.style.overflow = "hidden";
+      };
+
+      window.closeModal = function (event) {
+        // If event is provided, only close if the background overlay was clicked
+        if (event && event.target !== modal) return;
+
+        modal.classList.remove("show");
+        document.body.style.overflow = ""; // Restore background scrolling
       };
 
       function initFilters() {
@@ -603,6 +787,9 @@
 
           const card = document.createElement("div");
           card.className = "movie-card";
+          // The entire card is now clickable and triggers the popup!
+          card.setAttribute("onclick", `openModal('${movie.imdb_id}')`);
+
           card.innerHTML = `
                     <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';">
                     <div class="movie-info">
@@ -613,19 +800,6 @@
                             <span>${movie.duration_str}</span>
                         </div>
                         <div class="genres" title="${movie.genres_str}">${movie.genres_str}</div>
-
-                        <button class="toggle-btn" onclick="toggleDetails(this)">▼ Show Details</button>
-
-                        <div class="expanded-content">
-                            <div class="expanded-title">${fullTitle}</div>
-                            <div class="plot">${movie.outline}</div>
-                            <div class="credits">
-                                <strong>Director:</strong> ${movie.director}<br>
-                                <strong>Stars:</strong> ${movie.stars}<br>
-                                <strong>Genres:</strong> ${movie.genres_str}
-                            </div>
-                            <a href="https://www.imdb.com/title/${movie.imdb_id}/" target="_blank" class="imdb-link">View on IMDb</a>
-                        </div>
                     </div>
                 `;
           grid.appendChild(card);
@@ -672,7 +846,7 @@
             if (genreLogic === "OR") {
               if (!checkedGenres.some((g) => m.genres_list.includes(g)))
                 return false;
-            } else if ((genre, "AND")) {
+            } else if (genreLogic === "AND") {
               if (!checkedGenres.every((g) => m.genres_list.includes(g)))
                 return false;
             }
