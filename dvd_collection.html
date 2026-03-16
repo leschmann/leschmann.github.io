@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Movie Collection</title>
     <style>
+      /* Universal Box Sizing - THIS FIXES THE MOBILE X-OVERFLOW */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
       :root {
         --bg: #141414;
         --card-bg: #2b2b2b;
@@ -22,14 +29,22 @@
         overflow: hidden;
       }
 
+      /* Sidebar Base Styles */
       .sidebar {
-        width: 200px;
+        width: 300px;
         background-color: #1f1f1f;
         padding: 20px;
         overflow-y: auto;
         border-right: 1px solid #333;
         flex-shrink: 0;
+        transition: margin-left 0.3s ease;
+        margin-left: 0;
       }
+      /* When hidden on Desktop */
+      .sidebar.hidden {
+        margin-left: -300px;
+      }
+
       .sidebar h2 {
         margin-top: 0;
         color: #fff;
@@ -47,6 +62,10 @@
       .back-link:hover {
         text-decoration: underline;
       }
+
+      .close-mobile-btn {
+        display: none;
+      } /* Hidden on Desktop */
 
       .control-group {
         margin-bottom: 20px;
@@ -67,7 +86,6 @@
         border: 1px solid #444;
         background: #333;
         color: #fff;
-        box-sizing: border-box;
       }
       input[type="text"]::placeholder {
         color: #888;
@@ -127,24 +145,47 @@
         cursor: pointer;
       }
 
+      /* Main Content Styles */
       .main-content {
         flex-grow: 1;
         padding: 20px;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column;
       }
 
-      .header {
+      .header-top {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
-        flex-wrap: wrap;
         gap: 15px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
       }
-      .header h1 {
+      .header-top h1 {
         margin: 0;
         color: #fff;
       }
+
+      /* The Hamburger Button */
+      .toggle-btn-header {
+        background: #222;
+        border: 1px solid #555;
+        color: #fff;
+        padding: 5px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        transition: 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .toggle-btn-header:hover {
+        background: #444;
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
       .header-controls {
         display: flex;
         align-items: center;
@@ -153,6 +194,8 @@
         padding: 10px 20px;
         border-radius: 8px;
         border: 1px solid #333;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
       }
       .movie-count {
         font-size: 1.1em;
@@ -293,22 +336,54 @@
         background-color: #e3b616;
       }
 
+      /* 📱 Mobile CSS Override */
       @media (max-width: 800px) {
-        body {
-          flex-direction: column;
-        }
         .sidebar {
-          width: 100%;
+          position: fixed; /* Pops out over the page */
+          top: 0;
+          left: 0;
+          width: 100%; /* Takes full screen width safely because of border-box */
+          height: 100vh;
+          z-index: 2000;
           border-right: none;
-          border-bottom: 1px solid #333;
-          max-height: 300px;
+        }
+        /* When hidden on Mobile */
+        .sidebar.hidden {
+          margin-left: -100%;
+        }
+
+        .close-mobile-btn {
+          display: block;
+          width: 100%;
+          padding: 15px;
+          background: var(--accent);
+          color: #000;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.1em;
+          font-weight: bold;
+          cursor: pointer;
+          margin-bottom: 20px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .movie-count {
+          border-right: none;
+          padding-right: 0;
+          margin-bottom: 10px;
+        }
+        .header-controls {
+          flex-direction: column;
+          align-items: flex-start;
         }
       }
     </style>
   </head>
   <body>
     <!-- Sidebar for Controls -->
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
+      <button class="close-mobile-btn" onclick="toggleSidebar()">
+        ✕ Apply Filters & Close
+      </button>
       <a href="index.html" class="back-link">← Back to Hub</a>
       <h2>Filters & Sorting</h2>
 
@@ -408,22 +483,25 @@
 
     <!-- Main Content -->
     <div class="main-content">
-      <div class="header">
+      <div class="header-top">
+        <button
+          class="toggle-btn-header"
+          onclick="toggleSidebar()"
+          title="Toggle Sidebar"
+        >
+          ☰
+        </button>
         <h1>My Movie Collection</h1>
-        <div class="header-controls">
-          <div class="movie-count" id="movieCount">0 Movies</div>
-          <div class="size-control">
-            <label>Card Size:</label>
-            <input
-              type="range"
-              id="sizeSlider"
-              min="150"
-              max="450"
-              value="280"
-            />
-          </div>
+      </div>
+
+      <div class="header-controls">
+        <div class="movie-count" id="movieCount">0 Movies</div>
+        <div class="size-control">
+          <label>Card Size:</label>
+          <input type="range" id="sizeSlider" min="150" max="450" value="280" />
         </div>
       </div>
+
       <div class="movie-grid" id="movieGrid">
         <!-- Cards injected by JS -->
       </div>
@@ -9645,6 +9723,7 @@
         "Zygmunt Malanowicz",
       ];
 
+      const sidebar = document.getElementById("sidebar");
       const grid = document.getElementById("movieGrid");
       const countDisplay = document.getElementById("movieCount");
       const searchInput = document.getElementById("searchInput");
@@ -9658,6 +9737,16 @@
       const directorFilter = document.getElementById("directorFilter");
       const starFilter = document.getElementById("starFilter");
       const sizeSlider = document.getElementById("sizeSlider");
+
+      // --- Toggle Sidebar Logic ---
+      // On mobile devices, automatically hide the sidebar on first load
+      if (window.innerWidth <= 800) {
+        sidebar.classList.add("hidden");
+      }
+
+      window.toggleSidebar = function () {
+        sidebar.classList.toggle("hidden");
+      };
 
       sizeSlider.addEventListener("input", (e) => {
         document.documentElement.style.setProperty(
@@ -9719,30 +9808,30 @@
           const card = document.createElement("div");
           card.className = "movie-card";
           card.innerHTML = `
-                        <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=Drive+Disconnected';">
-                        <div class="movie-info">
-                            <div class="title" title="${fullTitle}">${fullTitle}</div>
-                            <div class="meta">
-                                <span>⭐ ${movie.imdb_rating_str}</span>
-                                <span>${movie.fsk_rating}</span>
-                                <span>${movie.duration_str}</span>
-                            </div>
-                            <div class="genres" title="${movie.genres_str}">${movie.genres_str}</div>
-
-                            <button class="toggle-btn" onclick="toggleDetails(this)">▼ Show Details</button>
-
-                            <div class="expanded-content">
-                                <div class="expanded-title">${fullTitle}</div>
-                                <div class="plot">${movie.outline}</div>
-                                <div class="credits">
-                                    <strong>Director:</strong> ${movie.director}<br>
-                                    <strong>Stars:</strong> ${movie.stars}<br>
-                                    <strong>Genres:</strong> ${movie.genres_str}
-                                </div>
-                                <a href="https://www.imdb.com/title/${movie.imdb_id}/" target="_blank" class="imdb-link">View on IMDb</a>
-                            </div>
+                    <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=Drive+Disconnected';">
+                    <div class="movie-info">
+                        <div class="title" title="${fullTitle}">${fullTitle}</div>
+                        <div class="meta">
+                            <span>⭐ ${movie.imdb_rating_str}</span>
+                            <span>${movie.fsk_rating}</span>
+                            <span>${movie.duration_str}</span>
                         </div>
-                    `;
+                        <div class="genres" title="${movie.genres_str}">${movie.genres_str}</div>
+
+                        <button class="toggle-btn" onclick="toggleDetails(this)">▼ Show Details</button>
+
+                        <div class="expanded-content">
+                            <div class="expanded-title">${fullTitle}</div>
+                            <div class="plot">${movie.outline}</div>
+                            <div class="credits">
+                                <strong>Director:</strong> ${movie.director}<br>
+                                <strong>Stars:</strong> ${movie.stars}<br>
+                                <strong>Genres:</strong> ${movie.genres_str}
+                            </div>
+                            <a href="https://www.imdb.com/title/${movie.imdb_id}/" target="_blank" class="imdb-link">View on IMDb</a>
+                        </div>
+                    </div>
+                `;
           grid.appendChild(card);
         });
       }
