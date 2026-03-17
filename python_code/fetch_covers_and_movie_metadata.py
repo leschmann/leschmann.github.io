@@ -8,10 +8,11 @@ from pathlib import Path
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 MOVIE_ROOTS = [
-    r"F:\Movies",
+    #r"F:\Movies",
+    r"E:\Movies",
 ]
 
-HARDDRIVE_NAME = "FRA DVD 0001 - 00600"
+HARDDRIVE_NAME = "FFM DVD 00601 - 01091"
 
 SCRIPT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
