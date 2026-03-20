@@ -5,7 +5,7 @@ import glob
 import re
 
 # --- Config ---
-MOVIES_ROOT = r"E:\Movies"
+MOVIES_ROOT = r"F:\Movies"
 SCRIPT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "metadata_jsons")

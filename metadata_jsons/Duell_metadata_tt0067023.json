@@ -1,29 +1,29 @@
 {
-    "num": "00058",
-    "folder_name": "00058 Duell (1971) {imdb-tt0067023}",
-    "folder_path": "F:\\Movies\\00058 Duell (1971) {imdb-tt0067023}",
-    "title": "Duel",
-    "original_title": "Duel",
-    "year": "1971",
-    "duration": "90 min",
-    "director": "Steven Spielberg",
-    "genres": [
-        "Action",
-        "Thriller"
-    ],
-    "outline": "While traveling through the desert for an appointment with a client, the businessman David Mann from California passes a slow and old tanker truck. The psychotic truck driver feels offended and chases David along the empty highway trying to kill him.",
-    "imdb_id": "tt0067023",
-    "imdb_link": "https://www.imdb.com/title/tt0067023/",
-    "imdb_rating": "7.6",
-    "stars": [
-        "Dennis Weaver",
-        "Jacqueline Scott",
-        "Eddie Firestone"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZhYjY5MzMtMmU4Yy00MDBjLWFhY2UtODg5YzdmNTY0Y2Q0XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Duell_cover.jpg",
-    "folder_location": "FRA DVD 0001 - 00600"
+  "num": "00058",
+  "folder_name": "00058 Duell (1971) {imdb-tt0067023}",
+  "folder_path": "F:\\Movies\\00058 Duell (1971) {imdb-tt0067023}",
+  "title": "Duel",
+  "original_title": "Duel",
+  "year": "1971",
+  "duration": "90 min",
+  "director": "Steven Spielberg",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "outline": "While traveling through the desert for an appointment with a client, the businessman David Mann from California passes a slow and old tanker truck. The psychotic truck driver feels offended and chases David along the empty highway trying to kill him.",
+  "imdb_id": "tt0067023",
+  "imdb_link": "https://www.imdb.com/title/tt0067023/",
+  "imdb_rating": "7.6",
+  "stars": [
+    "Dennis Weaver",
+    "Jacqueline Scott",
+    "Eddie Firestone"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZhYjY5MzMtMmU4Yy00MDBjLWFhY2UtODg5YzdmNTY0Y2Q0XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Duell_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600"
 }
