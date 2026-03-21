@@ -1,30 +1,78 @@
 {
-    "num": "00694",
-    "folder_name": "00694 Jurassic Park (1993) {imdb-tt0107290}",
-    "folder_path": "E:\\Movies\\00694 Jurassic Park (1993) {imdb-tt0107290}",
-    "title": "Jurassic Park",
-    "original_title": "Jurassic Park",
-    "year": "1993",
-    "duration": "127 min",
-    "director": "Steven Spielberg",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-    ],
-    "outline": "Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.",
-    "imdb_id": "tt0107290",
-    "imdb_link": "https://www.imdb.com/title/tt0107290/",
-    "imdb_rating": "8.2",
-    "stars": [
-        "Sam Neill",
-        "Laura Dern",
-        "Jeff Goldblum"
-    ],
-    "rated": "PG-13",
-    "country": "United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
-    "cover_file": "Jurassic Park_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00694",
+  "folder_name": "00694 Jurassic Park (1993) {imdb-tt0107290}",
+  "folder_path": "E:\\Movies\\00694 Jurassic Park (1993) {imdb-tt0107290}",
+  "title": "Jurassic Park",
+  "original_title": "Jurassic Park",
+  "year": "1993",
+  "duration": "127 min",
+  "director": "Steven Spielberg",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "outline": "Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.",
+  "imdb_id": "tt0107290",
+  "imdb_link": "https://www.imdb.com/title/tt0107290/",
+  "imdb_rating": "8.2",
+  "stars": [
+    "Sam Neill",
+    "Laura Dern",
+    "Jeff Goldblum"
+  ],
+  "rated": "PG-13",
+  "country": "United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+  "cover_file": "Jurassic Park_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Griechisch",
+    "Hebräisch",
+    "Hindi",
+    "Isländisch",
+    "Kroatisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Croatian",
+    "Czech",
+    "Danish",
+    "English",
+    "Finnish",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hindi",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

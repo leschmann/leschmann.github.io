@@ -1,28 +1,44 @@
 {
-    "num": "00663",
-    "folder_name": "00663 Der Besuch (1964) {imdb-tt0058724}",
-    "folder_path": "E:\\Movies\\00663 Der Besuch (1964) {imdb-tt0058724}",
-    "title": "The Visit",
-    "original_title": "The Visit",
-    "year": "1964",
-    "duration": "100 min",
-    "director": "Bernhard Wicki",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Karla Zachanassian had a child by Serge Miller as a teenager. When Serge refused to marry her, she was driven out of town. By her own wit and cunning, she has returned as a millionairess for a visit. The town lays out the red carpet expecting big things from Karla, only to learn that her sole purpose is to see Serge Miller killed...",
-    "imdb_id": "tt0058724",
-    "imdb_link": "https://www.imdb.com/title/tt0058724/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "Ingrid Bergman",
-        "Anthony Quinn",
-        "Paolo Stoppa"
-    ],
-    "rated": "Not Rated",
-    "country": "Italy, France, West Germany, United States",
-    "language": "English, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYTBjOGMzMWYtZDhjMS00Y2I2LWE4MWYtY2JhODFhZTA2OGQ5XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Besuch_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00663",
+  "folder_name": "00663 Der Besuch (1964) {imdb-tt0058724}",
+  "folder_path": "E:\\Movies\\00663 Der Besuch (1964) {imdb-tt0058724}",
+  "title": "The Visit",
+  "original_title": "The Visit",
+  "year": "1964",
+  "duration": "100 min",
+  "director": "Bernhard Wicki",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Karla Zachanassian had a child by Serge Miller as a teenager. When Serge refused to marry her, she was driven out of town. By her own wit and cunning, she has returned as a millionairess for a visit. The town lays out the red carpet expecting big things from Karla, only to learn that her sole purpose is to see Serge Miller killed...",
+  "imdb_id": "tt0058724",
+  "imdb_link": "https://www.imdb.com/title/tt0058724/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "Ingrid Bergman",
+    "Anthony Quinn",
+    "Paolo Stoppa"
+  ],
+  "rated": "Not Rated",
+  "country": "Italy, France, West Germany, United States",
+  "language": "English, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYTBjOGMzMWYtZDhjMS00Y2I2LWE4MWYtY2JhODFhZTA2OGQ5XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Besuch_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

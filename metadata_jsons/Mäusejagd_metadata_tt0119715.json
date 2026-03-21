@@ -24,5 +24,37 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZmY2MmVmNGMtNWU1Ny00NGQ5LTkwNDYtMmFhNzRlZWViYjViXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Mäusejagd_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch"
+  ],
+  "audio_languages_english": [
+    "Dutch",
+    "English",
+    "German",
+    "Norwegian",
+    "Swedish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Norwegian",
+    "Swedish"
+  ]
 }

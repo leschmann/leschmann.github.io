@@ -1,28 +1,36 @@
 {
-    "num": "00641",
-    "folder_name": "00641 Captain Abu Raed (2007) {imdb-tt1017428}",
-    "folder_path": "E:\\Movies\\00641 Captain Abu Raed (2007) {imdb-tt1017428}",
-    "title": "Captain Abu Raed",
-    "original_title": "Captain Abu Raed",
-    "year": "2007",
-    "duration": "102 min",
-    "director": "Amin Matalqa",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Abu Raed is an old airport janitor who has always yearned of seeing the world but has never been able to afford to travel. One day a group of children in his poor neighborhood assume he is a pilot and beg him to share stories of the world outside of Amman, Jordan. Through imaginary tales a friendship forms and he finds the grim realities of the children's home life. He takes it upon himself to make a difference.",
-    "imdb_id": "tt1017428",
-    "imdb_link": "https://www.imdb.com/title/tt1017428/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Nadim Sawalha",
-        "Rana Sultan",
-        "Hussein Al-Sous"
-    ],
-    "rated": "Not Rated",
-    "country": "Jordan",
-    "language": "Arabic, French, Italian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA2ODQwMzkxNV5BMl5BanBnXkFtZTcwNzU3MjY2Mg@@._V1_SX300.jpg",
-    "cover_file": "Captain Abu Raed_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00641",
+  "folder_name": "00641 Captain Abu Raed (2007) {imdb-tt1017428}",
+  "folder_path": "E:\\Movies\\00641 Captain Abu Raed (2007) {imdb-tt1017428}",
+  "title": "Captain Abu Raed",
+  "original_title": "Captain Abu Raed",
+  "year": "2007",
+  "duration": "102 min",
+  "director": "Amin Matalqa",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Abu Raed is an old airport janitor who has always yearned of seeing the world but has never been able to afford to travel. One day a group of children in his poor neighborhood assume he is a pilot and beg him to share stories of the world outside of Amman, Jordan. Through imaginary tales a friendship forms and he finds the grim realities of the children's home life. He takes it upon himself to make a difference.",
+  "imdb_id": "tt1017428",
+  "imdb_link": "https://www.imdb.com/title/tt1017428/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Nadim Sawalha",
+    "Rana Sultan",
+    "Hussein Al-Sous"
+  ],
+  "rated": "Not Rated",
+  "country": "Jordan",
+  "language": "Arabic, French, Italian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA2ODQwMzkxNV5BMl5BanBnXkFtZTcwNzU3MjY2Mg@@._V1_SX300.jpg",
+  "cover_file": "Captain Abu Raed_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

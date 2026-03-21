@@ -1,30 +1,44 @@
 {
-    "num": "00713",
-    "folder_name": "00713 The King’s Speech - Die Rede des Königs (2010) {imdb-tt1504320}",
-    "folder_path": "E:\\Movies\\00713 The King’s Speech - Die Rede des Königs (2010) {imdb-tt1504320}",
-    "title": "The King's Speech",
-    "original_title": "The King's Speech",
-    "year": "2010",
-    "duration": "118 min",
-    "director": "Tom Hooper",
-    "genres": [
-        "Biography",
-        "Drama",
-        "History"
-    ],
-    "outline": "Britain's Prince Albert (Colin Firth) must ascend the throne as King George VI, but he has a speech impediment. Knowing that the country needs her husband to be able to communicate effectively, Elizabeth (Helena Bonham Carter) hires Lionel Logue (Geoffrey Rush), an Australian actor and speech therapist, to help him overcome his stammer. An extraordinary friendship develops between the two men, as Logue uses unconventional means to teach the monarch how to speak with confidence.",
-    "imdb_id": "tt1504320",
-    "imdb_link": "https://www.imdb.com/title/tt1504320/",
-    "imdb_rating": "8.0",
-    "stars": [
-        "Colin Firth",
-        "Geoffrey Rush",
-        "Helena Bonham Carter"
-    ],
-    "rated": "R",
-    "country": "United States, United Kingdom",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg",
-    "cover_file": "The King’s Speech - Die Rede des Königs_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00713",
+  "folder_name": "00713 The King’s Speech - Die Rede des Königs (2010) {imdb-tt1504320}",
+  "folder_path": "E:\\Movies\\00713 The King’s Speech - Die Rede des Königs (2010) {imdb-tt1504320}",
+  "title": "The King's Speech",
+  "original_title": "The King's Speech",
+  "year": "2010",
+  "duration": "118 min",
+  "director": "Tom Hooper",
+  "genres": [
+    "Biography",
+    "Drama",
+    "History"
+  ],
+  "outline": "Britain's Prince Albert (Colin Firth) must ascend the throne as King George VI, but he has a speech impediment. Knowing that the country needs her husband to be able to communicate effectively, Elizabeth (Helena Bonham Carter) hires Lionel Logue (Geoffrey Rush), an Australian actor and speech therapist, to help him overcome his stammer. An extraordinary friendship develops between the two men, as Logue uses unconventional means to teach the monarch how to speak with confidence.",
+  "imdb_id": "tt1504320",
+  "imdb_link": "https://www.imdb.com/title/tt1504320/",
+  "imdb_rating": "8.0",
+  "stars": [
+    "Colin Firth",
+    "Geoffrey Rush",
+    "Helena Bonham Carter"
+  ],
+  "rated": "R",
+  "country": "United States, United Kingdom",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg",
+  "cover_file": "The King’s Speech - Die Rede des Königs_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

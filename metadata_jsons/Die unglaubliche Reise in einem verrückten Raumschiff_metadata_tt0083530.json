@@ -1,29 +1,71 @@
 {
-    "num": "00704",
-    "folder_name": "00704 Die unglaubliche Reise in einem verrückten Raumschiff (1982) {imdb-tt0083530}",
-    "folder_path": "E:\\Movies\\00704 Die unglaubliche Reise in einem verrückten Raumschiff (1982) {imdb-tt0083530}",
-    "title": "Airplane II: The Sequel",
-    "original_title": "Airplane II: The Sequel",
-    "year": "1982",
-    "duration": "85 min",
-    "director": "Ken Finkleman",
-    "genres": [
-        "Comedy",
-        "Sci-Fi"
-    ],
-    "outline": "Still haunted by that fateful wartime incident and the nearly catastrophic events of Airplane! (1980), Ted Striker, the pilot who hates flying, escapes from the funny house. But, as the first passenger lunar shuttle, the state-of-the-art but untested Mayflower One, is about to take off on its maiden flight, once more, an unforeseen malfunction forces Ted to take over the controls of the shuttle. Now, the traumatised commander is holding everyone's lives in his hands, and as if that weren't enough, Striker has to patch up his already complicated relationship with his engaged former lover, Elaine Dickinson, and confront an unhinged voyager bent on destruction. Can Ted Striker, the reluctant hero, save the day for the second time?",
-    "imdb_id": "tt0083530",
-    "imdb_link": "https://www.imdb.com/title/tt0083530/",
-    "imdb_rating": "6.2",
-    "stars": [
-        "Robert Hays",
-        "Julie Hagerty",
-        "Lloyd Bridges"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYTdhM2JiMDItN2EwNi00YzIzLWE0ZGYtNjk1YzhlY2QxZTNlXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die unglaubliche Reise in einem verrückten Raumschiff_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00704",
+  "folder_name": "00704 Die unglaubliche Reise in einem verrückten Raumschiff (1982) {imdb-tt0083530}",
+  "folder_path": "E:\\Movies\\00704 Die unglaubliche Reise in einem verrückten Raumschiff (1982) {imdb-tt0083530}",
+  "title": "Airplane II: The Sequel",
+  "original_title": "Airplane II: The Sequel",
+  "year": "1982",
+  "duration": "85 min",
+  "director": "Ken Finkleman",
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "outline": "Still haunted by that fateful wartime incident and the nearly catastrophic events of Airplane! (1980), Ted Striker, the pilot who hates flying, escapes from the funny house. But, as the first passenger lunar shuttle, the state-of-the-art but untested Mayflower One, is about to take off on its maiden flight, once more, an unforeseen malfunction forces Ted to take over the controls of the shuttle. Now, the traumatised commander is holding everyone's lives in his hands, and as if that weren't enough, Striker has to patch up his already complicated relationship with his engaged former lover, Elaine Dickinson, and confront an unhinged voyager bent on destruction. Can Ted Striker, the reluctant hero, save the day for the second time?",
+  "imdb_id": "tt0083530",
+  "imdb_link": "https://www.imdb.com/title/tt0083530/",
+  "imdb_rating": "6.2",
+  "stars": [
+    "Robert Hays",
+    "Julie Hagerty",
+    "Lloyd Bridges"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYTdhM2JiMDItN2EwNi00YzIzLWE0ZGYtNjk1YzhlY2QxZTNlXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die unglaubliche Reise in einem verrückten Raumschiff_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Rumänisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Romanian",
+    "Swedish",
+    "Turkish"
+  ]
 }

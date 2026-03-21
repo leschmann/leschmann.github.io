@@ -1,30 +1,42 @@
 {
-    "num": "00606",
-    "folder_name": "00606 Die dummen Streiche der Reichen (1971) {imdb-tt0067108}",
-    "folder_path": "E:\\Movies\\00606 Die dummen Streiche der Reichen (1971) {imdb-tt0067108}",
-    "title": "Delusions of Grandeur",
-    "original_title": "Delusions of Grandeur",
-    "year": "1971",
-    "duration": "85 min",
-    "director": "Gérard Oury",
-    "genres": [
-        "Adventure",
-        "Comedy",
-        "History"
-    ],
-    "outline": "Don Salluste, a petty tyrant in his own home and minister of the King of Spain, falls from grace. Wanting revenge, he tries to compromize the Queen with his valet Blaze, introduced as his cousin. But poor Blaze gets stuck with a rather repulsive duenna, who is madly in love with him and very keen on getting her way. This wild comedy takes off at a dashing pace set by the De Funes, Montand and Sapritch trio.",
-    "imdb_id": "tt0067108",
-    "imdb_link": "https://www.imdb.com/title/tt0067108/",
-    "imdb_rating": "7.1",
-    "stars": [
-        "Louis de Funès",
-        "Yves Montand",
-        "Alice Sapritch"
-    ],
-    "rated": "PG",
-    "country": "France, Spain, Italy, West Germany",
-    "language": "French, German, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYmI3NzE0YzYtYzkxYy00ZjQzLWI5ZjUtMTk5MWI0NDgxNDgzXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die dummen Streiche der Reichen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00606",
+  "folder_name": "00606 Die dummen Streiche der Reichen (1971) {imdb-tt0067108}",
+  "folder_path": "E:\\Movies\\00606 Die dummen Streiche der Reichen (1971) {imdb-tt0067108}",
+  "title": "Delusions of Grandeur",
+  "original_title": "Delusions of Grandeur",
+  "year": "1971",
+  "duration": "85 min",
+  "director": "Gérard Oury",
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "History"
+  ],
+  "outline": "Don Salluste, a petty tyrant in his own home and minister of the King of Spain, falls from grace. Wanting revenge, he tries to compromize the Queen with his valet Blaze, introduced as his cousin. But poor Blaze gets stuck with a rather repulsive duenna, who is madly in love with him and very keen on getting her way. This wild comedy takes off at a dashing pace set by the De Funes, Montand and Sapritch trio.",
+  "imdb_id": "tt0067108",
+  "imdb_link": "https://www.imdb.com/title/tt0067108/",
+  "imdb_rating": "7.1",
+  "stars": [
+    "Louis de Funès",
+    "Yves Montand",
+    "Alice Sapritch"
+  ],
+  "rated": "PG",
+  "country": "France, Spain, Italy, West Germany",
+  "language": "French, German, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYmI3NzE0YzYtYzkxYy00ZjQzLWI5ZjUtMTk5MWI0NDgxNDgzXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die dummen Streiche der Reichen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

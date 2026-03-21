@@ -26,5 +26,41 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMDhmMzZkYzctOTQ4MS00NWEzLWI1YzMtNTllZDhkYjgwOWQ0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "O Brother, Where Art Thou - Eine Mississippi-Odyssee_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Englisch",
+    "Hebräisch",
+    "Niederländisch",
+    "Portugiesisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Czech",
+    "Dutch",
+    "English",
+    "German",
+    "Hebrew",
+    "Hungarian",
+    "Portuguese",
+    "Turkish"
+  ]
 }

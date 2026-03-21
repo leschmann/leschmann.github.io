@@ -1,30 +1,78 @@
 {
-    "num": "00695",
-    "folder_name": "00695 Vergessene Welt - Jurassic Park (1997) {imdb-tt0119567}",
-    "folder_path": "E:\\Movies\\00695 Vergessene Welt - Jurassic Park (1997) {imdb-tt0119567}",
-    "title": "The Lost World: Jurassic Park",
-    "original_title": "The Lost World: Jurassic Park",
-    "year": "1997",
-    "duration": "129 min",
-    "director": "Steven Spielberg",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-    ],
-    "outline": "A research team is sent to an island eighty-seven miles away from the previous home of Jurassic Park, to document and photograph the now liberated dinosaurs. However, InGen the BioEngineering company has sent another larger team to the same island to catch, sedate, and transport some dinosaurs to San Diego where they will be used in a new Jurassic Park location. But life always finds a way. Will both teams return to the mainland with successful findings? Or will another tragedy occur?",
-    "imdb_id": "tt0119567",
-    "imdb_link": "https://www.imdb.com/title/tt0119567/",
-    "imdb_rating": "6.6",
-    "stars": [
-        "Jeff Goldblum",
-        "Julianne Moore",
-        "Pete Postlethwaite"
-    ],
-    "rated": "PG-13",
-    "country": "United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMGI3NDg5N2ItZGIyZi00ZWNkLWFlODUtZDA1Y2Q1M2U4NGM2XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Vergessene Welt - Jurassic Park_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00695",
+  "folder_name": "00695 Vergessene Welt - Jurassic Park (1997) {imdb-tt0119567}",
+  "folder_path": "E:\\Movies\\00695 Vergessene Welt - Jurassic Park (1997) {imdb-tt0119567}",
+  "title": "The Lost World: Jurassic Park",
+  "original_title": "The Lost World: Jurassic Park",
+  "year": "1997",
+  "duration": "129 min",
+  "director": "Steven Spielberg",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "outline": "A research team is sent to an island eighty-seven miles away from the previous home of Jurassic Park, to document and photograph the now liberated dinosaurs. However, InGen the BioEngineering company has sent another larger team to the same island to catch, sedate, and transport some dinosaurs to San Diego where they will be used in a new Jurassic Park location. But life always finds a way. Will both teams return to the mainland with successful findings? Or will another tragedy occur?",
+  "imdb_id": "tt0119567",
+  "imdb_link": "https://www.imdb.com/title/tt0119567/",
+  "imdb_rating": "6.6",
+  "stars": [
+    "Jeff Goldblum",
+    "Julianne Moore",
+    "Pete Postlethwaite"
+  ],
+  "rated": "PG-13",
+  "country": "United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMGI3NDg5N2ItZGIyZi00ZWNkLWFlODUtZDA1Y2Q1M2U4NGM2XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Vergessene Welt - Jurassic Park_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Griechisch",
+    "Hebräisch",
+    "Hindi",
+    "Isländisch",
+    "Kroatisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Croatian",
+    "Czech",
+    "Danish",
+    "English",
+    "Finnish",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hindi",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

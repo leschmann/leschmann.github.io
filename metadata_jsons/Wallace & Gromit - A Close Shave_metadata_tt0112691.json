@@ -1,7 +1,7 @@
 {
-  "num": "00010",
-  "folder_name": "00010 Wallace & Gromit - A Close Shave (1995) {imdb-tt0112691}",
-  "folder_path": "F:\\Movies\\00010 Wallace & Gromit - A Close Shave (1995) {imdb-tt0112691}",
+  "num": "00001",
+  "folder_name": "00001 Wallace & Gromit - A Close Shave (1995) {imdb-tt0112691}",
+  "folder_path": "F:\\Movies\\00001 Wallace & Gromit - A Close Shave (1995) {imdb-tt0112691}",
   "title": "Wallace & Gromit: A Close Shave",
   "original_title": "Wallace & Gromit: A Close Shave",
   "year": "1995",
@@ -26,5 +26,15 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BM2M4ZmEzYzEtNjk0ZS00ODZkLTkxZjYtNTY4Njg2YjhhMWNkXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Wallace & Gromit - A Close Shave_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

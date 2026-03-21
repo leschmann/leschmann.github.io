@@ -26,5 +26,19 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
   "cover_file": "WALL-E - Der Letzte räumt die Erde auf_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "German",
+    "Turkish"
+  ]
 }

@@ -24,5 +24,55 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYzNjY1YjYtNDQzMi00M2JjLTgwMDEtMDc3ZWE3ZmI2NjNiXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Die Katze auf dem heißen Blechdach_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Isländisch",
+    "Italienisch",
+    "Kroatisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Croatian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hungarian",
+    "Icelandic",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

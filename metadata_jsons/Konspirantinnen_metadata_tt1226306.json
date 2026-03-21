@@ -1,24 +1,40 @@
 {
-    "num": "00657",
-    "folder_name": "00657 Konspirantinnen (2006) {imdb-tt1226306}",
-    "folder_path": "E:\\Movies\\00657 Konspirantinnen (2006) {imdb-tt1226306}",
-    "title": "Konspirantinnen",
-    "original_title": "Konspirantinnen",
-    "year": "2006",
-    "duration": "88 min",
-    "director": "Paul Meyer",
-    "genres": [
-        "Documentary"
-    ],
-    "outline": "1,726 female fighters of the Polish underground and female warriors who survived the Warsaw Uprising formed an unusual self-government in a Nazi camp between 1944 until their release in 1945. A film about brave and creative women in dangerous times.",
-    "imdb_id": "tt1226306",
-    "imdb_link": "https://www.imdb.com/title/tt1226306/",
-    "imdb_rating": "7.9",
-    "stars": [],
-    "rated": "N/A",
-    "country": "Germany",
-    "language": "German",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmM5ODhmMjYtYTc0NS00YzRhLWI0NTMtMzJiODJmYTVjNmJmXkEyXkFqcGdeQXVyODQ0OTY1OTc@._V1_SX300.jpg",
-    "cover_file": null,
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00657",
+  "folder_name": "00657 Konspirantinnen (2006) {imdb-tt1226306}",
+  "folder_path": "E:\\Movies\\00657 Konspirantinnen (2006) {imdb-tt1226306}",
+  "title": "Konspirantinnen",
+  "original_title": "Konspirantinnen",
+  "year": "2006",
+  "duration": "88 min",
+  "director": "Paul Meyer",
+  "genres": [
+    "Documentary"
+  ],
+  "outline": "1,726 female fighters of the Polish underground and female warriors who survived the Warsaw Uprising formed an unusual self-government in a Nazi camp between 1944 until their release in 1945. A film about brave and creative women in dangerous times.",
+  "imdb_id": "tt1226306",
+  "imdb_link": "https://www.imdb.com/title/tt1226306/",
+  "imdb_rating": "7.9",
+  "stars": [],
+  "rated": "N/A",
+  "country": "Germany",
+  "language": "German",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmM5ODhmMjYtYTc0NS00YzRhLWI0NTMtMzJiODJmYTVjNmJmXkEyXkFqcGdeQXVyODQ0OTY1OTc@._V1_SX300.jpg",
+  "cover_file": null,
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Polnisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Polish"
+  ]
 }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Collection</title>
+    <!-- Link to our new CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-mobile-btn" onclick="toggleSidebar()">✕ Apply Filters & Close</button>
+        <a href="index.html" class="back-link">← Back to Hub</a>
+        <h2>Filters & Sorting</h2>
+
+        <div class="control-group">
+            <label class="group-label">Search</label>
+            <input type="text" id="searchInput" placeholder="Search title, year, cast, plot...">
+        </div>
+
+        <div class="control-group">
+            <label class="group-label">Sort By</label>
+            <select id="sortSelect">
+                <option value="title_asc">Title (A-Z)</option>
+                <option value="title_desc">Title (Z-A)</option>
+                <option value="year_desc">Year (Newest First)</option>
+                <option value="year_asc">Year (Oldest First)</option>
+                <option value="rating_desc">IMDb Rating (High to Low)</option>
+                <option value="rating_asc">IMDb Rating (Low to High)</option>
+                <option value="duration_desc">Duration (Longest First)</option>
+                <option value="duration_asc">Duration (Shortest First)</option>
+                <option value="director_asc">Director (A-Z)</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label class="group-label">Minimum IMDb Rating</label>
+            <div class="slider-container">
+                <input type="range" id="ratingSlider" min="0" max="10" step="0.1" value="0">
+                <span id="ratingVal" class="slider-val">0.0</span>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="group-label">Duration (Minutes)</label>
+            <div style="display: flex; gap: 10px;">
+                <input type="number" id="minDuration" placeholder="Min" value="0">
+                <input type="number" id="maxDuration" placeholder="Max" value="300">
+            </div>
+        </div>
+
+        <!-- 🔥 Genres (Expandable) -->
+        <details class="control-group" open>
+            <summary class="group-label">Genres</summary>
+            <div class="expand-content">
+                <div class="genre-logic">
+                    <label><input type="radio" name="genreLogic" value="OR" checked> Match ANY selected (OR)</label>
+                    <label><input type="radio" name="genreLogic" value="AND"> Match ALL selected (AND)</label>
+                </div>
+                <div class="genre-list" id="genreContainer"></div>
+            </div>
+        </details>
+
+        <!-- 🔥 Audio (Expandable) -->
+        <details class="control-group">
+            <summary class="group-label">Audio Languages</summary>
+            <div class="expand-content">
+                <div class="genre-logic">
+                    <label><input type="radio" name="audioLogic" value="OR" checked> Match ANY selected (OR)</label>
+                    <label><input type="radio" name="audioLogic" value="AND"> Match ALL selected (AND)</label>
+                </div>
+                <div class="genre-list" id="audioLangContainer"></div>
+            </div>
+        </details>
+
+        <!-- 🔥 Subtitles (Expandable) -->
+        <details class="control-group">
+            <summary class="group-label">Subtitle Languages</summary>
+            <div class="expand-content">
+                <div class="genre-logic">
+                    <label><input type="radio" name="subLogic" value="OR" checked> Match ANY selected (OR)</label>
+                    <label><input type="radio" name="subLogic" value="AND"> Match ALL selected (AND)</label>
+                </div>
+                <div class="genre-list" id="subLangContainer"></div>
+            </div>
+        </details>
+
+        <div class="control-group">
+            <label class="group-label">Director</label>
+            <select id="directorFilter">
+                <option value="">-- All Directors --</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label class="group-label">Actor / Star</label>
+            <select id="starFilter">
+                <option value="">-- All Stars --</option>
+            </select>
+        </div>
+
+        <button onclick="resetFilters()" style="width: 100%; padding: 10px; background: #444; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; font-weight: bold;">Reset All Filters</button>
+    </div>
+
+    <div class="main-content">
+        <div class="header-top">
+            <button class="toggle-btn-header" onclick="toggleSidebar()" title="Toggle Sidebar">☰</button>
+            <h1>My Movie Collection</h1>
+        </div>
+
+        <div class="header-controls">
+            <div class="movie-count" id="movieCount">0 Movies</div>
+            <div class="size-control">
+                <label>Card Size:</label>
+                <input type="range" id="sizeSlider" min="120" max="450" value="280">
+            </div>
+        </div>
+
+        <div class="movie-grid" id="movieGrid">
+            <!-- Cards injected by JS -->
+        </div>
+    </div>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="movieModal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close-btn" onclick="closeModal()">✕</button>
+    
+            <img class="modal-img" id="modalImg" src="" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';">
+    
+            <div class="modal-details">
+                <h2 class="modal-title" id="modalTitle">Title</h2>
+                <div class="modal-meta" id="modalMeta"></div>
+                <div class="modal-genres" id="modalGenres"></div>
+                <div class="modal-plot" id="modalPlot"></div>
+                <div class="modal-credits" id="modalCredits"></div>
+    
+                <div class="modal-btn-row">
+                    <a id="modalLink" href="#" target="_blank" class="modal-imdb-btn">View on IMDb</a>
+                    <button id="modalCopyBtn" class="modal-imdb-btn modal-copy-btn">📋 Copy Path</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load the database FIRST, then our app logic -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

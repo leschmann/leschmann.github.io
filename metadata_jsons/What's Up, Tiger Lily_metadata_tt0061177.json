@@ -1,30 +1,44 @@
 {
-    "num": "00642",
-    "folder_name": "00642 What's Up, Tiger Lily (1966) {imdb-tt0061177}",
-    "folder_path": "E:\\Movies\\00642 What's Up, Tiger Lily (1966) {imdb-tt0061177}",
-    "title": "What's Up, Tiger Lily?",
-    "original_title": "What's Up, Tiger Lily?",
-    "year": "1966",
-    "duration": "80 min",
-    "director": "Woody Allen, Senkichi Taniguchi",
-    "genres": [
-        "Adventure",
-        "Comedy",
-        "Crime"
-    ],
-    "outline": "Writer/director Woody Allen explains that when he was asked to supervise the making of the definitive spy thriller, what he decided to do was acquire the rights to a B-grade Japanese spy caper (Kokusai himitsu keisatsu: Kagi no kagi (1965)) filmed with Japanese actors in Japanese, delete the existing soundtrack, and redub into English and reorder select scenes to create an entirely new movie, a comedy, having nothing to do with the original story-line. The result... International spy Phil Moscowitz, working out of the Asia bureau, is a self-professed lovable rogue with sex always on his mind. He inadvertently gets involved in a mission, the client the Grand Exalted High Majah of Raspur. The success of the mission will determine if Raspur, a non-existent country that nonetheless sounds real, will indeed become real. Moscowitz is to retrieve something stolen from the Majah by criminal Shepherd Wong: the best ever egg salad recipe. Phil is to be assisted by two of the Majah's own agents, sisters Teri and Suki Yaki, the latter a recent prison escapee. The mission becomes more difficult when they learn that Shepherd is an egg salad junkie who will do anything to keep the recipe. The mission gets even more complicated when they also learn that they are in competition to retrieve the recipe by Wing Fat, another criminal who plans to steal the recipe then sell it back to addicted Shepherd. The success or failure of the mission for Phil and the Yaki sisters may be dependent if they receive the extra help needed from the audience and the projectionist at the cinemas where the movie is playing.",
-    "imdb_id": "tt0061177",
-    "imdb_link": "https://www.imdb.com/title/tt0061177/",
-    "imdb_rating": "5.8",
-    "stars": [
-        "Woody Allen",
-        "The Lovin' Spoonful",
-        "Frank Buxton"
-    ],
-    "rated": "PG",
-    "country": "Japan, United States",
-    "language": "English, Japanese",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYThmYmVkMTAtM2RmMC00YTYyLWJiNWEtY2E4ZTgwNjUwYzc1XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "What's Up, Tiger Lily_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00642",
+  "folder_name": "00642 What's Up, Tiger Lily (1966) {imdb-tt0061177}",
+  "folder_path": "E:\\Movies\\00642 What's Up, Tiger Lily (1966) {imdb-tt0061177}",
+  "title": "What's Up, Tiger Lily?",
+  "original_title": "What's Up, Tiger Lily?",
+  "year": "1966",
+  "duration": "80 min",
+  "director": "Woody Allen, Senkichi Taniguchi",
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Crime"
+  ],
+  "outline": "Writer/director Woody Allen explains that when he was asked to supervise the making of the definitive spy thriller, what he decided to do was acquire the rights to a B-grade Japanese spy caper (Kokusai himitsu keisatsu: Kagi no kagi (1965)) filmed with Japanese actors in Japanese, delete the existing soundtrack, and redub into English and reorder select scenes to create an entirely new movie, a comedy, having nothing to do with the original story-line. The result... International spy Phil Moscowitz, working out of the Asia bureau, is a self-professed lovable rogue with sex always on his mind. He inadvertently gets involved in a mission, the client the Grand Exalted High Majah of Raspur. The success of the mission will determine if Raspur, a non-existent country that nonetheless sounds real, will indeed become real. Moscowitz is to retrieve something stolen from the Majah by criminal Shepherd Wong: the best ever egg salad recipe. Phil is to be assisted by two of the Majah's own agents, sisters Teri and Suki Yaki, the latter a recent prison escapee. The mission becomes more difficult when they learn that Shepherd is an egg salad junkie who will do anything to keep the recipe. The mission gets even more complicated when they also learn that they are in competition to retrieve the recipe by Wing Fat, another criminal who plans to steal the recipe then sell it back to addicted Shepherd. The success or failure of the mission for Phil and the Yaki sisters may be dependent if they receive the extra help needed from the audience and the projectionist at the cinemas where the movie is playing.",
+  "imdb_id": "tt0061177",
+  "imdb_link": "https://www.imdb.com/title/tt0061177/",
+  "imdb_rating": "5.8",
+  "stars": [
+    "Woody Allen",
+    "The Lovin' Spoonful",
+    "Frank Buxton"
+  ],
+  "rated": "PG",
+  "country": "Japan, United States",
+  "language": "English, Japanese",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYThmYmVkMTAtM2RmMC00YTYyLWJiNWEtY2E4ZTgwNjUwYzc1XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "What's Up, Tiger Lily_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

@@ -25,5 +25,19 @@
   "language": "French, Kalmyk-Oirat, Spanish, Latin, English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMDhiYmZmNjEtZjE1NC00YmIxLTgyMDEtODVkYTkyNzZkNzk0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Belle de jour - Schöne des Tages_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

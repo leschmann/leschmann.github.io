@@ -1,7 +1,7 @@
 {
-  "num": "00700",
-  "folder_name": "00700 Der Leopard (1963) {imdb-tt0057091}",
-  "folder_path": "E:\\Movies\\00700 Der Leopard (1963) {imdb-tt0057091}",
+  "num": "00288",
+  "folder_name": "00288 Der Leopard (1963) {imdb-tt0057091}",
+  "folder_path": "F:\\Movies\\00288 Der Leopard (1963) {imdb-tt0057091}",
   "title": "The Leopard",
   "original_title": "The Leopard",
   "year": "1963",
@@ -25,5 +25,19 @@
   "language": "Italian, Latin, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODNiYThjOGMtOTZlYy00Y2Q0LTk5MjQtYTRkNzU2OTA2OWQ1XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Leopard_cover.jpg",
-  "folder_location": "FFM DVD 00601 - 01091"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Italienisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Italian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

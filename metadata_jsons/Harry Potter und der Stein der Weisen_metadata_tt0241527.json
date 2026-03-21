@@ -26,5 +26,25 @@
   "language": "English, Latin",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Harry Potter und der Stein der Weisen_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch"
+  ],
+  "audio_languages_english": [
+    "Dutch",
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "English",
+    "German"
+  ]
 }

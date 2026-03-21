@@ -1,28 +1,44 @@
 {
-    "num": "00603",
-    "folder_name": "00603 Tristana (1970) {imdb-tt0066491}",
-    "folder_path": "E:\\Movies\\00603 Tristana (1970) {imdb-tt0066491}",
-    "title": "Tristana",
-    "original_title": "Tristana",
-    "year": "1970",
-    "duration": "99 min",
-    "director": "Luis Buñuel",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "When the young woman Tristana's mother dies, she is entrusted to the guardianship of the well-respected though old Don Lope. Don Lope is well-liked and well-known because of his honorable nature, despite his socialistic views about business and religion. But Don Lope's one weakness is women, and he falls for the innocent girl in his charge, seduces her, makes her his lover, though all the while explaining to her that she is as free as he. But when she acts on this freedom, Don Lope must deal with the consequences of his world-view.",
-    "imdb_id": "tt0066491",
-    "imdb_link": "https://www.imdb.com/title/tt0066491/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "Catherine Deneuve",
-        "Fernando Rey",
-        "Franco Nero"
-    ],
-    "rated": "PG",
-    "country": "Spain, Italy, France",
-    "language": "Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTRjYzUwZmMtMTYzNC00ZThlLWE0ZjgtM2ZkZjllZDhhMjUxXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Tristana_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00603",
+  "folder_name": "00603 Tristana (1970) {imdb-tt0066491}",
+  "folder_path": "E:\\Movies\\00603 Tristana (1970) {imdb-tt0066491}",
+  "title": "Tristana",
+  "original_title": "Tristana",
+  "year": "1970",
+  "duration": "99 min",
+  "director": "Luis Buñuel",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "When the young woman Tristana's mother dies, she is entrusted to the guardianship of the well-respected though old Don Lope. Don Lope is well-liked and well-known because of his honorable nature, despite his socialistic views about business and religion. But Don Lope's one weakness is women, and he falls for the innocent girl in his charge, seduces her, makes her his lover, though all the while explaining to her that she is as free as he. But when she acts on this freedom, Don Lope must deal with the consequences of his world-view.",
+  "imdb_id": "tt0066491",
+  "imdb_link": "https://www.imdb.com/title/tt0066491/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "Catherine Deneuve",
+    "Fernando Rey",
+    "Franco Nero"
+  ],
+  "rated": "PG",
+  "country": "Spain, Italy, France",
+  "language": "Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTRjYzUwZmMtMTYzNC00ZThlLWE0ZjgtM2ZkZjllZDhhMjUxXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Tristana_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

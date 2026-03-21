@@ -26,5 +26,15 @@
   "language": "French, English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZDliNGUyYTMtZWM5OS00ZmQ1LTg5NGItM2I4YTg0N2E0YWQwXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Swimmingpool_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

@@ -24,5 +24,19 @@
   "language": "French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYTMxMWRmOGYtMTg4OS00NTI2LWE3NDAtYmIzOGUyNjRlYzVjXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Drei Männer und ein Baby_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

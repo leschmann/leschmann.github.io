@@ -1,30 +1,44 @@
 {
-    "num": "00729",
-    "folder_name": "00729 2 Tage Paris (2007) {imdb-tt0841044}",
-    "folder_path": "E:\\Movies\\00729 2 Tage Paris (2007) {imdb-tt0841044}",
-    "title": "Two Days in Paris",
-    "original_title": "Two Days in Paris",
-    "year": "2007",
-    "duration": "96 min",
-    "director": "Julie Delpy",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "2 Jours - 2 Days follows two days in the relationship of a New York based couple - a French photographer Marion and American interior designer Jack - as they attempt to re-infuse their relationship with romance by taking a vacation in Europe. Their trip to Venice didn't really work out, - they both came down with gastroenteritis. They have higher hopes for Paris. But the combination of Marion's overbearing non-English-speaking parents, flirtatious ex-boyfriends, and Jack's obsession with photographing every famous Parisian tombstone and conviction that French condoms are too small, only adds fuel to the fire. Will they be able to salvage their relationship? Will they ever have sex again? Or will they merely manage to perfect the art of arguing?",
-    "imdb_id": "tt0841044",
-    "imdb_link": "https://www.imdb.com/title/tt0841044/",
-    "imdb_rating": "6.7",
-    "stars": [
-        "Julie Delpy",
-        "Adam Goldberg",
-        "Daniel Brühl"
-    ],
-    "rated": "R",
-    "country": "France, Germany",
-    "language": "English, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAyNTY3NTcyOF5BMl5BanBnXkFtZTcwMTcyMjM1MQ@@._V1_SX300.jpg",
-    "cover_file": "2 Tage Paris_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00729",
+  "folder_name": "00729 2 Tage Paris (2007) {imdb-tt0841044}",
+  "folder_path": "E:\\Movies\\00729 2 Tage Paris (2007) {imdb-tt0841044}",
+  "title": "Two Days in Paris",
+  "original_title": "Two Days in Paris",
+  "year": "2007",
+  "duration": "96 min",
+  "director": "Julie Delpy",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "2 Jours - 2 Days follows two days in the relationship of a New York based couple - a French photographer Marion and American interior designer Jack - as they attempt to re-infuse their relationship with romance by taking a vacation in Europe. Their trip to Venice didn't really work out, - they both came down with gastroenteritis. They have higher hopes for Paris. But the combination of Marion's overbearing non-English-speaking parents, flirtatious ex-boyfriends, and Jack's obsession with photographing every famous Parisian tombstone and conviction that French condoms are too small, only adds fuel to the fire. Will they be able to salvage their relationship? Will they ever have sex again? Or will they merely manage to perfect the art of arguing?",
+  "imdb_id": "tt0841044",
+  "imdb_link": "https://www.imdb.com/title/tt0841044/",
+  "imdb_rating": "6.7",
+  "stars": [
+    "Julie Delpy",
+    "Adam Goldberg",
+    "Daniel Brühl"
+  ],
+  "rated": "R",
+  "country": "France, Germany",
+  "language": "English, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAyNTY3NTcyOF5BMl5BanBnXkFtZTcwMTcyMjM1MQ@@._V1_SX300.jpg",
+  "cover_file": "2 Tage Paris_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

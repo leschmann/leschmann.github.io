@@ -1,30 +1,48 @@
 {
-    "num": "00707",
-    "folder_name": "00707 Zurück in die Zukunft (1985) {imdb-tt0088763}",
-    "folder_path": "E:\\Movies\\00707 Zurück in die Zukunft (1985) {imdb-tt0088763}",
-    "title": "Back to the Future",
-    "original_title": "Back to the Future",
-    "year": "1985",
-    "duration": "116 min",
-    "director": "Robert Zemeckis",
-    "genres": [
-        "Adventure",
-        "Comedy",
-        "Sci-Fi"
-    ],
-    "outline": "Marty McFly, a typical American teenager of the Eighties, is accidentally sent back to 1955 in a plutonium-powered DeLorean \"time machine\" invented by a slightly mad scientist. During his often hysterical, always amazing trip back in time, Marty must make certain his teenage parents-to-be meet and fall in love - so he can get back to the future.",
-    "imdb_id": "tt0088763",
-    "imdb_link": "https://www.imdb.com/title/tt0088763/",
-    "imdb_rating": "8.5",
-    "stars": [
-        "Michael J. Fox",
-        "Christopher Lloyd",
-        "Lea Thompson"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Zurück in die Zukunft_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00707",
+  "folder_name": "00707 Zurück in die Zukunft (1985) {imdb-tt0088763}",
+  "folder_path": "E:\\Movies\\00707 Zurück in die Zukunft (1985) {imdb-tt0088763}",
+  "title": "Back to the Future",
+  "original_title": "Back to the Future",
+  "year": "1985",
+  "duration": "116 min",
+  "director": "Robert Zemeckis",
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "outline": "Marty McFly, a typical American teenager of the Eighties, is accidentally sent back to 1955 in a plutonium-powered DeLorean \"time machine\" invented by a slightly mad scientist. During his often hysterical, always amazing trip back in time, Marty must make certain his teenage parents-to-be meet and fall in love - so he can get back to the future.",
+  "imdb_id": "tt0088763",
+  "imdb_link": "https://www.imdb.com/title/tt0088763/",
+  "imdb_rating": "8.5",
+  "stars": [
+    "Michael J. Fox",
+    "Christopher Lloyd",
+    "Lea Thompson"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Zurück in die Zukunft_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Hebräisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Hebrew"
+  ]
 }

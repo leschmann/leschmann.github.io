@@ -1,30 +1,46 @@
 {
-    "num": "00743",
-    "folder_name": "00743 Small World (2021) {imdb-tt14319068}",
-    "folder_path": "E:\\Movies\\00743 Small World (2021) {imdb-tt14319068}",
-    "title": "Small World",
-    "original_title": "Small World",
-    "year": "2021",
-    "duration": "117 min",
-    "director": "Patryk Vega",
-    "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-    ],
-    "outline": "Follows policeman Robert Goc, who becomes engaged in an international investigation to find a girl who was kidnapped by Russian mafia.",
-    "imdb_id": "tt14319068",
-    "imdb_link": "https://www.imdb.com/title/tt14319068/",
-    "imdb_rating": "5.6",
-    "stars": [
-        "Piotr Adamczyk",
-        "Enrique Arce",
-        "Jim Conway"
-    ],
-    "rated": "N/A",
-    "country": "Poland",
-    "language": "English, Polish, Russian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTlmZGJlNWQtYzg3MC00ZTdlLWI3NTUtMWQ2ZTE4NGRkOWJjXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Small World_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00743",
+  "folder_name": "00743 Small World (2021) {imdb-tt14319068}",
+  "folder_path": "E:\\Movies\\00743 Small World (2021) {imdb-tt14319068}",
+  "title": "Small World",
+  "original_title": "Small World",
+  "year": "2021",
+  "duration": "117 min",
+  "director": "Patryk Vega",
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "outline": "Follows policeman Robert Goc, who becomes engaged in an international investigation to find a girl who was kidnapped by Russian mafia.",
+  "imdb_id": "tt14319068",
+  "imdb_link": "https://www.imdb.com/title/tt14319068/",
+  "imdb_rating": "5.6",
+  "stars": [
+    "Piotr Adamczyk",
+    "Enrique Arce",
+    "Jim Conway"
+  ],
+  "rated": "N/A",
+  "country": "Poland",
+  "language": "English, Polish, Russian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZTlmZGJlNWQtYzg3MC00ZTdlLWI3NTUtMWQ2ZTE4NGRkOWJjXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Small World_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

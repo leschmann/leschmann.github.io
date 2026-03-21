@@ -25,5 +25,35 @@
   "language": "English, German, Spanish, Nepali, Hebrew, Arabic",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Indiana Jones - Jäger des verlorenen Schatzes_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch",
+    "Polnisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Dutch",
+    "English",
+    "German",
+    "Hungarian",
+    "Polish",
+    "Turkish"
+  ]
 }

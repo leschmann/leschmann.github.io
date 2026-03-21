@@ -1,30 +1,46 @@
 {
-    "num": "00413",
-    "folder_name": "00413 Der Herr der Ringe - Die Rückkehr des Königs (2003) {imdb-tt0167260}",
-    "folder_path": "F:\\Movies\\00413 Der Herr der Ringe - Die Rückkehr des Königs (2003) {imdb-tt0167260}",
-    "title": "The Lord of the Rings: The Return of the King",
-    "original_title": "The Lord of the Rings: The Return of the King",
-    "year": "2003",
-    "duration": "201 min",
-    "director": "Peter Jackson",
-    "genres": [
-        "Adventure",
-        "Drama",
-        "Fantasy"
-    ],
-    "outline": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.",
-    "imdb_id": "tt0167260",
-    "imdb_link": "https://www.imdb.com/title/tt0167260/",
-    "imdb_rating": "9.0",
-    "stars": [
-        "Elijah Wood",
-        "Viggo Mortensen",
-        "Ian McKellen"
-    ],
-    "rated": "PG-13",
-    "country": "New Zealand, United States",
-    "language": "English, Quenya, Old English, Sindarin",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Herr der Ringe - Die Rückkehr des Königs_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00413",
+  "folder_name": "00413 Der Herr der Ringe - Die Rückkehr des Königs (2003) {imdb-tt0167260}",
+  "folder_path": "F:\\Movies\\00413 Der Herr der Ringe - Die Rückkehr des Königs (2003) {imdb-tt0167260}",
+  "title": "The Lord of the Rings: The Return of the King",
+  "original_title": "The Lord of the Rings: The Return of the King",
+  "year": "2003",
+  "duration": "201 min",
+  "director": "Peter Jackson",
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy"
+  ],
+  "outline": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.",
+  "imdb_id": "tt0167260",
+  "imdb_link": "https://www.imdb.com/title/tt0167260/",
+  "imdb_rating": "9.0",
+  "stars": [
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Ian McKellen"
+  ],
+  "rated": "PG-13",
+  "country": "New Zealand, United States",
+  "language": "English, Quenya, Old English, Sindarin",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Herr der Ringe - Die Rückkehr des Königs_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

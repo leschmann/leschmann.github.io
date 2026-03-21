@@ -20,5 +20,19 @@
   "language": "Cantonese, German",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BOThiZjA5NzgtODIzMi00YTczLWFjOWItNjNiMzJkNjBkZmVhXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg",
   "cover_file": null,
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Chinesisch"
+  ],
+  "audio_languages_english": [
+    "Chinese"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

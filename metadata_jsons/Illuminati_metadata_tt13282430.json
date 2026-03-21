@@ -1,28 +1,46 @@
 {
-    "num": "00633",
-    "folder_name": "00633 Illuminati (2020) {imdb-tt13282430}",
-    "folder_path": "E:\\Movies\\00633 Illuminati (2020) {imdb-tt13282430}",
-    "title": "Illuminati",
-    "original_title": "Illuminati",
-    "year": "2020",
-    "duration": "52 min",
-    "director": "Carl Sampson",
-    "genres": [
-        "Documentary",
-        "Mystery"
-    ],
-    "outline": "Secret societies is the new code word for organizations believed to pull the strings of the world. These groups have been both credited and blamed for great many nefarious acts perpetrated against humanity. Among the most infamous...",
-    "imdb_id": "tt13282430",
-    "imdb_link": "https://www.imdb.com/title/tt13282430/",
-    "imdb_rating": "6.5",
-    "stars": [
-        "Chris Harvey",
-        "Barack Obama"
-    ],
-    "rated": "N/A",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTE0N2YwODktY2NlMC00ZjVjLTg0ZDYtOGMwYjY0YzAwNjdjXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Illuminati_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00633",
+  "folder_name": "00633 Illuminati (2020) {imdb-tt13282430}",
+  "folder_path": "E:\\Movies\\00633 Illuminati (2020) {imdb-tt13282430}",
+  "title": "Illuminati",
+  "original_title": "Illuminati",
+  "year": "2020",
+  "duration": "52 min",
+  "director": "Carl Sampson",
+  "genres": [
+    "Documentary",
+    "Mystery"
+  ],
+  "outline": "Secret societies is the new code word for organizations believed to pull the strings of the world. These groups have been both credited and blamed for great many nefarious acts perpetrated against humanity. Among the most infamous...",
+  "imdb_id": "tt13282430",
+  "imdb_link": "https://www.imdb.com/title/tt13282430/",
+  "imdb_rating": "6.5",
+  "stars": [
+    "Chris Harvey",
+    "Barack Obama"
+  ],
+  "rated": "N/A",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTE0N2YwODktY2NlMC00ZjVjLTg0ZDYtOGMwYjY0YzAwNjdjXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Illuminati_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

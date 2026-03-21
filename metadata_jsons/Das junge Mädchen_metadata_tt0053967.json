@@ -1,28 +1,42 @@
 {
-    "num": "00609",
-    "folder_name": "00609 Das junge Mädchen (1960) {imdb-tt0053967}",
-    "folder_path": "E:\\Movies\\00609 Das junge Mädchen (1960) {imdb-tt0053967}",
-    "title": "The Young One",
-    "original_title": "The Young One",
-    "year": "1960",
-    "duration": "96 min",
-    "director": "Luis Buñuel",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Game warden Miller lives on an isolated island off the Carolina coast. The only other inhabitant is Evvie, an naive young girl to whom Miller is attracted. Traver, a black musician on the run from a lynch mob after falsely being accused of rape, lands on the island. Miller wants to turn him in and remove him from the tryst, but Evvie likes Traver and protects him. A preacher arrives from the mainland to rescue Evvie from her situation, and Traver's presence is discovered. Miller is now forced to decide whether to turn him over to the mob and lose standing in the girl's eyes.",
-    "imdb_id": "tt0053967",
-    "imdb_link": "https://www.imdb.com/title/tt0053967/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "Zachary Scott",
-        "Bernie Hamilton",
-        "Key Meersman"
-    ],
-    "rated": "N/A",
-    "country": "Mexico",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYjFiY2I4MjMtMjBmZC00ZTQyLTliZGEtOGUxYmFmOTEwNTk2XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Das junge Mädchen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00609",
+  "folder_name": "00609 Das junge Mädchen (1960) {imdb-tt0053967}",
+  "folder_path": "E:\\Movies\\00609 Das junge Mädchen (1960) {imdb-tt0053967}",
+  "title": "The Young One",
+  "original_title": "The Young One",
+  "year": "1960",
+  "duration": "96 min",
+  "director": "Luis Buñuel",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Game warden Miller lives on an isolated island off the Carolina coast. The only other inhabitant is Evvie, an naive young girl to whom Miller is attracted. Traver, a black musician on the run from a lynch mob after falsely being accused of rape, lands on the island. Miller wants to turn him in and remove him from the tryst, but Evvie likes Traver and protects him. A preacher arrives from the mainland to rescue Evvie from her situation, and Traver's presence is discovered. Miller is now forced to decide whether to turn him over to the mob and lose standing in the girl's eyes.",
+  "imdb_id": "tt0053967",
+  "imdb_link": "https://www.imdb.com/title/tt0053967/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "Zachary Scott",
+    "Bernie Hamilton",
+    "Key Meersman"
+  ],
+  "rated": "N/A",
+  "country": "Mexico",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYjFiY2I4MjMtMjBmZC00ZTQyLTliZGEtOGUxYmFmOTEwNTk2XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Das junge Mädchen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

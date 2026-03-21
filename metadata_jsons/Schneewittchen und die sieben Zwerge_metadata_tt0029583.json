@@ -26,5 +26,33 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQwMzE2Mzc4M15BMl5BanBnXkFtZTcwMTE4NTc1Nw@@._V1_SX300.jpg",
   "cover_file": "Schneewittchen und die sieben Zwerge_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Englisch",
+    "Polnisch"
+  ],
+  "audio_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "English",
+    "Polish"
+  ],
+  "subtitles_languages_german": [
+    "Bulgarisch",
+    "Englisch",
+    "Estnisch",
+    "Kroatisch",
+    "Polnisch",
+    "Slowenisch"
+  ],
+  "subtitles_languages_english": [
+    "Bulgarian",
+    "Croatian",
+    "English",
+    "Estonian",
+    "Polish",
+    "Slovenian"
+  ]
 }

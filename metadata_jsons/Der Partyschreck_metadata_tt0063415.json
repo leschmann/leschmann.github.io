@@ -25,5 +25,21 @@
   "language": "English, Italian, Russian, French, Cantonese",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZjE4NjM3ZjYtMTllYy00YzIwLWE5YzYtZGM1ZDU3MGVjNzRmXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Partyschreck_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

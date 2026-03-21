@@ -1,30 +1,44 @@
 {
-    "num": "00638",
-    "folder_name": "00638 Mansfield Park (1999) {imdb-tt0178737}",
-    "folder_path": "E:\\Movies\\00638 Mansfield Park (1999) {imdb-tt0178737}",
-    "title": "Mansfield Park",
-    "original_title": "Mansfield Park",
-    "year": "1999",
-    "duration": "112 min",
-    "director": "Patricia Rozema",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "At 10, Fanny Price, a poor relation, goes to live at Mansfield Park, the estate of her aunt's husband, Sir Thomas. Clever, studious, and a writer with an ironic imagination and fine moral compass, she becomes especially close to Edmund, Thomas's younger son. Fanny is soon possessed of beauty as well as a keen mind and comes to the attention of a neighbor, Henry Crawford. Thomas promotes this match, but to his displeasure, Fanny has a mind of her own, asking Henry to prove himself worthy. As Edmund courts Henry's sister and as light shines on the link between Thomas's fortunes and New World slavery, Fanny must assess Henry's character and assert her heart as well as her wit.",
-    "imdb_id": "tt0178737",
-    "imdb_link": "https://www.imdb.com/title/tt0178737/",
-    "imdb_rating": "7.0",
-    "stars": [
-        "Frances O'Connor",
-        "Jonny Lee Miller",
-        "Alessandro Nivola"
-    ],
-    "rated": "PG-13",
-    "country": "United Kingdom, United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTdkZDg4MGQtMDNhOC00NmVhLTg2OGEtMGViOWY2NzM2N2M0XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Mansfield Park_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00638",
+  "folder_name": "00638 Mansfield Park (1999) {imdb-tt0178737}",
+  "folder_path": "E:\\Movies\\00638 Mansfield Park (1999) {imdb-tt0178737}",
+  "title": "Mansfield Park",
+  "original_title": "Mansfield Park",
+  "year": "1999",
+  "duration": "112 min",
+  "director": "Patricia Rozema",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "At 10, Fanny Price, a poor relation, goes to live at Mansfield Park, the estate of her aunt's husband, Sir Thomas. Clever, studious, and a writer with an ironic imagination and fine moral compass, she becomes especially close to Edmund, Thomas's younger son. Fanny is soon possessed of beauty as well as a keen mind and comes to the attention of a neighbor, Henry Crawford. Thomas promotes this match, but to his displeasure, Fanny has a mind of her own, asking Henry to prove himself worthy. As Edmund courts Henry's sister and as light shines on the link between Thomas's fortunes and New World slavery, Fanny must assess Henry's character and assert her heart as well as her wit.",
+  "imdb_id": "tt0178737",
+  "imdb_link": "https://www.imdb.com/title/tt0178737/",
+  "imdb_rating": "7.0",
+  "stars": [
+    "Frances O'Connor",
+    "Jonny Lee Miller",
+    "Alessandro Nivola"
+  ],
+  "rated": "PG-13",
+  "country": "United Kingdom, United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZTdkZDg4MGQtMDNhOC00NmVhLTg2OGEtMGViOWY2NzM2N2M0XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Mansfield Park_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

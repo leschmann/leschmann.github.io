@@ -1,29 +1,43 @@
 {
-    "num": "00637",
-    "folder_name": "00637 Das Orangenmädchen (2009) {imdb-tt1296150}",
-    "folder_path": "E:\\Movies\\00637 Das Orangenmädchen (2009) {imdb-tt1296150}",
-    "title": "Orange Girl",
-    "original_title": "Orange Girl",
-    "year": "2009",
-    "duration": "80 min",
-    "director": "Eva Dahr",
-    "genres": [
-        "Drama",
-        "Romance"
-    ],
-    "outline": "THE ORANGE GIRL is about two young men's different paths to finding love. Jan Olav is struck as if by lightning the first time he sees the Orange Girl, and is sure he has found the love of his life. His infatuation is like nothing else: the sky turns round and round, the earth disappears beneath his feet. Nothing else matters. Georg has love served on a silver platter under a magic Easter sky in the Norwegian mountains, but he has difficulties understanding his own feelings, grasping what is happening to him. There are 20 years between these two love stories. Georg hears the story of his father Jan Olav's quest for the Orange Girl through a letter he receives on his 16th birthday. The letter helps him realize that he cannot let love slip through his fingers. Jan Olav's and Georg's stories are woven together through the letter. Both stories tell tales of chance encounters that change their lives. THE ORANGE GIRL is a love story that raises important questions about our human existence. How do you explain to your son that love is the most important thing in life - indeed, the only thing that gives life meaning? How do you explain that although life can be short and painful, love still makes it worth living? How do you explain that the moment is the only eternity there is?",
-    "imdb_id": "tt1296150",
-    "imdb_link": "https://www.imdb.com/title/tt1296150/",
-    "imdb_rating": "5.9",
-    "stars": [
-        "Mikkel Bratt Silset",
-        "Harald Thompson Rosenstrøm",
-        "Annie Dahr Nygaard"
-    ],
-    "rated": "N/A",
-    "country": "Norway, Germany, Spain",
-    "language": "Norwegian, English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmY1YWVjOWUtZTIwNS00NTZlLTk5ZmEtYTdhZjk2MmM2YmE1XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Das Orangenmädchen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00637",
+  "folder_name": "00637 Das Orangenmädchen (2009) {imdb-tt1296150}",
+  "folder_path": "E:\\Movies\\00637 Das Orangenmädchen (2009) {imdb-tt1296150}",
+  "title": "Orange Girl",
+  "original_title": "Orange Girl",
+  "year": "2009",
+  "duration": "80 min",
+  "director": "Eva Dahr",
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "outline": "THE ORANGE GIRL is about two young men's different paths to finding love. Jan Olav is struck as if by lightning the first time he sees the Orange Girl, and is sure he has found the love of his life. His infatuation is like nothing else: the sky turns round and round, the earth disappears beneath his feet. Nothing else matters. Georg has love served on a silver platter under a magic Easter sky in the Norwegian mountains, but he has difficulties understanding his own feelings, grasping what is happening to him. There are 20 years between these two love stories. Georg hears the story of his father Jan Olav's quest for the Orange Girl through a letter he receives on his 16th birthday. The letter helps him realize that he cannot let love slip through his fingers. Jan Olav's and Georg's stories are woven together through the letter. Both stories tell tales of chance encounters that change their lives. THE ORANGE GIRL is a love story that raises important questions about our human existence. How do you explain to your son that love is the most important thing in life - indeed, the only thing that gives life meaning? How do you explain that although life can be short and painful, love still makes it worth living? How do you explain that the moment is the only eternity there is?",
+  "imdb_id": "tt1296150",
+  "imdb_link": "https://www.imdb.com/title/tt1296150/",
+  "imdb_rating": "5.9",
+  "stars": [
+    "Mikkel Bratt Silset",
+    "Harald Thompson Rosenstrøm",
+    "Annie Dahr Nygaard"
+  ],
+  "rated": "N/A",
+  "country": "Norway, Germany, Spain",
+  "language": "Norwegian, English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmY1YWVjOWUtZTIwNS00NTZlLTk5ZmEtYTdhZjk2MmM2YmE1XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Das Orangenmädchen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Norwegisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Norwegian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

@@ -25,5 +25,23 @@
   "language": "English, Spanish, Hebrew",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMGI0NDZhODctZWYwNC00ZGZhLTg2N2UtMzdiZjM0OTM4NTY0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Meine Frau, ihre Schwiegereltern und ich_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

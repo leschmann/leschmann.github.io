@@ -26,5 +26,19 @@
   "language": "Swedish, German",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTM4ODI4MzA4OF5BMl5BanBnXkFtZTcwOTAyNjkxMQ@@._V1_SX300.jpg",
   "cover_file": "Pettersson und Findus_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English"
+  ]
 }

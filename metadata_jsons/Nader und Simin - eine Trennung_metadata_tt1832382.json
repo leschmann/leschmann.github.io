@@ -1,28 +1,42 @@
 {
-    "num": "00751",
-    "folder_name": "00751 Nader und Simin - eine Trennung (2011) {imdb-tt1832382}",
-    "folder_path": "E:\\Movies\\00751 Nader und Simin - eine Trennung (2011) {imdb-tt1832382}",
-    "title": "A Separation",
-    "original_title": "A Separation",
-    "year": "2011",
-    "duration": "123 min",
-    "director": "Asghar Farhadi",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Nader (Payman Maadi) and Simin (Leila Hatami) argue about living abroad. Simin prefers to live abroad to provide better opportunities for their only daughter, Termeh. However, Nader refuses to go because he thinks he must stay in Iran and take care of his father (Ali-Asghar Shahbazi), who suffers from Alzheimers. However, Simin is determined to get a divorce and leave the country with her daughter.",
-    "imdb_id": "tt1832382",
-    "imdb_link": "https://www.imdb.com/title/tt1832382/",
-    "imdb_rating": "8.3",
-    "stars": [
-        "Payman Maadi",
-        "Leila Hatami",
-        "Sareh Bayat"
-    ],
-    "rated": "PG-13",
-    "country": "Iran, France, Australia",
-    "language": "Persian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMDM0ZWRmMzctM2M5ZS00ZjU0LWIxN2MtNWNlNGY1ZDhjMDVhXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Nader und Simin - eine Trennung_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00751",
+  "folder_name": "00751 Nader und Simin - eine Trennung (2011) {imdb-tt1832382}",
+  "folder_path": "E:\\Movies\\00751 Nader und Simin - eine Trennung (2011) {imdb-tt1832382}",
+  "title": "A Separation",
+  "original_title": "A Separation",
+  "year": "2011",
+  "duration": "123 min",
+  "director": "Asghar Farhadi",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Nader (Payman Maadi) and Simin (Leila Hatami) argue about living abroad. Simin prefers to live abroad to provide better opportunities for their only daughter, Termeh. However, Nader refuses to go because he thinks he must stay in Iran and take care of his father (Ali-Asghar Shahbazi), who suffers from Alzheimers. However, Simin is determined to get a divorce and leave the country with her daughter.",
+  "imdb_id": "tt1832382",
+  "imdb_link": "https://www.imdb.com/title/tt1832382/",
+  "imdb_rating": "8.3",
+  "stars": [
+    "Payman Maadi",
+    "Leila Hatami",
+    "Sareh Bayat"
+  ],
+  "rated": "PG-13",
+  "country": "Iran, France, Australia",
+  "language": "Persian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMDM0ZWRmMzctM2M5ZS00ZjU0LWIxN2MtNWNlNGY1ZDhjMDVhXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Nader und Simin - eine Trennung_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Persisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Persian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

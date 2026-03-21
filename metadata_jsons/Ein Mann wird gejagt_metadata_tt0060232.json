@@ -26,5 +26,59 @@
   "language": "English, Spanish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMGI2MTljNjktNTRiOC00MmUzLWIzNjYtZWY0MjRjZTgxNzBlXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Ein Mann wird gejagt_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Hindi",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hindi",
+    "Hungarian",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

@@ -26,5 +26,27 @@
   "language": "English, French, Arabic, German",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYTkzMWViYWMtMWMwNS00MzgwLTgyZTUtNjVkOTE2YjE0MmM5XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Tod auf dem Nil_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Italienisch",
+    "Portugiesisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "German",
+    "Italian",
+    "Portuguese",
+    "Turkish"
+  ]
 }

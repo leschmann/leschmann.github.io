@@ -26,5 +26,23 @@
   "language": "English, Korean, Cantonese, Spanish, German, Icelandic, Italian, Arabic",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNDZiYWFmOTQtMTQ5Yy00MzA3LWFlNzktZTVmMGQ1MDA4MjEyXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "James Bond 007 - Stirb an einem anderen Tag_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

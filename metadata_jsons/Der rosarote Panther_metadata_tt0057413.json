@@ -26,5 +26,53 @@
   "language": "English, Italian, Greek",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzg5NTYzNDI4OF5BMl5BanBnXkFtZTcwOTQxMTMyNA@@._V1_SX300.jpg",
   "cover_file": "Der rosarote Panther_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch",
+    "Tschechisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Italian",
+    "Norwegian",
+    "Portuguese",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

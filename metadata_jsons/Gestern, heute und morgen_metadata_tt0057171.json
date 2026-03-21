@@ -1,29 +1,43 @@
 {
-    "num": "00720",
-    "folder_name": "00720 Gestern, heute und morgen (1963) {imdb-tt0057171}",
-    "folder_path": "E:\\Movies\\00720 Gestern, heute und morgen (1963) {imdb-tt0057171}",
-    "title": "Yesterday, Today and Tomorrow",
-    "original_title": "Yesterday, Today and Tomorrow",
-    "year": "1963",
-    "duration": "119 min",
-    "director": "Vittorio De Sica",
-    "genres": [
-        "Comedy",
-        "Romance"
-    ],
-    "outline": "Three different stories of Italian social mores are presented. In \"Adelina\", unemployed Carmine Sbaratti and his wife Adelina Sbaratti survive through Adelina selling black market cigarettes on the street. They are unable to pay for the furniture they bought (which is under Adelina's name), but are able to avoid the bailiff when he comes for the money or to repossess. They come up with a longer term solution to avoid Adelina being prosecuted for non-payment, but that solution has a profound effect on the family, especially Carmine. In \"Anna\", Anna Molteni, the spoiled wife of a successful businessman, and an artist named Renzo are on the cusp of an affair. Anna is feeling neglected in the marriage, as her husband seems more concerned about success and money than her. But a car accident shows both Anna and Renzo if an affair with each other is really what they want. In \"Mara\", Mara is a prostitute who works out of her apartment. She befriends Umberto, a young man visiting his grandparents who live in the adjacent apartment, the balconies of the two apartments which are adjoined. Umberto, a seminary student, seems to be attracted to Mara as a woman without really knowing what she does. Umberto's grandmother, who knows what Mara does, believes Umberto's seeming romantic infatuation with Mara will be his downfall. As Mara and Umberto's grandmother ultimately join forces to get Umberto to do the right thing in life, Augusto Rusconi, one of Mara's regular clients who is in town from Bologna, does whatever he can to get Umberto's family issues out of the way so that he can get on with his own wants with Mara.",
-    "imdb_id": "tt0057171",
-    "imdb_link": "https://www.imdb.com/title/tt0057171/",
-    "imdb_rating": "7.2",
-    "stars": [
-        "Sophia Loren",
-        "Marcello Mastroianni",
-        "Aldo Giuffrè"
-    ],
-    "rated": "Not Rated",
-    "country": "Italy, France",
-    "language": "Italian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNzI5M2Q3NGItOGExOC00MTUyLWEyNTMtNmIxZTI2ZWMxN2JiXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Gestern, heute und morgen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00720",
+  "folder_name": "00720 Gestern, heute und morgen (1963) {imdb-tt0057171}",
+  "folder_path": "E:\\Movies\\00720 Gestern, heute und morgen (1963) {imdb-tt0057171}",
+  "title": "Yesterday, Today and Tomorrow",
+  "original_title": "Yesterday, Today and Tomorrow",
+  "year": "1963",
+  "duration": "119 min",
+  "director": "Vittorio De Sica",
+  "genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "outline": "Three different stories of Italian social mores are presented. In \"Adelina\", unemployed Carmine Sbaratti and his wife Adelina Sbaratti survive through Adelina selling black market cigarettes on the street. They are unable to pay for the furniture they bought (which is under Adelina's name), but are able to avoid the bailiff when he comes for the money or to repossess. They come up with a longer term solution to avoid Adelina being prosecuted for non-payment, but that solution has a profound effect on the family, especially Carmine. In \"Anna\", Anna Molteni, the spoiled wife of a successful businessman, and an artist named Renzo are on the cusp of an affair. Anna is feeling neglected in the marriage, as her husband seems more concerned about success and money than her. But a car accident shows both Anna and Renzo if an affair with each other is really what they want. In \"Mara\", Mara is a prostitute who works out of her apartment. She befriends Umberto, a young man visiting his grandparents who live in the adjacent apartment, the balconies of the two apartments which are adjoined. Umberto, a seminary student, seems to be attracted to Mara as a woman without really knowing what she does. Umberto's grandmother, who knows what Mara does, believes Umberto's seeming romantic infatuation with Mara will be his downfall. As Mara and Umberto's grandmother ultimately join forces to get Umberto to do the right thing in life, Augusto Rusconi, one of Mara's regular clients who is in town from Bologna, does whatever he can to get Umberto's family issues out of the way so that he can get on with his own wants with Mara.",
+  "imdb_id": "tt0057171",
+  "imdb_link": "https://www.imdb.com/title/tt0057171/",
+  "imdb_rating": "7.2",
+  "stars": [
+    "Sophia Loren",
+    "Marcello Mastroianni",
+    "Aldo Giuffrè"
+  ],
+  "rated": "Not Rated",
+  "country": "Italy, France",
+  "language": "Italian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNzI5M2Q3NGItOGExOC00MTUyLWEyNTMtNmIxZTI2ZWMxN2JiXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Gestern, heute und morgen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Italienisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Italian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

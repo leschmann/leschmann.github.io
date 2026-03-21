@@ -25,5 +25,45 @@
   "language": "English, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYjkwYjdhM2ItZmVkMi00M2Y2LWJmNjEtN2Y2ZGU3MjdmZjE0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Last Tango in Paris_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish"
+  ]
 }

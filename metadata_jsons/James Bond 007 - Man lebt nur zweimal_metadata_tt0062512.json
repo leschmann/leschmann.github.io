@@ -1,30 +1,48 @@
 {
-    "num": "00407",
-    "folder_name": "00407 James Bond 007 - Man lebt nur zweimal (1967) {imdb-tt0062512}",
-    "folder_path": "F:\\Movies\\00407 James Bond 007 - Man lebt nur zweimal (1967) {imdb-tt0062512}",
-    "title": "You Only Live Twice",
-    "original_title": "You Only Live Twice",
-    "year": "1967",
-    "duration": "117 min",
-    "director": "Lewis Gilbert",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-    ],
-    "outline": "During the height of the Cold War, the United States and the Soviet Union lose one spacecraft each after they are both seemingly swallowed whole by a second unidentified spacecraft. The two superpowers are quick to blame one another for the disappearances, causing tensions to skyrocket. The United Kingdom has an alternate theory regarding the disappearances however, a theory involving Japan, and sends their number one spy, James Bond, to investigate there. With the help of the Japanese Secret Service, he uncovers a plot far more sinister than anyone could have ever imagined.",
-    "imdb_id": "tt0062512",
-    "imdb_link": "https://www.imdb.com/title/tt0062512/",
-    "imdb_rating": "6.8",
-    "stars": [
-        "Sean Connery",
-        "Akiko Wakabayashi",
-        "Mie Hama"
-    ],
-    "rated": "PG",
-    "country": "United Kingdom, Japan, United States",
-    "language": "English, Japanese, Russian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjhlMjg3NDctN2QzNC00N2ViLWJjYjYtMzcyZDdlMmI1MmU4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "James Bond 007 - Man lebt nur zweimal_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00407",
+  "folder_name": "00407 James Bond 007 - Man lebt nur zweimal (1967) {imdb-tt0062512}",
+  "folder_path": "F:\\Movies\\00407 James Bond 007 - Man lebt nur zweimal (1967) {imdb-tt0062512}",
+  "title": "You Only Live Twice",
+  "original_title": "You Only Live Twice",
+  "year": "1967",
+  "duration": "117 min",
+  "director": "Lewis Gilbert",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+  ],
+  "outline": "During the height of the Cold War, the United States and the Soviet Union lose one spacecraft each after they are both seemingly swallowed whole by a second unidentified spacecraft. The two superpowers are quick to blame one another for the disappearances, causing tensions to skyrocket. The United Kingdom has an alternate theory regarding the disappearances however, a theory involving Japan, and sends their number one spy, James Bond, to investigate there. With the help of the Japanese Secret Service, he uncovers a plot far more sinister than anyone could have ever imagined.",
+  "imdb_id": "tt0062512",
+  "imdb_link": "https://www.imdb.com/title/tt0062512/",
+  "imdb_rating": "6.8",
+  "stars": [
+    "Sean Connery",
+    "Akiko Wakabayashi",
+    "Mie Hama"
+  ],
+  "rated": "PG",
+  "country": "United Kingdom, Japan, United States",
+  "language": "English, Japanese, Russian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjhlMjg3NDctN2QzNC00N2ViLWJjYjYtMzcyZDdlMmI1MmU4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "James Bond 007 - Man lebt nur zweimal_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

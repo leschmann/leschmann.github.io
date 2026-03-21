@@ -26,5 +26,41 @@
   "language": "English, Spanish, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNGEyYWMxZGItMmYzNy00OWI2LWJjMzAtMTgyOGVhOTZkYWZiXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Vera Cruz_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Norwegian",
+    "Spanish",
+    "Swedish"
+  ]
 }

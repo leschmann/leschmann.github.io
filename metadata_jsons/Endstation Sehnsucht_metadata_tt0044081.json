@@ -24,5 +24,45 @@
   "language": "English, Spanish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTdmZDY1ODQtNzFjYy00MGM4LWJmNDItN2MxMmQ2OTgxZGNmXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Endstation Sehnsucht_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Polnisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Polish",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Griechisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Danish",
+    "English",
+    "Finnish",
+    "German",
+    "Greek",
+    "Hungarian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish"
+  ]
 }

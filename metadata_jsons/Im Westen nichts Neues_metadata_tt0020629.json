@@ -25,5 +25,33 @@
   "language": "English, French, German, Latin",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODY0NzU2MWYtODZmMi00Y2Y5LTliZmMtN2JjZTA1OTcyMzAzXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Im Westen nichts Neues_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Niederländisch",
+    "Polnisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Hungarian",
+    "Polish"
+  ]
 }

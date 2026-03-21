@@ -1,30 +1,48 @@
 {
-    "num": "00733",
-    "folder_name": "00733 Inglourious Basterds (2009) {imdb-tt0361748}",
-    "folder_path": "E:\\Movies\\00733 Inglourious Basterds (2009) {imdb-tt0361748}",
-    "title": "Inglourious Basterds",
-    "original_title": "Inglourious Basterds",
-    "year": "2009",
-    "duration": "153 min",
-    "director": "Quentin Tarantino",
-    "genres": [
-        "Adventure",
-        "Drama",
-        "War"
-    ],
-    "outline": "In German-occupied France, young Jewish refugee Shosanna Dreyfus witnesses the slaughter of her family by Colonel Hans Landa. Narrowly escaping with her life, she plots her revenge several years later when German war hero Fredrick Zoller takes a rapid interest in her and arranges an illustrious movie premiere at the theater she now runs. With the promise of every major Nazi officer in attendance, the event catches the attention of the \"Basterds\", a group of Jewish-American guerrilla soldiers led by the ruthless Lt. Aldo Raine. As the relentless executioners advance and the conspiring young girl's plans are set in motion, their paths will cross for a fateful evening that will shake the very annals of history.",
-    "imdb_id": "tt0361748",
-    "imdb_link": "https://www.imdb.com/title/tt0361748/",
-    "imdb_rating": "8.4",
-    "stars": [
-        "Brad Pitt",
-        "Diane Kruger",
-        "Eli Roth"
-    ],
-    "rated": "R",
-    "country": "United States, Germany",
-    "language": "English, German, French, Italian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Inglourious Basterds_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00733",
+  "folder_name": "00733 Inglourious Basterds (2009) {imdb-tt0361748}",
+  "folder_path": "E:\\Movies\\00733 Inglourious Basterds (2009) {imdb-tt0361748}",
+  "title": "Inglourious Basterds",
+  "original_title": "Inglourious Basterds",
+  "year": "2009",
+  "duration": "153 min",
+  "director": "Quentin Tarantino",
+  "genres": [
+    "Adventure",
+    "Drama",
+    "War"
+  ],
+  "outline": "In German-occupied France, young Jewish refugee Shosanna Dreyfus witnesses the slaughter of her family by Colonel Hans Landa. Narrowly escaping with her life, she plots her revenge several years later when German war hero Fredrick Zoller takes a rapid interest in her and arranges an illustrious movie premiere at the theater she now runs. With the promise of every major Nazi officer in attendance, the event catches the attention of the \"Basterds\", a group of Jewish-American guerrilla soldiers led by the ruthless Lt. Aldo Raine. As the relentless executioners advance and the conspiring young girl's plans are set in motion, their paths will cross for a fateful evening that will shake the very annals of history.",
+  "imdb_id": "tt0361748",
+  "imdb_link": "https://www.imdb.com/title/tt0361748/",
+  "imdb_rating": "8.4",
+  "stars": [
+    "Brad Pitt",
+    "Diane Kruger",
+    "Eli Roth"
+  ],
+  "rated": "R",
+  "country": "United States, Germany",
+  "language": "English, German, French, Italian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Inglourious Basterds_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

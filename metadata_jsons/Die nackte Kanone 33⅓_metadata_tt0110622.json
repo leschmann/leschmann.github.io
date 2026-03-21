@@ -1,29 +1,69 @@
 {
-    "num": "00693",
-    "folder_name": "00693 Die nackte Kanone 33⅓ (1994) {imdb-tt0110622}",
-    "folder_path": "E:\\Movies\\00693 Die nackte Kanone 33⅓ (1994) {imdb-tt0110622}",
-    "title": "Naked Gun 33 1/3: The Final Insult",
-    "original_title": "Naked Gun 33 1/3: The Final Insult",
-    "year": "1994",
-    "duration": "83 min",
-    "director": "Peter Segal",
-    "genres": [
-        "Comedy",
-        "Crime"
-    ],
-    "outline": "Tasting the fruit of his labor with his wife Jane Spencer (Priscilla Presley), the maladroit and now retired Police Squad Lieutenant, Frank Drebin (Leslie Nielsen), secretly dreams of getting back in action. Before long, his old partners, Ed Hocken (George Kennedy) and Nordberg (O.J. Simpson), will have to enlist the help of their loose-cannon friend, when Rocco (Fred Ward), the deranged terrorist, intends on blowing the annual Academy Awards ceremony to smithereens. Once more, Drebin goes undercover, interrogating dangerous blonde bombshells, and putting his precious, but fragile marriage in jeopardy. Are this year's Oscars doomed to disaster?",
-    "imdb_id": "tt0110622",
-    "imdb_link": "https://www.imdb.com/title/tt0110622/",
-    "imdb_rating": "6.5",
-    "stars": [
-        "Leslie Nielsen",
-        "Priscilla Presley",
-        "George Kennedy"
-    ],
-    "rated": "PG-13",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BM2ViYTFhMTktMjU0OC00ZWY3LWEzZDItMTExNDc2NDNjN2I3XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die nackte Kanone 33⅓_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00693",
+  "folder_name": "00693 Die nackte Kanone 33⅓ (1994) {imdb-tt0110622}",
+  "folder_path": "E:\\Movies\\00693 Die nackte Kanone 33⅓ (1994) {imdb-tt0110622}",
+  "title": "Naked Gun 33 1/3: The Final Insult",
+  "original_title": "Naked Gun 33 1/3: The Final Insult",
+  "year": "1994",
+  "duration": "83 min",
+  "director": "Peter Segal",
+  "genres": [
+    "Comedy",
+    "Crime"
+  ],
+  "outline": "Tasting the fruit of his labor with his wife Jane Spencer (Priscilla Presley), the maladroit and now retired Police Squad Lieutenant, Frank Drebin (Leslie Nielsen), secretly dreams of getting back in action. Before long, his old partners, Ed Hocken (George Kennedy) and Nordberg (O.J. Simpson), will have to enlist the help of their loose-cannon friend, when Rocco (Fred Ward), the deranged terrorist, intends on blowing the annual Academy Awards ceremony to smithereens. Once more, Drebin goes undercover, interrogating dangerous blonde bombshells, and putting his precious, but fragile marriage in jeopardy. Are this year's Oscars doomed to disaster?",
+  "imdb_id": "tt0110622",
+  "imdb_link": "https://www.imdb.com/title/tt0110622/",
+  "imdb_rating": "6.5",
+  "stars": [
+    "Leslie Nielsen",
+    "Priscilla Presley",
+    "George Kennedy"
+  ],
+  "rated": "PG-13",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BM2ViYTFhMTktMjU0OC00ZWY3LWEzZDItMTExNDc2NDNjN2I3XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die nackte Kanone 33⅓_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

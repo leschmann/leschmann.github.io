@@ -26,5 +26,23 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTRhMGU5NmYtOTVmNy00OGMzLWFhMWYtZjNlNWY3ZTY3MjBkXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Garfield 2 - Faulheit verpflichtet!_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

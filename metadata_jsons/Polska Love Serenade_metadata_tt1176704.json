@@ -1,28 +1,44 @@
 {
-    "num": "00788",
-    "folder_name": "00788 Polska Love Serenade (2008) {imdb-tt1176704}",
-    "folder_path": "E:\\Movies\\00788 Polska Love Serenade (2008) {imdb-tt1176704}",
-    "title": "Polska Love Serenade",
-    "original_title": "Polska Love Serenade",
-    "year": "2008",
-    "duration": "75 min",
-    "director": "Monika Anna Wojtyllo",
-    "genres": [
-        "Comedy"
-    ],
-    "outline": "Shortly before christmas a german odd couple is driving not completely volunraily through poland in a rattly old car.The square becoming lawyer Max Löwenberg investigates in former german property while the constantly gabbling student Anna has a more simple but not less extraordinary goal: She wants her car to be stolen.Both have to recognize that they reckon without polish hosts and Santa Clauses.Heartiness, hospitality and a lot of vodka are the reason that the main characters become closer to their polish neighbours and also to each other.",
-    "imdb_id": "tt1176704",
-    "imdb_link": "https://www.imdb.com/title/tt1176704/",
-    "imdb_rating": "6.6",
-    "stars": [
-        "Claudia Eisinger",
-        "Sebastian Schwarz",
-        "Bozena Baranowska"
-    ],
-    "rated": "N/A",
-    "country": "Germany",
-    "language": "German, Polish, English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAwODc0NTcxMl5BMl5BanBnXkFtZTgwODg0NTE4OTE@._V1_SX300.jpg",
-    "cover_file": "Polska Love Serenade_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00788",
+  "folder_name": "00788 Polska Love Serenade (2008) {imdb-tt1176704}",
+  "folder_path": "E:\\Movies\\00788 Polska Love Serenade (2008) {imdb-tt1176704}",
+  "title": "Polska Love Serenade",
+  "original_title": "Polska Love Serenade",
+  "year": "2008",
+  "duration": "75 min",
+  "director": "Monika Anna Wojtyllo",
+  "genres": [
+    "Comedy"
+  ],
+  "outline": "Shortly before christmas a german odd couple is driving not completely volunraily through poland in a rattly old car.The square becoming lawyer Max Löwenberg investigates in former german property while the constantly gabbling student Anna has a more simple but not less extraordinary goal: She wants her car to be stolen.Both have to recognize that they reckon without polish hosts and Santa Clauses.Heartiness, hospitality and a lot of vodka are the reason that the main characters become closer to their polish neighbours and also to each other.",
+  "imdb_id": "tt1176704",
+  "imdb_link": "https://www.imdb.com/title/tt1176704/",
+  "imdb_rating": "6.6",
+  "stars": [
+    "Claudia Eisinger",
+    "Sebastian Schwarz",
+    "Bozena Baranowska"
+  ],
+  "rated": "N/A",
+  "country": "Germany",
+  "language": "German, Polish, English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAwODc0NTcxMl5BMl5BanBnXkFtZTgwODg0NTE4OTE@._V1_SX300.jpg",
+  "cover_file": "Polska Love Serenade_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Polnisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Polish"
+  ]
 }

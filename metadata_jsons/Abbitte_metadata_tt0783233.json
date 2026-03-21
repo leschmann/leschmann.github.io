@@ -26,5 +26,33 @@
   "language": "English, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Abbitte_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Englisch",
+    "Kroatisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Croatian",
+    "English",
+    "German",
+    "Hungarian",
+    "Turkish"
+  ]
 }

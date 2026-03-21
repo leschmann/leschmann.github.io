@@ -1,30 +1,70 @@
 {
-    "num": "00608",
-    "folder_name": "00608 Jagd auf Roter Oktober (1990) {imdb-tt0099810}",
-    "folder_path": "E:\\Movies\\00608 Jagd auf Roter Oktober (1990) {imdb-tt0099810}",
-    "title": "The Hunt for Red October",
-    "original_title": "The Hunt for Red October",
-    "year": "1990",
-    "duration": "135 min",
-    "director": "John McTiernan",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-    ],
-    "outline": "In November 1984, at the height of the Cold War, the Soviet Union creates a new nuclear submarine that runs silent due to a revolutionary propulsion system. The Russian submarine Captain, Marko Ramius (Sir Sean Connery), defects. His goal is taking it to the U.S. to prevent the Russians from using it to start nuclear war against the U.S.",
-    "imdb_id": "tt0099810",
-    "imdb_link": "https://www.imdb.com/title/tt0099810/",
-    "imdb_rating": "7.5",
-    "stars": [
-        "Sean Connery",
-        "Alec Baldwin",
-        "Scott Glenn"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English, Russian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMmNhYWJmN2EtZDYwNC00NzE0LWE5N2UtZTUyMDM4YjZmYWE3XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Jagd auf Roter Oktober_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00608",
+  "folder_name": "00608 Jagd auf Roter Oktober (1990) {imdb-tt0099810}",
+  "folder_path": "E:\\Movies\\00608 Jagd auf Roter Oktober (1990) {imdb-tt0099810}",
+  "title": "The Hunt for Red October",
+  "original_title": "The Hunt for Red October",
+  "year": "1990",
+  "duration": "135 min",
+  "director": "John McTiernan",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+  ],
+  "outline": "In November 1984, at the height of the Cold War, the Soviet Union creates a new nuclear submarine that runs silent due to a revolutionary propulsion system. The Russian submarine Captain, Marko Ramius (Sir Sean Connery), defects. His goal is taking it to the U.S. to prevent the Russians from using it to start nuclear war against the U.S.",
+  "imdb_id": "tt0099810",
+  "imdb_link": "https://www.imdb.com/title/tt0099810/",
+  "imdb_rating": "7.5",
+  "stars": [
+    "Sean Connery",
+    "Alec Baldwin",
+    "Scott Glenn"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English, Russian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMmNhYWJmN2EtZDYwNC00NzE0LWE5N2UtZTUyMDM4YjZmYWE3XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Jagd auf Roter Oktober_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Tschechisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

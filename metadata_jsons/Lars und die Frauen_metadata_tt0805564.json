@@ -26,5 +26,47 @@
   "language": "English, Spanish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZThiOTA4N2UtNzJiYS00MDI0LWI3OWItYzYxYzU3M2YwM2M4XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Lars und die Frauen_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Russisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Russian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Estnisch",
+    "Finnisch",
+    "Lettisch",
+    "Litauisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Russisch",
+    "Schwedisch",
+    "Spanisch",
+    "Thailändisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Estonian",
+    "Finnish",
+    "German",
+    "Latvian",
+    "Lithuanian",
+    "Norwegian",
+    "Russian",
+    "Spanish",
+    "Swedish",
+    "Thai"
+  ]
 }

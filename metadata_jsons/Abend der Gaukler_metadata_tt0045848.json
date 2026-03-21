@@ -1,28 +1,36 @@
 {
-    "num": "00643",
-    "folder_name": "00643 Abend der Gaukler (1953) {imdb-tt0045848}",
-    "folder_path": "E:\\Movies\\00643 Abend der Gaukler (1953) {imdb-tt0045848}",
-    "title": "Sawdust and Tinsel",
-    "original_title": "Sawdust and Tinsel",
-    "year": "1953",
-    "duration": "93 min",
-    "director": "Ingmar Bergman",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "While traveling in caravan through the country of Sweden, one member of the decadent Alberti Circus tells the owner and ringmaster Albert Johansson a sad story about the clown Frost: seven years ago, his wife Alma was surprised by him bathing naked in a lake with a regiment. When the circus arrives in the town where Albert's wife Agda and sons live, he decides to pay a visit with his young mistress Anne to a famous local troupe to borrow some capes, hats and vests for their tonight show. They are humiliated by the director Mr. Sjuberg, but he lends the pieces, and the lead actor Frans gives an unsuccessful pass on Anne. When Albert decides to visit Agda, the jealous Anne meets Frans, who seduces her with an apparently valuable necklace, and they have a love affair. Anne finds that the necklace is actually worthless and returns to the circus. Meanwhile, Agda refuses to accept Albert back and he sees Anne leaving the theater and going to the jewelry. During the exhibition, Albert and Anne are submitted to humiliations by Frans.",
-    "imdb_id": "tt0045848",
-    "imdb_link": "https://www.imdb.com/title/tt0045848/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "Åke Grönberg",
-        "Harriet Andersson",
-        "Hasse Ekman"
-    ],
-    "rated": "Not Rated",
-    "country": "Sweden",
-    "language": "Swedish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTM3MmRiNTUtODkyMi00NDRhLTk0NzQtOGMxZmE3ZDZiNTVlXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Abend der Gaukler_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00643",
+  "folder_name": "00643 Abend der Gaukler (1953) {imdb-tt0045848}",
+  "folder_path": "E:\\Movies\\00643 Abend der Gaukler (1953) {imdb-tt0045848}",
+  "title": "Sawdust and Tinsel",
+  "original_title": "Sawdust and Tinsel",
+  "year": "1953",
+  "duration": "93 min",
+  "director": "Ingmar Bergman",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "While traveling in caravan through the country of Sweden, one member of the decadent Alberti Circus tells the owner and ringmaster Albert Johansson a sad story about the clown Frost: seven years ago, his wife Alma was surprised by him bathing naked in a lake with a regiment. When the circus arrives in the town where Albert's wife Agda and sons live, he decides to pay a visit with his young mistress Anne to a famous local troupe to borrow some capes, hats and vests for their tonight show. They are humiliated by the director Mr. Sjuberg, but he lends the pieces, and the lead actor Frans gives an unsuccessful pass on Anne. When Albert decides to visit Agda, the jealous Anne meets Frans, who seduces her with an apparently valuable necklace, and they have a love affair. Anne finds that the necklace is actually worthless and returns to the circus. Meanwhile, Agda refuses to accept Albert back and he sees Anne leaving the theater and going to the jewelry. During the exhibition, Albert and Anne are submitted to humiliations by Frans.",
+  "imdb_id": "tt0045848",
+  "imdb_link": "https://www.imdb.com/title/tt0045848/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "Åke Grönberg",
+    "Harriet Andersson",
+    "Hasse Ekman"
+  ],
+  "rated": "Not Rated",
+  "country": "Sweden",
+  "language": "Swedish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNTM3MmRiNTUtODkyMi00NDRhLTk0NzQtOGMxZmE3ZDZiNTVlXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Abend der Gaukler_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

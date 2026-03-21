@@ -1,28 +1,70 @@
 {
-    "num": "00703",
-    "folder_name": "00703 Die unglaubliche Reise in einem verrückten Flugzeug (1980) {imdb-tt0080339}",
-    "folder_path": "E:\\Movies\\00703 Die unglaubliche Reise in einem verrückten Flugzeug (1980) {imdb-tt0080339}",
-    "title": "Airplane!",
-    "original_title": "Airplane!",
-    "year": "1980",
-    "duration": "88 min",
-    "director": "Jim Abrahams, David Zucker, Jerry Zucker",
-    "genres": [
-        "Comedy"
-    ],
-    "outline": "Drowning his sorrows after that botched mission during WWII, the traumatised former fighter pilot with a fear of flying, Ted Striker, still hasn't got over his old flame and flight attendant, Elaine Dickinson. Determined to win her back, Ted boards a domestic flight from Los Angeles to Chicago, only to come face-to-face with a severe case of in-flight food poisoning that is threatening everyone's lives. Now, with most of the passengers and the entire cockpit crew down with the food-borne illness, Striker has no other choice but to confront his inner demons and take over the control of the ungovernable aircraft with the help of a gruff air-traffic controller and his former commander. Can Ted land the plane and save them all?",
-    "imdb_id": "tt0080339",
-    "imdb_link": "https://www.imdb.com/title/tt0080339/",
-    "imdb_rating": "7.7",
-    "stars": [
-        "Robert Hays",
-        "Julie Hagerty",
-        "Leslie Nielsen"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMxMDRhMjItMDNlZi00MDIzLWE5MDQtODljMDQ3MWM1Y2E4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die unglaubliche Reise in einem verrückten Flugzeug_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00703",
+  "folder_name": "00703 Die unglaubliche Reise in einem verrückten Flugzeug (1980) {imdb-tt0080339}",
+  "folder_path": "E:\\Movies\\00703 Die unglaubliche Reise in einem verrückten Flugzeug (1980) {imdb-tt0080339}",
+  "title": "Airplane!",
+  "original_title": "Airplane!",
+  "year": "1980",
+  "duration": "88 min",
+  "director": "Jim Abrahams, David Zucker, Jerry Zucker",
+  "genres": [
+    "Comedy"
+  ],
+  "outline": "Drowning his sorrows after that botched mission during WWII, the traumatised former fighter pilot with a fear of flying, Ted Striker, still hasn't got over his old flame and flight attendant, Elaine Dickinson. Determined to win her back, Ted boards a domestic flight from Los Angeles to Chicago, only to come face-to-face with a severe case of in-flight food poisoning that is threatening everyone's lives. Now, with most of the passengers and the entire cockpit crew down with the food-borne illness, Striker has no other choice but to confront his inner demons and take over the control of the ungovernable aircraft with the help of a gruff air-traffic controller and his former commander. Can Ted land the plane and save them all?",
+  "imdb_id": "tt0080339",
+  "imdb_link": "https://www.imdb.com/title/tt0080339/",
+  "imdb_rating": "7.7",
+  "stars": [
+    "Robert Hays",
+    "Julie Hagerty",
+    "Leslie Nielsen"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMxMDRhMjItMDNlZi00MDIzLWE5MDQtODljMDQ3MWM1Y2E4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die unglaubliche Reise in einem verrückten Flugzeug_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Rumänisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Romanian",
+    "Swedish",
+    "Turkish"
+  ]
 }

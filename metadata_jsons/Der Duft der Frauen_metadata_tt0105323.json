@@ -24,5 +24,43 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzc5ODg2NzMtYTQ4MS00MWFiLWI5NWMtNWNkODNmZjE0ZGVjXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Duft der Frauen_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Polnisch",
+    "Spanisch",
+    "Tschechisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "French",
+    "German",
+    "Polish",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Portugiesisch",
+    "Schwedisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Norwegian",
+    "Portuguese",
+    "Swedish"
+  ]
 }

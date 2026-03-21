@@ -25,5 +25,15 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY4NzEyNzY4NV5BMl5BanBnXkFtZTcwMjY4MzEwMg@@._V1_SX300.jpg",
   "cover_file": "Tortuga - Die unglaubliche Reise der Meeresschildkröte_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

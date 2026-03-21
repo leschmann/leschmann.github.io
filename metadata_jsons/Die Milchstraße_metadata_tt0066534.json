@@ -25,5 +25,21 @@
   "language": "French, Italian, Latin, Spanish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZDc4NTJlODctYTg1Ny00ZmI2LTk0MzEtOGQ0NTY1YTIzZDY3XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Die Milchstraße_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

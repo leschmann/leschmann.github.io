@@ -26,5 +26,49 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYjJiMmNlNGItOGQyOC00ZDczLWEzODYtYmM2MTE1YTczYzA0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Bean - Der ultimative Katastrophenfilm_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Russisch",
+    "Tschechisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German",
+    "Russian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Russisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ukrainisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Russian",
+    "Swedish",
+    "Turkish",
+    "Ukrainian"
+  ]
 }

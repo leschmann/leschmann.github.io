@@ -25,5 +25,43 @@
   "language": "Italian, German, English, French, Latin, Spanish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTAzYzViODYtN2IzMC00NjU0LThkODYtZDUyMTYwODQ3YWUwXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Fellinis Roma_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Norwegisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hungarian",
+    "Norwegian",
+    "Portuguese",
+    "Spanish",
+    "Swedish"
+  ]
 }

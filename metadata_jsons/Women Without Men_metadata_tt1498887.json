@@ -1,28 +1,42 @@
 {
-    "num": "00740",
-    "folder_name": "00740 Women Without Men (2009) {imdb-tt1498887}",
-    "folder_path": "E:\\Movies\\00740 Women Without Men (2009) {imdb-tt1498887}",
-    "title": "Women Without Men",
-    "original_title": "Women Without Men",
-    "year": "2009",
-    "duration": "89 min",
-    "director": "Shirin Neshat, Shoja Azari",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Against the tumultuous backdrop of Iran's 1953 CIA-backed coup d'état, the destinies of four women converge in a beautiful orchard garden, where they find independence, solace and companionship.",
-    "imdb_id": "tt1498887",
-    "imdb_link": "https://www.imdb.com/title/tt1498887/",
-    "imdb_rating": "6.3",
-    "stars": [
-        "Tolouei Shabnam",
-        "Pegah Ferydoni",
-        "Arita Shahrzad"
-    ],
-    "rated": "Not Rated",
-    "country": "Germany, Austria, France, Italy, Ukraine, Morocco, Iran",
-    "language": "Persian, English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTRlY2Y5OTktNWVmZC00OTNjLTljYzItYmUyNTIxZTZmMmNjXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Women Without Men_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00740",
+  "folder_name": "00740 Women Without Men (2009) {imdb-tt1498887}",
+  "folder_path": "E:\\Movies\\00740 Women Without Men (2009) {imdb-tt1498887}",
+  "title": "Women Without Men",
+  "original_title": "Women Without Men",
+  "year": "2009",
+  "duration": "89 min",
+  "director": "Shirin Neshat, Shoja Azari",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Against the tumultuous backdrop of Iran's 1953 CIA-backed coup d'état, the destinies of four women converge in a beautiful orchard garden, where they find independence, solace and companionship.",
+  "imdb_id": "tt1498887",
+  "imdb_link": "https://www.imdb.com/title/tt1498887/",
+  "imdb_rating": "6.3",
+  "stars": [
+    "Tolouei Shabnam",
+    "Pegah Ferydoni",
+    "Arita Shahrzad"
+  ],
+  "rated": "Not Rated",
+  "country": "Germany, Austria, France, Italy, Ukraine, Morocco, Iran",
+  "language": "Persian, English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNTRlY2Y5OTktNWVmZC00OTNjLTljYzItYmUyNTIxZTZmMmNjXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Women Without Men_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

@@ -1,30 +1,44 @@
 {
-    "num": "00253",
-    "folder_name": "00253 Fahrstuhl zum Schafott (1958) {imdb-tt0051378}",
-    "folder_path": "F:\\Movies\\00253 Fahrstuhl zum Schafott (1958) {imdb-tt0051378}",
-    "title": "Elevator to the Gallows",
-    "original_title": "Elevator to the Gallows",
-    "year": "1958",
-    "duration": "91 min",
-    "director": "Louis Malle",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-    ],
-    "outline": "Florence Carala and her lover, Julien Tavernier, want to murder her husband - Julien's boss - by faking his suicide. But after Julien's killed him, and had left, he remembers he's forgotten the rope outside the window which could implicate him, and he returns to the building to remove it",
-    "imdb_id": "tt0051378",
-    "imdb_link": "https://www.imdb.com/title/tt0051378/",
-    "imdb_rating": "7.9",
-    "stars": [
-        "Jeanne Moreau",
-        "Maurice Ronet",
-        "Georges Poujouly"
-    ],
-    "rated": "Not Rated",
-    "country": "France",
-    "language": "French, German",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BODk4MTkxMDE1Ml5BMl5BanBnXkFtZTgwNjE0NjEzOTE@._V1_SX300.jpg",
-    "cover_file": "Fahrstuhl zum Schafott_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00253",
+  "folder_name": "00253 Fahrstuhl zum Schafott (1958) {imdb-tt0051378}",
+  "folder_path": "F:\\Movies\\00253 Fahrstuhl zum Schafott (1958) {imdb-tt0051378}",
+  "title": "Elevator to the Gallows",
+  "original_title": "Elevator to the Gallows",
+  "year": "1958",
+  "duration": "91 min",
+  "director": "Louis Malle",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "outline": "Florence Carala and her lover, Julien Tavernier, want to murder her husband - Julien's boss - by faking his suicide. But after Julien's killed him, and had left, he remembers he's forgotten the rope outside the window which could implicate him, and he returns to the building to remove it",
+  "imdb_id": "tt0051378",
+  "imdb_link": "https://www.imdb.com/title/tt0051378/",
+  "imdb_rating": "7.9",
+  "stars": [
+    "Jeanne Moreau",
+    "Maurice Ronet",
+    "Georges Poujouly"
+  ],
+  "rated": "Not Rated",
+  "country": "France",
+  "language": "French, German",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODk4MTkxMDE1Ml5BMl5BanBnXkFtZTgwNjE0NjEzOTE@._V1_SX300.jpg",
+  "cover_file": "Fahrstuhl zum Schafott_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

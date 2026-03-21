@@ -1,30 +1,44 @@
 {
-    "num": "00626",
-    "folder_name": "00626 Der Zauber von Malèna (2000) {imdb-tt0213847}",
-    "folder_path": "E:\\Movies\\00626 Der Zauber von Malèna (2000) {imdb-tt0213847}",
-    "title": "Malena",
-    "original_title": "Malena",
-    "year": "2000",
-    "duration": "108 min",
-    "director": "Giuseppe Tornatore",
-    "genres": [
-        "Drama",
-        "Romance",
-        "War"
-    ],
-    "outline": "Malèna is about the peril of a beauty through the eyes of a 12 year old kid named Renato. He experiences three things on the same day, beginning of war, getting a bike and sees the arrival of Malèna in town. Through his eyes, we see the curse of beauty and loneliness of Malena, whose husband is presumed to be dead, and through his soul we see his love for her.",
-    "imdb_id": "tt0213847",
-    "imdb_link": "https://www.imdb.com/title/tt0213847/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "Monica Bellucci",
-        "Giuseppe Sulfaro",
-        "Luciano Federico"
-    ],
-    "rated": "R",
-    "country": "Italy, United States",
-    "language": "Italian, English, Latin, Greek, Ancient (to 1453)",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYjA4MTEyY2YtYjgxYi00ZDkzLTkyZGQtZmRkOGI4M2ZhM2EzXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Zauber von Malèna_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00626",
+  "folder_name": "00626 Der Zauber von Malèna (2000) {imdb-tt0213847}",
+  "folder_path": "E:\\Movies\\00626 Der Zauber von Malèna (2000) {imdb-tt0213847}",
+  "title": "Malena",
+  "original_title": "Malena",
+  "year": "2000",
+  "duration": "108 min",
+  "director": "Giuseppe Tornatore",
+  "genres": [
+    "Drama",
+    "Romance",
+    "War"
+  ],
+  "outline": "Malèna is about the peril of a beauty through the eyes of a 12 year old kid named Renato. He experiences three things on the same day, beginning of war, getting a bike and sees the arrival of Malèna in town. Through his eyes, we see the curse of beauty and loneliness of Malena, whose husband is presumed to be dead, and through his soul we see his love for her.",
+  "imdb_id": "tt0213847",
+  "imdb_link": "https://www.imdb.com/title/tt0213847/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "Monica Bellucci",
+    "Giuseppe Sulfaro",
+    "Luciano Federico"
+  ],
+  "rated": "R",
+  "country": "Italy, United States",
+  "language": "Italian, English, Latin, Greek, Ancient (to 1453)",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYjA4MTEyY2YtYjgxYi00ZDkzLTkyZGQtZmRkOGI4M2ZhM2EzXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Zauber von Malèna_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Italienisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Italian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

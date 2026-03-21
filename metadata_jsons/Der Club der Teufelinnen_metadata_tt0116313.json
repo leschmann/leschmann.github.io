@@ -24,5 +24,41 @@
   "language": "English, Italian, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODBjMzg2MTktYjhjNS00ODNjLTk3MzYtZjAyYjg2NjZiNjVjXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Club der Teufelinnen_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Icelandic",
+    "Norwegian",
+    "Swedish",
+    "Turkish"
+  ]
 }

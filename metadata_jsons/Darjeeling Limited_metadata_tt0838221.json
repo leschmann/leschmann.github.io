@@ -1,30 +1,50 @@
 {
-    "num": "00658",
-    "folder_name": "00658 Darjeeling Limited (2007) {imdb-tt0838221}",
-    "folder_path": "E:\\Movies\\00658 Darjeeling Limited (2007) {imdb-tt0838221}",
-    "title": "The Darjeeling Limited",
-    "original_title": "The Darjeeling Limited",
-    "year": "2007",
-    "duration": "91 min",
-    "director": "Wes Anderson",
-    "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
-    ],
-    "outline": "A year after the accidental death of their father, three brothers -- each suffering from depression - meet for a train trip across India. Francis, the eldest, has organized it. The brothers argue, sulk, resent each other, and fight. The youngest, Jack, estranged from his girlfriend, is attracted to one of the train's attendants. Peter has left his pregnant wife at home, and he buys a venomous snake. After a few days, Francis discloses their surprising and disconcerting destination. Amid foreign surroundings, can the brothers sort out their differences? A funeral, a meditation, a hilltop ritual, and the Bengal Lancer figure in the reconciliation.",
-    "imdb_id": "tt0838221",
-    "imdb_link": "https://www.imdb.com/title/tt0838221/",
-    "imdb_rating": "7.2",
-    "stars": [
-        "Owen Wilson",
-        "Adrien Brody",
-        "Jason Schwartzman"
-    ],
-    "rated": "R",
-    "country": "United States, India",
-    "language": "English, Hindi, German, Punjabi, Tibetan, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Darjeeling Limited_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00658",
+  "folder_name": "00658 Darjeeling Limited (2007) {imdb-tt0838221}",
+  "folder_path": "E:\\Movies\\00658 Darjeeling Limited (2007) {imdb-tt0838221}",
+  "title": "The Darjeeling Limited",
+  "original_title": "The Darjeeling Limited",
+  "year": "2007",
+  "duration": "91 min",
+  "director": "Wes Anderson",
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama"
+  ],
+  "outline": "A year after the accidental death of their father, three brothers -- each suffering from depression - meet for a train trip across India. Francis, the eldest, has organized it. The brothers argue, sulk, resent each other, and fight. The youngest, Jack, estranged from his girlfriend, is attracted to one of the train's attendants. Peter has left his pregnant wife at home, and he buys a venomous snake. After a few days, Francis discloses their surprising and disconcerting destination. Amid foreign surroundings, can the brothers sort out their differences? A funeral, a meditation, a hilltop ritual, and the Bengal Lancer figure in the reconciliation.",
+  "imdb_id": "tt0838221",
+  "imdb_link": "https://www.imdb.com/title/tt0838221/",
+  "imdb_rating": "7.2",
+  "stars": [
+    "Owen Wilson",
+    "Adrien Brody",
+    "Jason Schwartzman"
+  ],
+  "rated": "R",
+  "country": "United States, India",
+  "language": "English, Hindi, German, Punjabi, Tibetan, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Darjeeling Limited_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Spanish"
+  ]
 }

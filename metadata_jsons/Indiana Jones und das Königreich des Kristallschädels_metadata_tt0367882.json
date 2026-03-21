@@ -25,5 +25,25 @@
   "language": "English, German, Russian",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYTFiMDk2NzItZDU5Ni00ZjBjLTkzYWQtYzcwZDIwMWZjMmZiXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Indiana Jones und das Königreich des Kristallschädels_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

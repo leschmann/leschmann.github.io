@@ -25,5 +25,17 @@
   "language": "Polish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODllZGVjZGYtYjkzZS00N2EzLWFjOTMtNTMzNDdlOGYyM2U5XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Durch Wüste und Wildnis_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Polnisch"
+  ],
+  "audio_languages_english": [
+    "Polish"
+  ],
+  "subtitles_languages_german": [
+    "Polnisch"
+  ],
+  "subtitles_languages_english": [
+    "Polish"
+  ]
 }

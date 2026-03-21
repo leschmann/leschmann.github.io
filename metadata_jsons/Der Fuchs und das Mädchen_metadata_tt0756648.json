@@ -1,29 +1,41 @@
 {
-    "num": "00650",
-    "folder_name": "00650 Der Fuchs und das Mädchen (2007) {imdb-tt0756648}",
-    "folder_path": "E:\\Movies\\00650 Der Fuchs und das Mädchen (2007) {imdb-tt0756648}",
-    "title": "The Fox and the Child",
-    "original_title": "The Fox and the Child",
-    "year": "2007",
-    "duration": "92 min",
-    "director": "Luc Jacquet",
-    "genres": [
-        "Drama",
-        "Family"
-    ],
-    "outline": "Riding her bicycle on her way to school, a dreamy, ten-year-old, red-haired farm girl decides to take a shortcut through a ruddy and luscious autumn forest, somewhere in the mountainous region of eastern France. Unexpectedly, the young girl encounters a bright-eyed red fox, however, the untamed wild animal flees in an instant, leaving her longing to meet again. Since then, a whole winter has passed and still no sign of the elusive fox, but with the arrival of spring, the girl determined to find the animal, finally locates its den and an ambitious effort to grow accustomed to each other begins. As we witness a succession of compelling scenes, lost inside the enchanting and breathlessly exquisite landscape, we observe the bond between a human and a savage animal grow gradually stronger, yet, a wish and question emerge. If only we, humans, could talk to the wild beasts, and if we could, could we ever become friends?",
-    "imdb_id": "tt0756648",
-    "imdb_link": "https://www.imdb.com/title/tt0756648/",
-    "imdb_rating": "6.8",
-    "stars": [
-        "Bertille Noël-Bruneau",
-        "Isabelle Carré",
-        "Thomas Laliberté"
-    ],
-    "rated": "G",
-    "country": "France",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BODAxNjFhZmEtODdlOC00MmFkLThkYzktNmJhYjQ0MjYxMTUwXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Fuchs und das Mädchen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00650",
+  "folder_name": "00650 Der Fuchs und das Mädchen (2007) {imdb-tt0756648}",
+  "folder_path": "E:\\Movies\\00650 Der Fuchs und das Mädchen (2007) {imdb-tt0756648}",
+  "title": "The Fox and the Child",
+  "original_title": "The Fox and the Child",
+  "year": "2007",
+  "duration": "92 min",
+  "director": "Luc Jacquet",
+  "genres": [
+    "Drama",
+    "Family"
+  ],
+  "outline": "Riding her bicycle on her way to school, a dreamy, ten-year-old, red-haired farm girl decides to take a shortcut through a ruddy and luscious autumn forest, somewhere in the mountainous region of eastern France. Unexpectedly, the young girl encounters a bright-eyed red fox, however, the untamed wild animal flees in an instant, leaving her longing to meet again. Since then, a whole winter has passed and still no sign of the elusive fox, but with the arrival of spring, the girl determined to find the animal, finally locates its den and an ambitious effort to grow accustomed to each other begins. As we witness a succession of compelling scenes, lost inside the enchanting and breathlessly exquisite landscape, we observe the bond between a human and a savage animal grow gradually stronger, yet, a wish and question emerge. If only we, humans, could talk to the wild beasts, and if we could, could we ever become friends?",
+  "imdb_id": "tt0756648",
+  "imdb_link": "https://www.imdb.com/title/tt0756648/",
+  "imdb_rating": "6.8",
+  "stars": [
+    "Bertille Noël-Bruneau",
+    "Isabelle Carré",
+    "Thomas Laliberté"
+  ],
+  "rated": "G",
+  "country": "France",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODAxNjFhZmEtODdlOC00MmFkLThkYzktNmJhYjQ0MjYxMTUwXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Fuchs und das Mädchen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

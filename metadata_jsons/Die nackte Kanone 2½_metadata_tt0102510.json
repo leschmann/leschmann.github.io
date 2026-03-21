@@ -1,29 +1,67 @@
 {
-    "num": "00692",
-    "folder_name": "00692 Die nackte Kanone 2½ (1991) {imdb-tt0102510}",
-    "folder_path": "E:\\Movies\\00692 Die nackte Kanone 2½ (1991) {imdb-tt0102510}",
-    "title": "The Naked Gun 2½: The Smell of Fear",
-    "original_title": "The Naked Gun 2½: The Smell of Fear",
-    "year": "1991",
-    "duration": "85 min",
-    "director": "David Zucker",
-    "genres": [
-        "Comedy",
-        "Crime"
-    ],
-    "outline": "Lieutenant Frank Drebbin returns to save the day once again. This time he's out to foil the \"big boys\" in the energy business. A top scientist (Dr. Mainheimer) is about to publish his report on energy supply for the future. Things don't look good for the traditional suppliers; oil, coal, and nuclear. To save their industries, the suppliers kidnap Mainheimer and replace him with a decoy with a more favorable report. Jane, the doctor's secretary, is Drebin's old flame. Their passionate love affair is thus rekindled.",
-    "imdb_id": "tt0102510",
-    "imdb_link": "https://www.imdb.com/title/tt0102510/",
-    "imdb_rating": "6.9",
-    "stars": [
-        "Leslie Nielsen",
-        "Priscilla Presley",
-        "George Kennedy"
-    ],
-    "rated": "PG-13",
-    "country": "United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNjcyNmNkMTItNzkzMi00NmY5LTg5MzQtMjg2YzRmOTY0ZmQ2XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die nackte Kanone 2½_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00692",
+  "folder_name": "00692 Die nackte Kanone 2½ (1991) {imdb-tt0102510}",
+  "folder_path": "E:\\Movies\\00692 Die nackte Kanone 2½ (1991) {imdb-tt0102510}",
+  "title": "The Naked Gun 2½: The Smell of Fear",
+  "original_title": "The Naked Gun 2½: The Smell of Fear",
+  "year": "1991",
+  "duration": "85 min",
+  "director": "David Zucker",
+  "genres": [
+    "Comedy",
+    "Crime"
+  ],
+  "outline": "Lieutenant Frank Drebbin returns to save the day once again. This time he's out to foil the \"big boys\" in the energy business. A top scientist (Dr. Mainheimer) is about to publish his report on energy supply for the future. Things don't look good for the traditional suppliers; oil, coal, and nuclear. To save their industries, the suppliers kidnap Mainheimer and replace him with a decoy with a more favorable report. Jane, the doctor's secretary, is Drebin's old flame. Their passionate love affair is thus rekindled.",
+  "imdb_id": "tt0102510",
+  "imdb_link": "https://www.imdb.com/title/tt0102510/",
+  "imdb_rating": "6.9",
+  "stars": [
+    "Leslie Nielsen",
+    "Priscilla Presley",
+    "George Kennedy"
+  ],
+  "rated": "PG-13",
+  "country": "United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNjcyNmNkMTItNzkzMi00NmY5LTg5MzQtMjg2YzRmOTY0ZmQ2XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die nackte Kanone 2½_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

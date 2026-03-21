@@ -1,30 +1,38 @@
 {
-    "num": "00653",
-    "folder_name": "00653 Disneys Eine Weihnachtsgeschichte (2009) {imdb-tt1067106}",
-    "folder_path": "E:\\Movies\\00653 Disneys Eine Weihnachtsgeschichte (2009) {imdb-tt1067106}",
-    "title": "A Christmas Carol",
-    "original_title": "A Christmas Carol",
-    "year": "2009",
-    "duration": "96 min",
-    "director": "Robert Zemeckis",
-    "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-    ],
-    "outline": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
-    "imdb_id": "tt1067106",
-    "imdb_link": "https://www.imdb.com/title/tt1067106/",
-    "imdb_rating": "6.8",
-    "stars": [
-        "Jim Carrey",
-        "Gary Oldman",
-        "Colin Firth"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTM1MTI5ODU4MV5BMl5BanBnXkFtZTcwNTYyNTU4Mg@@._V1_SX300.jpg",
-    "cover_file": "Disneys Eine Weihnachtsgeschichte_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00653",
+  "folder_name": "00653 Disneys Eine Weihnachtsgeschichte (2009) {imdb-tt1067106}",
+  "folder_path": "E:\\Movies\\00653 Disneys Eine Weihnachtsgeschichte (2009) {imdb-tt1067106}",
+  "title": "A Christmas Carol",
+  "original_title": "A Christmas Carol",
+  "year": "2009",
+  "duration": "96 min",
+  "director": "Robert Zemeckis",
+  "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+  ],
+  "outline": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
+  "imdb_id": "tt1067106",
+  "imdb_link": "https://www.imdb.com/title/tt1067106/",
+  "imdb_rating": "6.8",
+  "stars": [
+    "Jim Carrey",
+    "Gary Oldman",
+    "Colin Firth"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTM1MTI5ODU4MV5BMl5BanBnXkFtZTcwNTYyNTU4Mg@@._V1_SX300.jpg",
+  "cover_file": "Disneys Eine Weihnachtsgeschichte_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

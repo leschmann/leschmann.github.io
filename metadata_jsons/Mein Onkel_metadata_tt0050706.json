@@ -24,5 +24,17 @@
   "language": "French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZjdiZjAwMDUtNjBkMy00MGMzLWI4NTYtODJkNjk5OTQ3NTlkXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Mein Onkel_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French"
+  ],
+  "subtitles_languages_german": [
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English"
+  ]
 }

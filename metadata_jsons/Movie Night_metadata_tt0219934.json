@@ -1,0 +1,42 @@
+{
+  "num": "00517",
+  "folder_name": "00517 Movie Night (1929) {imdb-tt0219934}",
+  "folder_path": "F:\\Movies\\00517 Movie Night (1929) {imdb-tt0219934}",
+  "title": "Movie Night",
+  "original_title": "Movie Night",
+  "year": "1929",
+  "duration": "20 min",
+  "director": "Lewis R. Foster",
+  "genres": [
+    "Short",
+    "Comedy",
+    "Family"
+  ],
+  "outline": "A family goes on its weekly outing to the movies, but the evening is hampered by an attempt to pass the wife's brother off as a child, a crowded theater, and the daughter's apparently contagious case of the hiccups.",
+  "imdb_id": "tt0219934",
+  "imdb_link": "https://www.imdb.com/title/tt0219934/",
+  "imdb_rating": "7.1",
+  "stars": [
+    "Charley Chase",
+    "Eugenia Gilbert",
+    "Edith Fellows"
+  ],
+  "rated": "N/A",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODdmYWU0ZjItOTY4MC00NjJlLTg3MzktYTgwMGZhMmIyMzE4XkEyXkFqcGdeQXVyMTU2NjI4MTU@._V1_SX300.jpg",
+  "cover_file": null,
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
+}

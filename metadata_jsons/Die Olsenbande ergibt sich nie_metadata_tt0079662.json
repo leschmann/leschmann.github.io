@@ -26,5 +26,13 @@
   "language": "Danish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNjcyNTQ5YTAtNTRjOC00Y2I5LWI0YWItYzViYThiN2I3N2Y4XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Die Olsenbande ergibt sich nie_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

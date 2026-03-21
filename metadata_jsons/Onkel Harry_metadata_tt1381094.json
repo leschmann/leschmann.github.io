@@ -1,28 +1,36 @@
 {
-    "num": "00747",
-    "folder_name": "00747 Onkel Harry (1961) {imdb-tt1381094}",
-    "folder_path": "E:\\Movies\\00747 Onkel Harry (1961) {imdb-tt1381094}",
-    "title": "Onkel Harry",
-    "original_title": "Onkel Harry",
-    "year": "1961",
-    "duration": "85 min",
-    "director": "Peter Beauvais",
-    "genres": [
-        "Crime"
-    ],
-    "outline": "Harry lives quietly with two older sisters. But when he falls in love with a pretty girl, he finds the atmosphere at home getting distinctly chilly.",
-    "imdb_id": "tt1381094",
-    "imdb_link": "https://www.imdb.com/title/tt1381094/",
-    "imdb_rating": "8.5",
-    "stars": [
-        "Rudolf Platte",
-        "Edith Heerdegen",
-        "Ursula Grabley"
-    ],
-    "rated": "N/A",
-    "country": "West Germany",
-    "language": "German",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTc1Njc3ZTctZjY5Yi00MTUyLWFiYjQtMmJkYWZmOTBjNDc3XkEyXkFqcGdeQXVyMTQ0MzMwNQ@@._V1_SX300.jpg",
-    "cover_file": null,
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00747",
+  "folder_name": "00747 Onkel Harry (1961) {imdb-tt1381094}",
+  "folder_path": "E:\\Movies\\00747 Onkel Harry (1961) {imdb-tt1381094}",
+  "title": "Onkel Harry",
+  "original_title": "Onkel Harry",
+  "year": "1961",
+  "duration": "85 min",
+  "director": "Peter Beauvais",
+  "genres": [
+    "Crime"
+  ],
+  "outline": "Harry lives quietly with two older sisters. But when he falls in love with a pretty girl, he finds the atmosphere at home getting distinctly chilly.",
+  "imdb_id": "tt1381094",
+  "imdb_link": "https://www.imdb.com/title/tt1381094/",
+  "imdb_rating": "8.5",
+  "stars": [
+    "Rudolf Platte",
+    "Edith Heerdegen",
+    "Ursula Grabley"
+  ],
+  "rated": "N/A",
+  "country": "West Germany",
+  "language": "German",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNTc1Njc3ZTctZjY5Yi00MTUyLWFiYjQtMmJkYWZmOTBjNDc3XkEyXkFqcGdeQXVyMTQ0MzMwNQ@@._V1_SX300.jpg",
+  "cover_file": null,
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

@@ -25,5 +25,17 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYWE0OTEwMDMtNTlhMi00MGNjLThlOTYtM2FkMmUzNWUxZTU2XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Warlock_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

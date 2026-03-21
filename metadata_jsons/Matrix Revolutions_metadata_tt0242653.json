@@ -25,5 +25,31 @@
   "language": "English, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMmNmMTEzODQtNmExMS00OGUxLWFkNTItMTM3NzBlNDk0YWU5XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Matrix Revolutions_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Norwegisch",
+    "Schwedisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "English",
+    "Finnish",
+    "German",
+    "Icelandic",
+    "Norwegian",
+    "Swedish"
+  ]
 }

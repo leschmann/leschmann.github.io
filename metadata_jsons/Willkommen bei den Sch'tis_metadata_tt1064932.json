@@ -1,29 +1,43 @@
 {
-    "num": "00611",
-    "folder_name": "00611 Willkommen bei den Sch'tis (2008) {imdb-tt1064932}",
-    "folder_path": "E:\\Movies\\00611 Willkommen bei den Sch'tis (2008) {imdb-tt1064932}",
-    "title": "Welcome to the Sticks",
-    "original_title": "Welcome to the Sticks",
-    "year": "2008",
-    "duration": "106 min",
-    "director": "Dany Boon",
-    "genres": [
-        "Comedy",
-        "Romance"
-    ],
-    "outline": "Although living a comfortable life in Salon-de-Provence, a charming town in the South of France, Julie has been feeling depressed for a while. To please her, Philippe Abrams, a post office administrator, her husband, tries to obtain a transfer to a seaside town, on the French Riviera, at any cost. The trouble is that he is caught red-handed while trying to scam an inspector. Philippe is immediately banished to the distant unheard of town of Bergues, in the Far North of France. Leaving his child and wife behind, the crucified man leaves for his frightening destination, a dreadfully cold place inhabited by hard-drinking, unemployed rednecks, speaking an incomprehensible dialect called Ch'ti. Philippe soon realizes that all these ideas were nothing but prejudices and that Bergues is not synonymous with hell...",
-    "imdb_id": "tt1064932",
-    "imdb_link": "https://www.imdb.com/title/tt1064932/",
-    "imdb_rating": "7.1",
-    "stars": [
-        "Kad Merad",
-        "Dany Boon",
-        "Zoé Félix"
-    ],
-    "rated": "Not Rated",
-    "country": "France",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYmIyZTBhOGUtNDBmZC00YjkyLWI1ZmUtYWNkMGU1NzgzZDQ4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Willkommen bei den Sch'tis_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00611",
+  "folder_name": "00611 Willkommen bei den Sch'tis (2008) {imdb-tt1064932}",
+  "folder_path": "E:\\Movies\\00611 Willkommen bei den Sch'tis (2008) {imdb-tt1064932}",
+  "title": "Welcome to the Sticks",
+  "original_title": "Welcome to the Sticks",
+  "year": "2008",
+  "duration": "106 min",
+  "director": "Dany Boon",
+  "genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "outline": "Although living a comfortable life in Salon-de-Provence, a charming town in the South of France, Julie has been feeling depressed for a while. To please her, Philippe Abrams, a post office administrator, her husband, tries to obtain a transfer to a seaside town, on the French Riviera, at any cost. The trouble is that he is caught red-handed while trying to scam an inspector. Philippe is immediately banished to the distant unheard of town of Bergues, in the Far North of France. Leaving his child and wife behind, the crucified man leaves for his frightening destination, a dreadfully cold place inhabited by hard-drinking, unemployed rednecks, speaking an incomprehensible dialect called Ch'ti. Philippe soon realizes that all these ideas were nothing but prejudices and that Bergues is not synonymous with hell...",
+  "imdb_id": "tt1064932",
+  "imdb_link": "https://www.imdb.com/title/tt1064932/",
+  "imdb_rating": "7.1",
+  "stars": [
+    "Kad Merad",
+    "Dany Boon",
+    "Zoé Félix"
+  ],
+  "rated": "Not Rated",
+  "country": "France",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYmIyZTBhOGUtNDBmZC00YjkyLWI1ZmUtYWNkMGU1NzgzZDQ4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Willkommen bei den Sch'tis_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

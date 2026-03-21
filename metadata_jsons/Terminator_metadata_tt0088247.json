@@ -1,30 +1,46 @@
 {
-    "num": "00714",
-    "folder_name": "00714 Terminator (1984) {imdb-tt0088247}",
-    "folder_path": "E:\\Movies\\00714 Terminator (1984) {imdb-tt0088247}",
-    "title": "The Terminator",
-    "original_title": "The Terminator",
-    "year": "1984",
-    "duration": "107 min",
-    "director": "James Cameron",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-    ],
-    "outline": "Sent back from a dystopian 2029--where the cold machines have conquered the entire world--to 1984 Los Angeles, the indestructible cyborg-assassin known as the \"Terminator\" commences his deadly mission to kill humankind's most important woman: the unsuspecting Sarah Connor. However, from the same war-torn post-apocalyptic future comes a battle-scarred defender--Kyle Reese, a brave soldier of the human Resistance Army--bent on stopping the cybernetic killer from eliminating the world's last hope. But, the Terminator has no feelings, he doesn't sleep, and above all, he won't stop until he carries out his grim task. Does our future lie in our past?",
-    "imdb_id": "tt0088247",
-    "imdb_link": "https://www.imdb.com/title/tt0088247/",
-    "imdb_rating": "8.1",
-    "stars": [
-        "Arnold Schwarzenegger",
-        "Linda Hamilton",
-        "Michael Biehn"
-    ],
-    "rated": "R",
-    "country": "United Kingdom, United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Terminator_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00714",
+  "folder_name": "00714 Terminator (1984) {imdb-tt0088247}",
+  "folder_path": "E:\\Movies\\00714 Terminator (1984) {imdb-tt0088247}",
+  "title": "The Terminator",
+  "original_title": "The Terminator",
+  "year": "1984",
+  "duration": "107 min",
+  "director": "James Cameron",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "outline": "Sent back from a dystopian 2029--where the cold machines have conquered the entire world--to 1984 Los Angeles, the indestructible cyborg-assassin known as the \"Terminator\" commences his deadly mission to kill humankind's most important woman: the unsuspecting Sarah Connor. However, from the same war-torn post-apocalyptic future comes a battle-scarred defender--Kyle Reese, a brave soldier of the human Resistance Army--bent on stopping the cybernetic killer from eliminating the world's last hope. But, the Terminator has no feelings, he doesn't sleep, and above all, he won't stop until he carries out his grim task. Does our future lie in our past?",
+  "imdb_id": "tt0088247",
+  "imdb_link": "https://www.imdb.com/title/tt0088247/",
+  "imdb_rating": "8.1",
+  "stars": [
+    "Arnold Schwarzenegger",
+    "Linda Hamilton",
+    "Michael Biehn"
+  ],
+  "rated": "R",
+  "country": "United Kingdom, United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Terminator_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

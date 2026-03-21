@@ -1,29 +1,43 @@
 {
-    "num": "00630",
-    "folder_name": "00630 Kitchen Stories (2003) {imdb-tt0323872}",
-    "folder_path": "E:\\Movies\\00630 Kitchen Stories (2003) {imdb-tt0323872}",
-    "title": "Salmer fra kjøkkenet",
-    "original_title": "Salmer fra kjøkkenet",
-    "year": "2003",
-    "duration": "95 min",
-    "director": "Bent Hamer",
-    "genres": [
-        "Comedy",
-        "Drama"
-    ],
-    "outline": "In post war Sweden it was discovered that every year, an average housewife walks the equivalent number of miles as the distance between Stockholm and Congo, while preparing her family meals. So the Home Research Institute sent out eighteen observers to a rural district of Norway to map out the kitchen routines of single men. The researchers were on twenty-four-hour call, and sat in special strategically placed chairs in each kitchen. Furthermore, under no circumstances were the researchers to be spoken to, or included in the kitchen activities.",
-    "imdb_id": "tt0323872",
-    "imdb_link": "https://www.imdb.com/title/tt0323872/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Tomas Norström",
-        "Joachim Calmeyer",
-        "Bjørn Floberg"
-    ],
-    "rated": "PG",
-    "country": "Norway, Sweden",
-    "language": "Norwegian, Swedish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTQyM2QxY2ItZmM1Zi00MGY4LWI0MmUtOGY5Y2Y5ZWQ0MTQ0XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Kitchen Stories_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00630",
+  "folder_name": "00630 Kitchen Stories (2003) {imdb-tt0323872}",
+  "folder_path": "E:\\Movies\\00630 Kitchen Stories (2003) {imdb-tt0323872}",
+  "title": "Salmer fra kjøkkenet",
+  "original_title": "Salmer fra kjøkkenet",
+  "year": "2003",
+  "duration": "95 min",
+  "director": "Bent Hamer",
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "outline": "In post war Sweden it was discovered that every year, an average housewife walks the equivalent number of miles as the distance between Stockholm and Congo, while preparing her family meals. So the Home Research Institute sent out eighteen observers to a rural district of Norway to map out the kitchen routines of single men. The researchers were on twenty-four-hour call, and sat in special strategically placed chairs in each kitchen. Furthermore, under no circumstances were the researchers to be spoken to, or included in the kitchen activities.",
+  "imdb_id": "tt0323872",
+  "imdb_link": "https://www.imdb.com/title/tt0323872/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Tomas Norström",
+    "Joachim Calmeyer",
+    "Bjørn Floberg"
+  ],
+  "rated": "PG",
+  "country": "Norway, Sweden",
+  "language": "Norwegian, Swedish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZTQyM2QxY2ItZmM1Zi00MGY4LWI0MmUtOGY5Y2Y5ZWQ0MTQ0XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Kitchen Stories_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Norwegisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Norwegian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

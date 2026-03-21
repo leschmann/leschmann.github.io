@@ -1,30 +1,46 @@
 {
-    "num": "00689",
-    "folder_name": "00689 Der zerrissene Vorhang (1966) {imdb-tt0061107}",
-    "folder_path": "E:\\Movies\\00689 Der zerrissene Vorhang (1966) {imdb-tt0061107}",
-    "title": "Torn Curtain",
-    "original_title": "Torn Curtain",
-    "year": "1966",
-    "duration": "128 min",
-    "director": "Alfred Hitchcock",
-    "genres": [
-        "Drama",
-        "Romance",
-        "Thriller"
-    ],
-    "outline": "Professor Michael Armstrong (Paul Newman) is heading to Copenhagen, Denmark to attend a physics conference accompanied by his assistant and fiancée Sarah Sherman (Dame Julie Andrews). Once arrived however, Michael informs her that he may be staying for awhile and she should return home. She follows him and realizes he's actually heading to East Germany, behind the Iron Curtain. She follows him there and is shocked when he announces that he's defecting to the East after the U.S. government cancelled his research project. In fact, Michael is there to obtain information from a renowned East German scientist. Once the information is obtained, he and Sarah now have to make their way back to the West.",
-    "imdb_id": "tt0061107",
-    "imdb_link": "https://www.imdb.com/title/tt0061107/",
-    "imdb_rating": "6.6",
-    "stars": [
-        "Paul Newman",
-        "Julie Andrews",
-        "Lila Kedrova"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English, German, Swedish, Norwegian, Danish, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNTYwODI4NjcwOV5BMl5BanBnXkFtZTgwMzU0OTk5MTE@._V1_SX300.jpg",
-    "cover_file": "Der zerrissene Vorhang_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00689",
+  "folder_name": "00689 Der zerrissene Vorhang (1966) {imdb-tt0061107}",
+  "folder_path": "E:\\Movies\\00689 Der zerrissene Vorhang (1966) {imdb-tt0061107}",
+  "title": "Torn Curtain",
+  "original_title": "Torn Curtain",
+  "year": "1966",
+  "duration": "128 min",
+  "director": "Alfred Hitchcock",
+  "genres": [
+    "Drama",
+    "Romance",
+    "Thriller"
+  ],
+  "outline": "Professor Michael Armstrong (Paul Newman) is heading to Copenhagen, Denmark to attend a physics conference accompanied by his assistant and fiancée Sarah Sherman (Dame Julie Andrews). Once arrived however, Michael informs her that he may be staying for awhile and she should return home. She follows him and realizes he's actually heading to East Germany, behind the Iron Curtain. She follows him there and is shocked when he announces that he's defecting to the East after the U.S. government cancelled his research project. In fact, Michael is there to obtain information from a renowned East German scientist. Once the information is obtained, he and Sarah now have to make their way back to the West.",
+  "imdb_id": "tt0061107",
+  "imdb_link": "https://www.imdb.com/title/tt0061107/",
+  "imdb_rating": "6.6",
+  "stars": [
+    "Paul Newman",
+    "Julie Andrews",
+    "Lila Kedrova"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English, German, Swedish, Norwegian, Danish, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNTYwODI4NjcwOV5BMl5BanBnXkFtZTgwMzU0OTk5MTE@._V1_SX300.jpg",
+  "cover_file": "Der zerrissene Vorhang_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

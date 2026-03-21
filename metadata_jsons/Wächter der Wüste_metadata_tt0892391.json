@@ -1,27 +1,41 @@
 {
-    "num": "00646",
-    "folder_name": "00646 Wächter der Wüste (2008) {imdb-tt0892391}",
-    "folder_path": "E:\\Movies\\00646 Wächter der Wüste (2008) {imdb-tt0892391}",
-    "title": "The Meerkats",
-    "original_title": "The Meerkats",
-    "year": "2008",
-    "duration": "83 min",
-    "director": "James Honeyborne",
-    "genres": [
-        "Documentary"
-    ],
-    "outline": "An inspiring exploration of one family's resilience and fortitude shot using innovative and groundbreaking filming techniques.",
-    "imdb_id": "tt0892391",
-    "imdb_link": "https://www.imdb.com/title/tt0892391/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Paul Newman",
-        "Rufus Beck"
-    ],
-    "rated": "G",
-    "country": "United Kingdom",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTI1ODA3ODExNF5BMl5BanBnXkFtZTcwNTQxNTA4MQ@@._V1_SX300.jpg",
-    "cover_file": "Wächter der Wüste_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00646",
+  "folder_name": "00646 Wächter der Wüste (2008) {imdb-tt0892391}",
+  "folder_path": "E:\\Movies\\00646 Wächter der Wüste (2008) {imdb-tt0892391}",
+  "title": "The Meerkats",
+  "original_title": "The Meerkats",
+  "year": "2008",
+  "duration": "83 min",
+  "director": "James Honeyborne",
+  "genres": [
+    "Documentary"
+  ],
+  "outline": "An inspiring exploration of one family's resilience and fortitude shot using innovative and groundbreaking filming techniques.",
+  "imdb_id": "tt0892391",
+  "imdb_link": "https://www.imdb.com/title/tt0892391/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Paul Newman",
+    "Rufus Beck"
+  ],
+  "rated": "G",
+  "country": "United Kingdom",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTI1ODA3ODExNF5BMl5BanBnXkFtZTcwNTQxNTA4MQ@@._V1_SX300.jpg",
+  "cover_file": "Wächter der Wüste_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

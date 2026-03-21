@@ -26,5 +26,27 @@
   "language": "English, French, German, Turkish, Italian, Swedish, Hungarian",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzZmZWMwOWUtM2NkZS00MWM0LTk1YzMtYzI4OGYyMTNlNTMwXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Mord im Orientexpress_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "German",
+    "Italian",
+    "Spanish"
+  ]
 }

@@ -25,5 +25,25 @@
   "language": "English, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BY2MyZWJhNjktMWQ2My00OTgwLWI1NjEtYjUzM2M2N2M4Mzc4XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Sinn und Sinnlichkeit_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "French",
+    "German"
+  ]
 }

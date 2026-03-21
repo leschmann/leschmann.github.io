@@ -1,30 +1,44 @@
 {
-    "num": "00723",
-    "folder_name": "00723 Alles über meine Mutter (1999) {imdb-tt0185125}",
-    "folder_path": "E:\\Movies\\00723 Alles über meine Mutter (1999) {imdb-tt0185125}",
-    "title": "All About My Mother",
-    "original_title": "All About My Mother",
-    "year": "1999",
-    "duration": "101 min",
-    "director": "Pedro Almodóvar",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "Argentine Manuela Echevarria, an organ transplant coordinator at a Madrid hospital, ran off from her husband in Barcelona eighteen years ago upon learning that she was pregnant, their son, Esteban, who she has never told about his father despite his curiosity, and her husband who didn't know about the pregnancy when she ran off. An event coinciding with Esteban, an aspiring writer, turning seventeen leads to Manuela feeling the need to return to Barcelona to look for her husband. There, she ends up further acting as the maternal figure for people in need. One is a young nun named Sister Rosa, who she meets through her old friend, a transvestite prostitute who has assumed the name Agrado in her agreeable nature. Rosa has a strained relationship with her own conservative mother, as she is consumed with caring for her ill husband, who suffers from Alzheimer's. The other is actress Huma Rojo, currently appearing as Blanche Dubois in a stage production of A Streetcar Named Desire, which has long been a touchstone for Manuela in productions of it coinciding with milestone moments in her life, this production no different. Huma is in a troubled codependent relationship with her younger \"Stella Kowalski\" costar Nina Cruz, a closet junkie, hence Huma's emotional need for support. By the end of her stay in Barcelona, Manuela will have another non-relative for who she will feel the need to act as a mother figure.",
-    "imdb_id": "tt0185125",
-    "imdb_link": "https://www.imdb.com/title/tt0185125/",
-    "imdb_rating": "7.8",
-    "stars": [
-        "Cecilia Roth",
-        "Marisa Paredes",
-        "Candela Peña"
-    ],
-    "rated": "R",
-    "country": "Spain, France",
-    "language": "Spanish, Catalan",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYzgyNWMzNDItZmJhZi00NzZmLTkyNmMtMjBiNjUyMmNkYjg4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Alles über meine Mutter_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00723",
+  "folder_name": "00723 Alles über meine Mutter (1999) {imdb-tt0185125}",
+  "folder_path": "E:\\Movies\\00723 Alles über meine Mutter (1999) {imdb-tt0185125}",
+  "title": "All About My Mother",
+  "original_title": "All About My Mother",
+  "year": "1999",
+  "duration": "101 min",
+  "director": "Pedro Almodóvar",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "Argentine Manuela Echevarria, an organ transplant coordinator at a Madrid hospital, ran off from her husband in Barcelona eighteen years ago upon learning that she was pregnant, their son, Esteban, who she has never told about his father despite his curiosity, and her husband who didn't know about the pregnancy when she ran off. An event coinciding with Esteban, an aspiring writer, turning seventeen leads to Manuela feeling the need to return to Barcelona to look for her husband. There, she ends up further acting as the maternal figure for people in need. One is a young nun named Sister Rosa, who she meets through her old friend, a transvestite prostitute who has assumed the name Agrado in her agreeable nature. Rosa has a strained relationship with her own conservative mother, as she is consumed with caring for her ill husband, who suffers from Alzheimer's. The other is actress Huma Rojo, currently appearing as Blanche Dubois in a stage production of A Streetcar Named Desire, which has long been a touchstone for Manuela in productions of it coinciding with milestone moments in her life, this production no different. Huma is in a troubled codependent relationship with her younger \"Stella Kowalski\" costar Nina Cruz, a closet junkie, hence Huma's emotional need for support. By the end of her stay in Barcelona, Manuela will have another non-relative for who she will feel the need to act as a mother figure.",
+  "imdb_id": "tt0185125",
+  "imdb_link": "https://www.imdb.com/title/tt0185125/",
+  "imdb_rating": "7.8",
+  "stars": [
+    "Cecilia Roth",
+    "Marisa Paredes",
+    "Candela Peña"
+  ],
+  "rated": "R",
+  "country": "Spain, France",
+  "language": "Spanish, Catalan",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYzgyNWMzNDItZmJhZi00NzZmLTkyNmMtMjBiNjUyMmNkYjg4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Alles über meine Mutter_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

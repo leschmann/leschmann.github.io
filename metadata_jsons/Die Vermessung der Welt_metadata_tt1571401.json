@@ -1,30 +1,44 @@
 {
-    "num": "00758",
-    "folder_name": "00758 Die Vermessung der Welt (2012) {imdb-tt1571401}",
-    "folder_path": "E:\\Movies\\00758 Die Vermessung der Welt (2012) {imdb-tt1571401}",
-    "title": "Measuring the World",
-    "original_title": "Measuring the World",
-    "year": "2012",
-    "duration": "119 min",
-    "director": "Detlev Buck",
-    "genres": [
-        "Biography",
-        "Drama",
-        "History"
-    ],
-    "outline": "\"Die Vermessung der Welt\" follows two brilliant and eccentric scientists, Alexander von Humboldt and Carl Friedrich Gauss, on their life paths in early-19th-century Germany.",
-    "imdb_id": "tt1571401",
-    "imdb_link": "https://www.imdb.com/title/tt1571401/",
-    "imdb_rating": "5.7",
-    "stars": [
-        "Albrecht Schuch",
-        "Baldanpurev Sambuu",
-        "Agi Ariunsaichan Dawaachu"
-    ],
-    "rated": "N/A",
-    "country": "Germany, Austria",
-    "language": "German",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTkwOTI2NjYyM15BMl5BanBnXkFtZTgwNjYwNjAzMTE@._V1_SX300.jpg",
-    "cover_file": "Die Vermessung der Welt_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00758",
+  "folder_name": "00758 Die Vermessung der Welt (2012) {imdb-tt1571401}",
+  "folder_path": "E:\\Movies\\00758 Die Vermessung der Welt (2012) {imdb-tt1571401}",
+  "title": "Measuring the World",
+  "original_title": "Measuring the World",
+  "year": "2012",
+  "duration": "119 min",
+  "director": "Detlev Buck",
+  "genres": [
+    "Biography",
+    "Drama",
+    "History"
+  ],
+  "outline": "\"Die Vermessung der Welt\" follows two brilliant and eccentric scientists, Alexander von Humboldt and Carl Friedrich Gauss, on their life paths in early-19th-century Germany.",
+  "imdb_id": "tt1571401",
+  "imdb_link": "https://www.imdb.com/title/tt1571401/",
+  "imdb_rating": "5.7",
+  "stars": [
+    "Albrecht Schuch",
+    "Baldanpurev Sambuu",
+    "Agi Ariunsaichan Dawaachu"
+  ],
+  "rated": "N/A",
+  "country": "Germany, Austria",
+  "language": "German",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BOTkwOTI2NjYyM15BMl5BanBnXkFtZTgwNjYwNjAzMTE@._V1_SX300.jpg",
+  "cover_file": "Die Vermessung der Welt_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

@@ -26,5 +26,33 @@
   "language": "English, German, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTUzOWNjNGEtMTZiMy00YWFlLWI2NTYtMDFjOGYzZmI4MDg4XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Das Böse unter der Sonne_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Italienisch",
+    "Niederländisch",
+    "Portugiesisch",
+    "Spanisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "German",
+    "Italian",
+    "Portuguese",
+    "Spanish",
+    "Turkish"
+  ]
 }

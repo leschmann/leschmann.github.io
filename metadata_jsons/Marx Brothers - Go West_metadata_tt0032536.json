@@ -26,5 +26,51 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZGE4YTNkNTMtNTM3Yy00MDhjLThiNDktNzU4NGIzYjA2Nzc0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Marx Brothers - Go West_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Hebräisch",
+    "Italienisch",
+    "Kroatisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Slowenisch",
+    "Spanisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Croatian",
+    "Danish",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hungarian",
+    "Italian",
+    "Polish",
+    "Portuguese",
+    "Slovenian",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

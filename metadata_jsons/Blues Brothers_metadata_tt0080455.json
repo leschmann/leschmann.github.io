@@ -26,5 +26,55 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzI2ZDAyNjYtNzgwOS00MTRlLWE3MjUtMTI3M2VmYzQ1ZWJmXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Blues Brothers_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Hungarian",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

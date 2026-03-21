@@ -1,29 +1,43 @@
 {
-    "num": "00786",
-    "folder_name": "00786 City of God (2002) {imdb-tt0317248}",
-    "folder_path": "E:\\Movies\\00786 City of God (2002) {imdb-tt0317248}",
-    "title": "City of God",
-    "original_title": "City of God",
-    "year": "2002",
-    "duration": "130 min",
-    "director": "Fernando Meirelles, Kátia Lund",
-    "genres": [
-        "Crime",
-        "Drama"
-    ],
-    "outline": "Brazil, 1960s, City of God. The Tender Trio robs motels and gas trucks. Younger kids watch and learn well...too well. 1970s: Li'l Zé has prospered very well and owns the city. He causes violence and fear as he wipes out rival gangs without mercy. His best friend Bené is the only one to keep him on the good side of sanity. Rocket has watched these two gain power for years, and he wants no part of it. he keeps getting swept up in the madness. All he wants to do is take pictures. 1980s: Things are out of control between the last two remaining gangs...will it ever end? Welcome to the City of God.",
-    "imdb_id": "tt0317248",
-    "imdb_link": "https://www.imdb.com/title/tt0317248/",
-    "imdb_rating": "8.6",
-    "stars": [
-        "Alexandre Rodrigues",
-        "Leandro Firmino",
-        "Matheus Nachtergaele"
-    ],
-    "rated": "R",
-    "country": "Brazil, France",
-    "language": "Portuguese",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "City of God_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00786",
+  "folder_name": "00786 City of God (2002) {imdb-tt0317248}",
+  "folder_path": "E:\\Movies\\00786 City of God (2002) {imdb-tt0317248}",
+  "title": "City of God",
+  "original_title": "City of God",
+  "year": "2002",
+  "duration": "130 min",
+  "director": "Fernando Meirelles, Kátia Lund",
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "outline": "Brazil, 1960s, City of God. The Tender Trio robs motels and gas trucks. Younger kids watch and learn well...too well. 1970s: Li'l Zé has prospered very well and owns the city. He causes violence and fear as he wipes out rival gangs without mercy. His best friend Bené is the only one to keep him on the good side of sanity. Rocket has watched these two gain power for years, and he wants no part of it. he keeps getting swept up in the madness. All he wants to do is take pictures. 1980s: Things are out of control between the last two remaining gangs...will it ever end? Welcome to the City of God.",
+  "imdb_id": "tt0317248",
+  "imdb_link": "https://www.imdb.com/title/tt0317248/",
+  "imdb_rating": "8.6",
+  "stars": [
+    "Alexandre Rodrigues",
+    "Leandro Firmino",
+    "Matheus Nachtergaele"
+  ],
+  "rated": "R",
+  "country": "Brazil, France",
+  "language": "Portuguese",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "City of God_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Portugiesisch"
+  ],
+  "audio_languages_english": [
+    "German",
+    "Portuguese"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

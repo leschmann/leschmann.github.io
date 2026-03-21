@@ -1,29 +1,49 @@
 {
-    "num": "00759",
-    "folder_name": "00759 Django Unchained (2012) {imdb-tt1853728}",
-    "folder_path": "E:\\Movies\\00759 Django Unchained (2012) {imdb-tt1853728}",
-    "title": "Django Unchained",
-    "original_title": "Django Unchained",
-    "year": "2012",
-    "duration": "165 min",
-    "director": "Quentin Tarantino",
-    "genres": [
-        "Drama",
-        "Western"
-    ],
-    "outline": "In 1858, a bounty-hunter named King Schultz seeks out a slave named Django and buys him because he needs him to find some men he is looking for. After finding them, Django wants to find his wife, Broomhilda, who along with him were sold separately by his former owner for trying to escape. Schultz offers to help him if he chooses to stay with him and be his partner. Eventually they learn that she was sold to a plantation in Mississippi. Knowing they can't just go in and say they want her, they come up with a plan so that the owner will welcome them into his home and they can find a way.",
-    "imdb_id": "tt1853728",
-    "imdb_link": "https://www.imdb.com/title/tt1853728/",
-    "imdb_rating": "8.5",
-    "stars": [
-        "Jamie Foxx",
-        "Christoph Waltz",
-        "Leonardo DiCaprio"
-    ],
-    "rated": "R",
-    "country": "United States",
-    "language": "English, German, French, Italian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg",
-    "cover_file": "Django Unchained_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00759",
+  "folder_name": "00759 Django Unchained (2012) {imdb-tt1853728}",
+  "folder_path": "E:\\Movies\\00759 Django Unchained (2012) {imdb-tt1853728}",
+  "title": "Django Unchained",
+  "original_title": "Django Unchained",
+  "year": "2012",
+  "duration": "165 min",
+  "director": "Quentin Tarantino",
+  "genres": [
+    "Drama",
+    "Western"
+  ],
+  "outline": "In 1858, a bounty-hunter named King Schultz seeks out a slave named Django and buys him because he needs him to find some men he is looking for. After finding them, Django wants to find his wife, Broomhilda, who along with him were sold separately by his former owner for trying to escape. Schultz offers to help him if he chooses to stay with him and be his partner. Eventually they learn that she was sold to a plantation in Mississippi. Knowing they can't just go in and say they want her, they come up with a plan so that the owner will welcome them into his home and they can find a way.",
+  "imdb_id": "tt1853728",
+  "imdb_link": "https://www.imdb.com/title/tt1853728/",
+  "imdb_rating": "8.5",
+  "stars": [
+    "Jamie Foxx",
+    "Christoph Waltz",
+    "Leonardo DiCaprio"
+  ],
+  "rated": "R",
+  "country": "United States",
+  "language": "English, German, French, Italian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg",
+  "cover_file": "Django Unchained_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Turkish"
+  ]
 }

@@ -25,5 +25,27 @@
   "language": "Polish, French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZWZkM2ZhNjUtMmJiZS00Nzg4LWIzZWQtNzQwN2E5ODNhYzUwXkEyXkFqcGdeQXVyMjc1NDA2OA@@._V1_SX300.jpg",
   "cover_file": null,
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Polnisch"
+  ],
+  "audio_languages_english": [
+    "Polish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Russisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Russian",
+    "Spanish"
+  ]
 }

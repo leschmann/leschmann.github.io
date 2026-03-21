@@ -1,29 +1,43 @@
 {
-    "num": "00645",
-    "folder_name": "00645 Das große Fressen (1973) {imdb-tt0070130}",
-    "folder_path": "E:\\Movies\\00645 Das große Fressen (1973) {imdb-tt0070130}",
-    "title": "The Big Feast",
-    "original_title": "The Big Feast",
-    "year": "1973",
-    "duration": "130 min",
-    "director": "Marco Ferreri",
-    "genres": [
-        "Comedy",
-        "Drama"
-    ],
-    "outline": "Four middle-aged friends and members of the professional bourgeoisie, Ugo, a chef and restaurant owner, Marcello, an incorrigible womanizer and Alitalia pilot, Michel, a delicate television producer, and Philippe, a venerable magistrate, gather for a debaucherous weekend at the latter's Parisian villa. There, as the four men prepare for a Romanesque feast, truckloads of fine food and wine arrive, accompanied by three elegant and lithe prostitutes. Without a doubt, the rapacious and degraded hedonists are determined to eat themselves to death, one elaborate morsel after another, nevertheless, for what reason?",
-    "imdb_id": "tt0070130",
-    "imdb_link": "https://www.imdb.com/title/tt0070130/",
-    "imdb_rating": "7.0",
-    "stars": [
-        "Marcello Mastroianni",
-        "Michel Piccoli",
-        "Philippe Noiret"
-    ],
-    "rated": "NC-17",
-    "country": "France, Italy",
-    "language": "French, Italian, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZDZmNTY3YjgtNmFlNS00ZmM2LThhY2UtY2U3NjMxMjYwMmQyXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Das große Fressen_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00645",
+  "folder_name": "00645 Das große Fressen (1973) {imdb-tt0070130}",
+  "folder_path": "E:\\Movies\\00645 Das große Fressen (1973) {imdb-tt0070130}",
+  "title": "The Big Feast",
+  "original_title": "The Big Feast",
+  "year": "1973",
+  "duration": "130 min",
+  "director": "Marco Ferreri",
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "outline": "Four middle-aged friends and members of the professional bourgeoisie, Ugo, a chef and restaurant owner, Marcello, an incorrigible womanizer and Alitalia pilot, Michel, a delicate television producer, and Philippe, a venerable magistrate, gather for a debaucherous weekend at the latter's Parisian villa. There, as the four men prepare for a Romanesque feast, truckloads of fine food and wine arrive, accompanied by three elegant and lithe prostitutes. Without a doubt, the rapacious and degraded hedonists are determined to eat themselves to death, one elaborate morsel after another, nevertheless, for what reason?",
+  "imdb_id": "tt0070130",
+  "imdb_link": "https://www.imdb.com/title/tt0070130/",
+  "imdb_rating": "7.0",
+  "stars": [
+    "Marcello Mastroianni",
+    "Michel Piccoli",
+    "Philippe Noiret"
+  ],
+  "rated": "NC-17",
+  "country": "France, Italy",
+  "language": "French, Italian, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZDZmNTY3YjgtNmFlNS00ZmM2LThhY2UtY2U3NjMxMjYwMmQyXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Das große Fressen_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

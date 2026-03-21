@@ -25,5 +25,39 @@
   "language": "English, German",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BY2QzY2I0MGQtZjc1ZS00YmI5LWIzZDMtZDYwNDhmZjdkNDUxXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Jakobowsky und der Oberst_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Englisch",
+    "Griechisch",
+    "Hindi",
+    "Italienisch",
+    "Portugiesisch",
+    "Spanisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "English",
+    "German",
+    "Greek",
+    "Hindi",
+    "Italian",
+    "Portuguese",
+    "Spanish",
+    "Turkish"
+  ]
 }

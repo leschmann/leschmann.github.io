@@ -1,30 +1,38 @@
 {
-    "num": "00756",
-    "folder_name": "00756 Sonnenallee (1999) {imdb-tt0177242}",
-    "folder_path": "E:\\Movies\\00756 Sonnenallee (1999) {imdb-tt0177242}",
-    "title": "Sun Alley",
-    "original_title": "Sun Alley",
-    "year": "1999",
-    "duration": "101 min",
-    "director": "Leander Haußmann",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "A group of kids grows up on the short, wrong (east) side of the Sonnenallee in Berlin, right next to one of the few border crossings between East and West reserved for German citizens. The antics of these kids, their families, the \"West German\" friends and relatives who come to visit, and the East German border guards, all serve to illustrate the absurdity of everyday life on the Sonnenallee, and therefore throughout the former East Germany.",
-    "imdb_id": "tt0177242",
-    "imdb_link": "https://www.imdb.com/title/tt0177242/",
-    "imdb_rating": "6.8",
-    "stars": [
-        "Alexander Scheer",
-        "Alexander Beyer",
-        "Robert Stadlober"
-    ],
-    "rated": "N/A",
-    "country": "Germany",
-    "language": "German, English, Italian, Vietnamese, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTA3NDJmY2EtODE3YS00ODA2LTkzODUtY2QzOTNiOTc5MGRkXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Sonnenallee_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00756",
+  "folder_name": "00756 Sonnenallee (1999) {imdb-tt0177242}",
+  "folder_path": "E:\\Movies\\00756 Sonnenallee (1999) {imdb-tt0177242}",
+  "title": "Sun Alley",
+  "original_title": "Sun Alley",
+  "year": "1999",
+  "duration": "101 min",
+  "director": "Leander Haußmann",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "A group of kids grows up on the short, wrong (east) side of the Sonnenallee in Berlin, right next to one of the few border crossings between East and West reserved for German citizens. The antics of these kids, their families, the \"West German\" friends and relatives who come to visit, and the East German border guards, all serve to illustrate the absurdity of everyday life on the Sonnenallee, and therefore throughout the former East Germany.",
+  "imdb_id": "tt0177242",
+  "imdb_link": "https://www.imdb.com/title/tt0177242/",
+  "imdb_rating": "6.8",
+  "stars": [
+    "Alexander Scheer",
+    "Alexander Beyer",
+    "Robert Stadlober"
+  ],
+  "rated": "N/A",
+  "country": "Germany",
+  "language": "German, English, Italian, Vietnamese, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BOTA3NDJmY2EtODE3YS00ODA2LTkzODUtY2QzOTNiOTc5MGRkXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Sonnenallee_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

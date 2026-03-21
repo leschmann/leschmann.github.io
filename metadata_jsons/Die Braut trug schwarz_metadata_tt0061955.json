@@ -1,30 +1,44 @@
 {
-    "num": "00761",
-    "folder_name": "00761 Die Braut trug schwarz (1968) {imdb-tt0061955}",
-    "folder_path": "E:\\Movies\\00761 Die Braut trug schwarz (1968) {imdb-tt0061955}",
-    "title": "The Bride Wore Black",
-    "original_title": "The Bride Wore Black",
-    "year": "1968",
-    "duration": "107 min",
-    "director": "François Truffaut",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-    ],
-    "outline": "After a botched attempt to put an end to her miserable existence, the emotionally scarred and irreparably destroyed widow, Julie Kohler, summons up the strength to pack up her things and leave her mother and town behind. Haunted by a horrible, life-altering incident and utterly surrendered to the palpable void of paranoia, Julie embraces black, the colour of death, and embarks on a devilish mission of revenge. Now, as the sinful past puts five seemingly unrelated men in harm's way, acknowledging death may be liberating. But, is there a limit to relentless Julie's determination? Above all, is there an escape from the clutches of the grim avenger with the doleful, dark eyes?",
-    "imdb_id": "tt0061955",
-    "imdb_link": "https://www.imdb.com/title/tt0061955/",
-    "imdb_rating": "7.2",
-    "stars": [
-        "Jeanne Moreau",
-        "Jean-Claude Brialy",
-        "Michel Bouquet"
-    ],
-    "rated": "Unrated",
-    "country": "France, Italy",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTFhNDhlY2EtYjEyZC00MDU5LWE4MTQtM2M4ODZkYWQ2NzBjXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die Braut trug schwarz_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00761",
+  "folder_name": "00761 Die Braut trug schwarz (1968) {imdb-tt0061955}",
+  "folder_path": "E:\\Movies\\00761 Die Braut trug schwarz (1968) {imdb-tt0061955}",
+  "title": "The Bride Wore Black",
+  "original_title": "The Bride Wore Black",
+  "year": "1968",
+  "duration": "107 min",
+  "director": "François Truffaut",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
+  "outline": "After a botched attempt to put an end to her miserable existence, the emotionally scarred and irreparably destroyed widow, Julie Kohler, summons up the strength to pack up her things and leave her mother and town behind. Haunted by a horrible, life-altering incident and utterly surrendered to the palpable void of paranoia, Julie embraces black, the colour of death, and embarks on a devilish mission of revenge. Now, as the sinful past puts five seemingly unrelated men in harm's way, acknowledging death may be liberating. But, is there a limit to relentless Julie's determination? Above all, is there an escape from the clutches of the grim avenger with the doleful, dark eyes?",
+  "imdb_id": "tt0061955",
+  "imdb_link": "https://www.imdb.com/title/tt0061955/",
+  "imdb_rating": "7.2",
+  "stars": [
+    "Jeanne Moreau",
+    "Jean-Claude Brialy",
+    "Michel Bouquet"
+  ],
+  "rated": "Unrated",
+  "country": "France, Italy",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BOTFhNDhlY2EtYjEyZC00MDU5LWE4MTQtM2M4ODZkYWQ2NzBjXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die Braut trug schwarz_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

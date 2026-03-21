@@ -1,28 +1,36 @@
 {
-    "num": "00294",
-    "folder_name": "00294 La Strada - Das Lied der Straße (1954) {imdb-tt0047528}",
-    "folder_path": "F:\\Movies\\00294 La Strada - Das Lied der Straße (1954) {imdb-tt0047528}",
-    "title": "La Strada",
-    "original_title": "La Strada",
-    "year": "1954",
-    "duration": "108 min",
-    "director": "Federico Fellini",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Sad story of a waif, Gelsomina, who is sold by her mother to Zampano for 10,000 lire and a few kilos of food. Zampano is a traveling showman who exhibits feats of strength by breaking a chain wrapped around his chest. He performs in village squares and then passes the hat for whatever the normally small crowd is prepared to give. He teaches Gelsomina a drum roll as part of his introduction. He doesn't treat her well and when she tries to run away, he beats her. They eventually join a small traveling circus where they meet a tight-rope walker who convinces Gelsomina to question her choices.",
-    "imdb_id": "tt0047528",
-    "imdb_link": "https://www.imdb.com/title/tt0047528/",
-    "imdb_rating": "8.0",
-    "stars": [
-        "Anthony Quinn",
-        "Giulietta Masina",
-        "Richard Basehart"
-    ],
-    "rated": "Not Rated",
-    "country": "Italy",
-    "language": "Italian",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMWQ0M2Q5NDAtMDg0ZC00YmM1LWI3YjktNDIxOTFiOTIzYzQ2XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "La Strada - Das Lied der Straße_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00294",
+  "folder_name": "00294 La Strada - Das Lied der Straße (1954) {imdb-tt0047528}",
+  "folder_path": "F:\\Movies\\00294 La Strada - Das Lied der Straße (1954) {imdb-tt0047528}",
+  "title": "La Strada",
+  "original_title": "La Strada",
+  "year": "1954",
+  "duration": "108 min",
+  "director": "Federico Fellini",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Sad story of a waif, Gelsomina, who is sold by her mother to Zampano for 10,000 lire and a few kilos of food. Zampano is a traveling showman who exhibits feats of strength by breaking a chain wrapped around his chest. He performs in village squares and then passes the hat for whatever the normally small crowd is prepared to give. He teaches Gelsomina a drum roll as part of his introduction. He doesn't treat her well and when she tries to run away, he beats her. They eventually join a small traveling circus where they meet a tight-rope walker who convinces Gelsomina to question her choices.",
+  "imdb_id": "tt0047528",
+  "imdb_link": "https://www.imdb.com/title/tt0047528/",
+  "imdb_rating": "8.0",
+  "stars": [
+    "Anthony Quinn",
+    "Giulietta Masina",
+    "Richard Basehart"
+  ],
+  "rated": "Not Rated",
+  "country": "Italy",
+  "language": "Italian",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMWQ0M2Q5NDAtMDg0ZC00YmM1LWI3YjktNDIxOTFiOTIzYzQ2XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "La Strada - Das Lied der Straße_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

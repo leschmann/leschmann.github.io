@@ -1,30 +1,44 @@
 {
-    "num": "00607",
-    "folder_name": "00607 Ein glückliches Jahr (1973) {imdb-tt0069815}",
-    "folder_path": "E:\\Movies\\00607 Ein glückliches Jahr (1973) {imdb-tt0069815}",
-    "title": "Happy New Year",
-    "original_title": "Happy New Year",
-    "year": "1973",
-    "duration": "115 min",
-    "director": "Claude Lelouch",
-    "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-    ],
-    "outline": "Released from prison apparently under a New Year amnesty, a criminal tries to pick up the threads of a life changed not only by his daring plan to rob a jewelry store in out-of-season Cannes, but also by a very special someone he met there.",
-    "imdb_id": "tt0069815",
-    "imdb_link": "https://www.imdb.com/title/tt0069815/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Lino Ventura",
-        "Françoise Fabian",
-        "Charles Gérard"
-    ],
-    "rated": "PG",
-    "country": "France, Italy",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMWYwMjRlMDctYmFlOC00MjIwLTg4OTMtZGQ5N2E1MWJkYzllXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Ein glückliches Jahr_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00607",
+  "folder_name": "00607 Ein glückliches Jahr (1973) {imdb-tt0069815}",
+  "folder_path": "E:\\Movies\\00607 Ein glückliches Jahr (1973) {imdb-tt0069815}",
+  "title": "Happy New Year",
+  "original_title": "Happy New Year",
+  "year": "1973",
+  "duration": "115 min",
+  "director": "Claude Lelouch",
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Drama"
+  ],
+  "outline": "Released from prison apparently under a New Year amnesty, a criminal tries to pick up the threads of a life changed not only by his daring plan to rob a jewelry store in out-of-season Cannes, but also by a very special someone he met there.",
+  "imdb_id": "tt0069815",
+  "imdb_link": "https://www.imdb.com/title/tt0069815/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Lino Ventura",
+    "Françoise Fabian",
+    "Charles Gérard"
+  ],
+  "rated": "PG",
+  "country": "France, Italy",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMWYwMjRlMDctYmFlOC00MjIwLTg4OTMtZGQ5N2E1MWJkYzllXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Ein glückliches Jahr_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English"
+  ]
 }

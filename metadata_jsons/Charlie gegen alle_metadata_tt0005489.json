@@ -1,7 +1,7 @@
 {
-  "num": "00170",
-  "folder_name": "00170 Charlie gegen alle (1915) {imdb-tt0005489}",
-  "folder_path": "F:\\Movies\\00170 Charlie gegen alle (1915) {imdb-tt0005489}",
+  "num": "00028",
+  "folder_name": "00028 Charlie gegen alle (1915) {imdb-tt0005489}",
+  "folder_path": "F:\\Movies\\00028 Charlie gegen alle (1915) {imdb-tt0005489}",
   "title": "His New Job",
   "original_title": "His New Job",
   "year": "1915",
@@ -25,5 +25,13 @@
   "language": "None, English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYWNkZWRmOWEtZjNkZC00MGM2LTg1ODgtNDNiNDBiNjA4MmY1XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Charlie gegen alle_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

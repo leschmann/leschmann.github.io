@@ -1,30 +1,44 @@
 {
-    "num": "00605",
-    "folder_name": "00605 T4xi (2007) {imdb-tt0804540}",
-    "folder_path": "E:\\Movies\\00605 T4xi (2007) {imdb-tt0804540}",
-    "title": "Taxi 4",
-    "original_title": "Taxi 4",
-    "year": "2007",
-    "duration": "91 min",
-    "director": "Gérard Krawczyk",
-    "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-    ],
-    "outline": "Unlucky, clumsy, charming Marseille PD detective Émilien Coutant-Kerbalec must assist worse-than-Clouseau commissioner Gibert guarding a Belgian criminal reputed as dangerous as - and caged like Hannibal Lector. Émilien's cool friend, taxi driver Daniel Morales, initially only agrees to babysit both their buddy-sons, as Émilien's wife Petra is away on top-secret mission. But soon the Belgian escapes, and while chasing him the mates stumble on a bank robbery and a drug king's palatial villa, where the grand finale reeks havoc.",
-    "imdb_id": "tt0804540",
-    "imdb_link": "https://www.imdb.com/title/tt0804540/",
-    "imdb_rating": "5.6",
-    "stars": [
-        "Samy Naceri",
-        "Frédéric Diefenthal",
-        "Bernard Farcy"
-    ],
-    "rated": "Not Rated",
-    "country": "France",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BYTJhY2RmNzUtMDk3ZS00ZDI4LWI3M2YtOTVmOGE5MDg5YjIxXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "T4xi_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00605",
+  "folder_name": "00605 T4xi (2007) {imdb-tt0804540}",
+  "folder_path": "E:\\Movies\\00605 T4xi (2007) {imdb-tt0804540}",
+  "title": "Taxi 4",
+  "original_title": "Taxi 4",
+  "year": "2007",
+  "duration": "91 min",
+  "director": "Gérard Krawczyk",
+  "genres": [
+    "Action",
+    "Comedy",
+    "Crime"
+  ],
+  "outline": "Unlucky, clumsy, charming Marseille PD detective Émilien Coutant-Kerbalec must assist worse-than-Clouseau commissioner Gibert guarding a Belgian criminal reputed as dangerous as - and caged like Hannibal Lector. Émilien's cool friend, taxi driver Daniel Morales, initially only agrees to babysit both their buddy-sons, as Émilien's wife Petra is away on top-secret mission. But soon the Belgian escapes, and while chasing him the mates stumble on a bank robbery and a drug king's palatial villa, where the grand finale reeks havoc.",
+  "imdb_id": "tt0804540",
+  "imdb_link": "https://www.imdb.com/title/tt0804540/",
+  "imdb_rating": "5.6",
+  "stars": [
+    "Samy Naceri",
+    "Frédéric Diefenthal",
+    "Bernard Farcy"
+  ],
+  "rated": "Not Rated",
+  "country": "France",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BYTJhY2RmNzUtMDk3ZS00ZDI4LWI3M2YtOTVmOGE5MDg5YjIxXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "T4xi_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

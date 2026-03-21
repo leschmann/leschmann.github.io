@@ -1,30 +1,44 @@
 {
-    "num": "00753",
-    "folder_name": "00753 Jackie Brown (1997) {imdb-tt0119396}",
-    "folder_path": "E:\\Movies\\00753 Jackie Brown (1997) {imdb-tt0119396}",
-    "title": "Jackie Brown",
-    "original_title": "Jackie Brown",
-    "year": "1997",
-    "duration": "154 min",
-    "director": "Quentin Tarantino",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-    ],
-    "outline": "The middle-aged stewardess Jackie Brown smuggles money from Mexico to Los Angeles for the arms dealer Ordell Robbie. When she gets caught by the agents Ray Nicolet and Mark Dargus with ten thousand dollars and cocaine in her purse, they propose a deal to her to help them to arrest Ordell in exchange of her freedom. Meanwhile Ordell asks the 56-year-old Max Cherry, who runs a bail bond business, to release Jackie Brown with the intention of eliminating her. Jackie suspects of Ordell's intention and plots a complicated confidence game with Max to steal half a million dollars from Ordell.",
-    "imdb_id": "tt0119396",
-    "imdb_link": "https://www.imdb.com/title/tt0119396/",
-    "imdb_rating": "7.5",
-    "stars": [
-        "Pam Grier",
-        "Samuel L. Jackson",
-        "Robert Forster"
-    ],
-    "rated": "R",
-    "country": "United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmUxZjY3MDktNGI5NS00MTQ5LWE0YWItZWQzNmZhNjhkZDYyXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Jackie Brown_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00753",
+  "folder_name": "00753 Jackie Brown (1997) {imdb-tt0119396}",
+  "folder_path": "E:\\Movies\\00753 Jackie Brown (1997) {imdb-tt0119396}",
+  "title": "Jackie Brown",
+  "original_title": "Jackie Brown",
+  "year": "1997",
+  "duration": "154 min",
+  "director": "Quentin Tarantino",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "outline": "The middle-aged stewardess Jackie Brown smuggles money from Mexico to Los Angeles for the arms dealer Ordell Robbie. When she gets caught by the agents Ray Nicolet and Mark Dargus with ten thousand dollars and cocaine in her purse, they propose a deal to her to help them to arrest Ordell in exchange of her freedom. Meanwhile Ordell asks the 56-year-old Max Cherry, who runs a bail bond business, to release Jackie Brown with the intention of eliminating her. Jackie suspects of Ordell's intention and plots a complicated confidence game with Max to steal half a million dollars from Ordell.",
+  "imdb_id": "tt0119396",
+  "imdb_link": "https://www.imdb.com/title/tt0119396/",
+  "imdb_rating": "7.5",
+  "stars": [
+    "Pam Grier",
+    "Samuel L. Jackson",
+    "Robert Forster"
+  ],
+  "rated": "R",
+  "country": "United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmUxZjY3MDktNGI5NS00MTQ5LWE0YWItZWQzNmZhNjhkZDYyXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Jackie Brown_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

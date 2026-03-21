@@ -1,30 +1,48 @@
 {
-    "num": "00696",
-    "folder_name": "00696 Jurassic Park III (2001) {imdb-tt0163025}",
-    "folder_path": "E:\\Movies\\00696 Jurassic Park III (2001) {imdb-tt0163025}",
-    "title": "Jurassic Park III",
-    "original_title": "Jurassic Park III",
-    "year": "2001",
-    "duration": "92 min",
-    "director": "Joe Johnston",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-    ],
-    "outline": "Dr. Alan Grant is now a happy man with the previous incidents of Jurassic Park now behind him. Grant is that happy that he announce in public, that nothing on Earth can persuade him back onto the islands. Maybe nothing, except Paul Kirby. Kirby and his wife, Amanda want a plane to fly them over Isla Sorna, with Dr. Grant as their guide. But not everything Kirby says is true. When the plane lands, Dr. Grant realizes that there is another reason why they are there, that he doesn't know of. Now, Dr. Grant is stuck on an island he has never been on before, with what was a plane journey now turned into a search party.",
-    "imdb_id": "tt0163025",
-    "imdb_link": "https://www.imdb.com/title/tt0163025/",
-    "imdb_rating": "6.0",
-    "stars": [
-        "Sam Neill",
-        "William H. Macy",
-        "Téa Leoni"
-    ],
-    "rated": "PG-13",
-    "country": "United States",
-    "language": "English, Spanish",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BN2FmMjhlZDYtNmYyMy00NTdjLTlhYzYtZWNlMDY2MmUzOGM2XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Jurassic Park III_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00696",
+  "folder_name": "00696 Jurassic Park III (2001) {imdb-tt0163025}",
+  "folder_path": "E:\\Movies\\00696 Jurassic Park III (2001) {imdb-tt0163025}",
+  "title": "Jurassic Park III",
+  "original_title": "Jurassic Park III",
+  "year": "2001",
+  "duration": "92 min",
+  "director": "Joe Johnston",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "outline": "Dr. Alan Grant is now a happy man with the previous incidents of Jurassic Park now behind him. Grant is that happy that he announce in public, that nothing on Earth can persuade him back onto the islands. Maybe nothing, except Paul Kirby. Kirby and his wife, Amanda want a plane to fly them over Isla Sorna, with Dr. Grant as their guide. But not everything Kirby says is true. When the plane lands, Dr. Grant realizes that there is another reason why they are there, that he doesn't know of. Now, Dr. Grant is stuck on an island he has never been on before, with what was a plane journey now turned into a search party.",
+  "imdb_id": "tt0163025",
+  "imdb_link": "https://www.imdb.com/title/tt0163025/",
+  "imdb_rating": "6.0",
+  "stars": [
+    "Sam Neill",
+    "William H. Macy",
+    "Téa Leoni"
+  ],
+  "rated": "PG-13",
+  "country": "United States",
+  "language": "English, Spanish",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BN2FmMjhlZDYtNmYyMy00NTdjLTlhYzYtZWNlMDY2MmUzOGM2XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Jurassic Park III_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Hebräisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Hebrew"
+  ]
 }

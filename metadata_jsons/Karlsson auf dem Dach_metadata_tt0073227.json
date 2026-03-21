@@ -26,5 +26,13 @@
   "language": "Swedish, Icelandic",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNWZiYzVmMTgtMWRiNS00OGNhLTg3ZTEtOGY5OTY1NDdlNDk3XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Karlsson auf dem Dach_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

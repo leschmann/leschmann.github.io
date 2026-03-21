@@ -1,30 +1,56 @@
 {
-    "num": "00688",
-    "folder_name": "00688 Der Elektrische Reiter (1979) {imdb-tt0079100}",
-    "folder_path": "E:\\Movies\\00688 Der Elektrische Reiter (1979) {imdb-tt0079100}",
-    "title": "The Electric Horseman",
-    "original_title": "The Electric Horseman",
-    "year": "1979",
-    "duration": "121 min",
-    "director": "Sydney Pollack",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "Sonny Steele used to be a rodeo star, but his next appearance is to be on a Las Vegas stage, wearing a suit covered in lights, advertising a breakfast cereal. When he finds out they are going drug the horse in case its too frisky, he rides off into the desert...",
-    "imdb_id": "tt0079100",
-    "imdb_link": "https://www.imdb.com/title/tt0079100/",
-    "imdb_rating": "6.4",
-    "stars": [
-        "Robert Redford",
-        "Jane Fonda",
-        "Valerie Perrine"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BODFjYjQ4MmMtMTk2Yy00YTgyLWE3MzYtM2NkYmM3ZmY2MzI3XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Elektrische Reiter_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00688",
+  "folder_name": "00688 Der Elektrische Reiter (1979) {imdb-tt0079100}",
+  "folder_path": "E:\\Movies\\00688 Der Elektrische Reiter (1979) {imdb-tt0079100}",
+  "title": "The Electric Horseman",
+  "original_title": "The Electric Horseman",
+  "year": "1979",
+  "duration": "121 min",
+  "director": "Sydney Pollack",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "Sonny Steele used to be a rodeo star, but his next appearance is to be on a Las Vegas stage, wearing a suit covered in lights, advertising a breakfast cereal. When he finds out they are going drug the horse in case its too frisky, he rides off into the desert...",
+  "imdb_id": "tt0079100",
+  "imdb_link": "https://www.imdb.com/title/tt0079100/",
+  "imdb_rating": "6.4",
+  "stars": [
+    "Robert Redford",
+    "Jane Fonda",
+    "Valerie Perrine"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODFjYjQ4MmMtMTk2Yy00YTgyLWE3MzYtM2NkYmM3ZmY2MzI3XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Elektrische Reiter_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Norwegian",
+    "Swedish"
+  ]
 }

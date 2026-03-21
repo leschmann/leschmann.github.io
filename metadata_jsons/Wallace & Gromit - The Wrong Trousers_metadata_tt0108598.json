@@ -1,7 +1,7 @@
 {
-  "num": "00010",
-  "folder_name": "00010 Wallace & Gromit - The Wrong Trousers (1993) {imdb-tt0108598}",
-  "folder_path": "F:\\Movies\\00010 Wallace & Gromit - The Wrong Trousers (1993) {imdb-tt0108598}",
+  "num": "00003",
+  "folder_name": "00003 Wallace & Gromit - The Wrong Trousers (1993) {imdb-tt0108598}",
+  "folder_path": "F:\\Movies\\00003 Wallace & Gromit - The Wrong Trousers (1993) {imdb-tt0108598}",
   "title": "Wallace & Gromit: The Wrong Trousers",
   "original_title": "Wallace & Gromit: The Wrong Trousers",
   "year": "1993",
@@ -24,5 +24,15 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZGI0ZjU1ZmUtZmRlZC00Yjg3LWI1MjktM2YwYmU1NGNiYzU0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Wallace & Gromit - The Wrong Trousers_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

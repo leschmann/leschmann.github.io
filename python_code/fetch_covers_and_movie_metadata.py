@@ -4,44 +4,130 @@ import json
 import shutil
 import time
 import requests
+import subprocess
 from pathlib import Path
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
-MOVIE_ROOTS = [
-    r"F:\Movies",
-    #r"E:\Movies",
-]
 
-HARDDRIVE_NAME = "FFM DVD 00001 - 00600"
+DRIVE_CONFIG = {
+    r"F:\Movies": "FFM DVD 00001 - 00600",
+    r"E:\Movies": "FFM DVD 00601 - 01091",
+}
+
+# Liste von Film-Nummern (5-stellig), bei denen die MKV-Analyse ERZWUNGEN werden soll,
+# auch wenn die Felder schon im JSON existieren (z. B. nach manuellen Änderungen).
+FORCE_MKV_RESCAN = [
+    "00751",
+    # "00003",
+]
 
 SCRIPT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 OMDB_API_KEYS = ["dea6b6b3", "1f927d1"]
 
-# matches: 00003 Emil of Lonneberga (1971) {imdb-tt0067047}
 FOLDER_RE = re.compile(
     r"^(?P<num>\d+)\s+(?P<title>.+?)\s+\((?P<year>\d{4})\)\s+\{imdb-(?P<imdb_id>tt\d+)\}$"
 )
-# ───────────────────────────────────────────────────────────────────────────────
 
-# ── Full schema we expect every JSON to have ──────────────────────────────
+# ─── LANGUAGE MAPPINGS ─────────────────────────────────────────────────────────
+
+LANGUAGE_MAP_EN = {
+    "ara": "Arabic", "bul": "Bulgarian", "chi": "Chinese", "cze": "Czech",
+    "dan": "Danish", "dut": "Dutch", "eng": "English", "est": "Estonian",
+    "fin": "Finnish", "fre": "French", "ger": "German", "gre": "Greek",
+    "heb": "Hebrew", "hin": "Hindi", "hrv": "Croatian", "hun": "Hungarian",
+    "ice": "Icelandic", "ita": "Italian", "jpn": "Japanese", "lav": "Latvian",
+    "lit": "Lithuanian", "nor": "Norwegian", "per": "Persian", "pol": "Polish",
+    "por": "Portuguese", "rum": "Romanian", "rus": "Russian", "sh": "Serbo-Croatian",
+    "slv": "Slovenian", "spa": "Spanish", "srp": "Serbian", "swe": "Swedish", "tha": "Thai",
+    "tur": "Turkish", "ukr": "Ukrainian", "und": "Unknown"
+}
+
+LANGUAGE_MAP_DE = {
+    "ara": "Arabisch", "bul": "Bulgarisch", "chi": "Chinesisch", "cze": "Tschechisch",
+    "dan": "Dänisch", "dut": "Niederländisch", "eng": "Englisch", "est": "Estnisch",
+    "fin": "Finnisch", "fre": "Französisch", "ger": "Deutsch", "gre": "Griechisch",
+    "heb": "Hebräisch", "hin": "Hindi", "hrv": "Kroatisch", "hun": "Ungarisch",
+    "ice": "Isländisch", "ita": "Italienisch", "jpn": "Japanisch", "lav": "Lettisch",
+    "lit": "Litauisch", "nor": "Norwegisch", "per": "Persisch", "pol": "Polnisch", "por": "Portugiesisch",
+    "rum": "Rumänisch", "rus": "Russisch", "sh": "Serbokroatisch", "slv": "Slowenisch",
+    "spa": "Spanisch", "srp": "Serbisch", "swe": "Schwedisch", "tha": "Thailändisch",
+    "tur": "Türkisch", "ukr": "Ukrainisch", "und": "Unbekannt"
+}
+
+# ─── SCHEMA ────────────────────────────────────────────────────────────────────
+
+NEW_MEDIA_FIELDS = {
+    "audio_languages_german", "audio_languages_english",
+    "subtitles_languages_german", "subtitles_languages_english"
+}
+
 EXPECTED_FIELDS = {
     "num", "folder_name", "folder_path", "title", "original_title",
     "year", "duration", "director", "genres", "outline", "imdb_id",
     "imdb_link", "imdb_rating", "stars", "rated", "country", "language",
-    "poster_url", "cover_file", "folder_location",
-}
+    "poster_url", "cover_file", "folder_location"
+}.union(NEW_MEDIA_FIELDS)
 
 LOCAL_FIELDS = {"num", "folder_name", "folder_path", "folder_location"}
+
 
 def missing_fields(metadata: dict) -> set[str]:
     return EXPECTED_FIELDS - set(metadata.keys())
 
-# ── API ────────────────────────────────────────────────────────────────────────
+
+# ─── MKV ANALYSIS HELPERS ──────────────────────────────────────────────────────
+
+def check_ffprobe_installed():
+    try:
+        subprocess.run(["ffprobe", "-version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        return True
+    except FileNotFoundError:
+        return False
+
+
+def get_largest_mkv(folder_path: Path) -> Path | None:
+    mkvs = list(folder_path.glob("*.mkv"))
+    return max(mkvs, key=lambda p: p.stat().st_size) if mkvs else None
+
+
+def extract_mkv_languages(mkv_path: Path):
+    """Liest die MKV aus und gibt die 4 formatierten Sprachlisten zurück."""
+    cmd = ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", str(mkv_path)]
+    try:
+        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8")
+        if result.returncode != 0:
+            return [], [], [], []
+
+        data = json.loads(result.stdout)
+        audio_codes = set()
+        sub_codes = set()
+
+        for stream in data.get("streams", []):
+            ctype = stream.get("codec_type")
+            lang = stream.get("tags", {}).get("language", "und").lower().strip()
+
+            if ctype == "audio":
+                audio_codes.add(lang)
+            elif ctype == "subtitle":
+                sub_codes.add(lang)
+
+        # Übersetze die 3-stelligen Codes mit Fallback auf den Originalcode, falls unbekannt
+        aud_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in audio_codes}))
+        aud_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in audio_codes}))
+        sub_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in sub_codes}))
+        sub_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in sub_codes}))
+
+        return aud_de, aud_en, sub_de, sub_en
+    except Exception as e:
+        print(f"        ✗ ffprobe Fehler: {e}")
+        return [], [], [], []
+
+
+# ─── OMDB API & HELPERS ────────────────────────────────────────────────────────
 
 def omdb_fetch(imdb_id: str) -> dict | None:
-    """Try each API key in order until one works."""
     for key in OMDB_API_KEYS:
         url = f"http://www.omdbapi.com/?i={imdb_id}&plot=full&apikey={key}"
         try:
@@ -49,28 +135,22 @@ def omdb_fetch(imdb_id: str) -> dict | None:
             data = r.json()
             if data.get("Response") == "True":
                 return data
-            else:
-                print(f"    OMDB key '{key}' returned: {data.get('Error')}")
-        except Exception as e:
-            print(f"    Request error with key '{key}': {e}")
+        except Exception:
+            pass
     return None
 
 
 def download_image(url: str, dest: Path) -> bool:
-    """Download a poster image. Returns True on success."""
-    if not url or url == "N/A":
-        return False
+    if not url or url == "N/A": return False
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200 and "image" in r.headers.get("Content-Type", ""):
             dest.write_bytes(r.content)
             return True
-    except Exception as e:
-        print(f"    Image download error: {e}")
+    except Exception:
+        pass
     return False
 
-
-# ── Helpers ────────────────────────────────────────────────────────────────────
 
 def parse_folder(name: str) -> dict | None:
     m = FOLDER_RE.match(name)
@@ -78,242 +158,215 @@ def parse_folder(name: str) -> dict | None:
 
 
 def safe_list(raw: str) -> list[str]:
-    """'Actor A, Actor B, N/A' → ['Actor A', 'Actor B']"""
-    if not raw:
-        return []
+    if not raw: return []
     return [s.strip() for s in raw.split(",") if s.strip() and s.strip() != "N/A"]
 
 
 def meta_filename(title: str, imdb_id: str) -> str:
-    """Matches your existing naming: Das Sams_metadata_tt0265691.json"""
     return f"{title}_metadata_{imdb_id}.json"
 
 
+# ─── CORE PROCESSING ───────────────────────────────────────────────────────────
 
-
-# ── Core processing ────────────────────────────────────────────────────────────
-
-def process_root(root: str) -> list[dict]:
-    """Scan one movie root folder and return a list of metadata dicts."""
+def process_root(root: str, drive_name: str) -> list[dict]:
     root_path = Path(root)
-    covers_dir = Path(PROJECT_ROOT) / "covers"
+    covers_dir = Path(PROJECT_ROOT) / "html_dvd_collection/covers"
+    covers_dir.mkdir(parents=True, exist_ok=True)
+
     if not root_path.exists():
         print(f"\n⚠  Drive not found, skipping: {root}")
         return []
 
-    print(f"\n📂  Scanning {root} …")
+    print(f"\n📂  Scanning {root} (Location: {drive_name}) …")
 
     movies: list[dict] = []
-    added        = 0
-    cached       = 0
-    skipped      = 0
-    missing_parse = []
+    added = 0
+    cached = 0
+    skipped = 0
 
     for folder_path in sorted(root_path.iterdir()):
-        if not folder_path.is_dir():
-            continue
+        if not folder_path.is_dir(): continue
 
         parsed = parse_folder(folder_path.name)
         if not parsed:
             print(f"  ✗  Cannot parse: {folder_path.name}")
-            missing_parse.append(folder_path.name)
             continue
 
-        title   = parsed["title"]
-        year    = parsed["year"]
+        title = parsed["title"]
+        year = parsed["year"]
         imdb_id = parsed["imdb_id"]
-        num     = parsed["num"]
+        num = parsed["num"]
 
         print(f"  🎬  [{num}] {title} ({year})  —  {imdb_id}")
 
-        meta_file  = folder_path / meta_filename(title, imdb_id)
+        meta_file = folder_path / meta_filename(title, imdb_id)
         cover_file = folder_path / f"{title}_cover.jpg"
 
-        # ── Already cached → check if update needed ────────────────────────
-        if meta_file.exists():
+        metadata = {}
+        is_new_movie = not meta_file.exists()
+
+        # ── 1. Metadaten laden oder OMDB abfragen ────────────────────────────────
+        if not is_new_movie:
             with meta_file.open(encoding="utf-8-sig") as f:
                 metadata = json.load(f)
 
-            # ── Ensure cover is in covers/ ────────────────────────────────
+            # Immer die lokalen Pfade/Namen aktualisieren
+            metadata["num"] = num
+            metadata["folder_name"] = folder_path.name
+            metadata["folder_path"] = str(folder_path)
+            metadata["folder_location"] = drive_name
+
+            # Prüfen, ob OMDB-Felder fehlen
+            missing_omdb = missing_fields(metadata) - LOCAL_FIELDS - NEW_MEDIA_FIELDS
+            if missing_omdb:
+                print(f"        🔄  Re-fetching OMDB data for missing: {missing_omdb}")
+                data = omdb_fetch(imdb_id)
+                time.sleep(0.25)
+                if data:
+                    field_map = {
+                        "title": data.get("Title", metadata.get("title")),
+                        "original_title": data.get("Title", metadata.get("original_title")),
+                        "duration": data.get("Runtime", "N/A"),
+                        "director": data.get("Director", "N/A"),
+                        "genres": safe_list(data.get("Genre", "")),
+                        "outline": data.get("Plot", "N/A"),
+                        "imdb_link": f"https://www.imdb.com/title/{imdb_id}/",
+                        "imdb_rating": data.get("imdbRating", "N/A"),
+                        "stars": safe_list(data.get("Actors", "")),
+                        "rated": data.get("Rated", "N/A"),
+                        "country": data.get("Country", "N/A"),
+                        "language": data.get("Language", "N/A"),
+                        "poster_url": data.get("Poster", ""),
+                    }
+                    for field in missing_omdb:
+                        if field in field_map:
+                            metadata[field] = field_map[field]
+
+            # Cover prüfen
             cover_filename = metadata.get("cover_file")
             if cover_filename:
                 src_cover = folder_path / cover_filename
                 dest_cover = covers_dir / f"{imdb_id}.jpg"
                 if src_cover.exists() and not dest_cover.exists():
                     shutil.copy2(src_cover, dest_cover)
-                    print(f"        ✓  Cover copied → covers/{imdb_id}.jpg")
+                    print(f"        ✓  Cover kopiert → covers/{imdb_id}.jpg")
 
-            # Always overwrite local fields first
-            metadata["num"]             = num
-            metadata["folder_name"]     = folder_path.name
-            metadata["folder_path"]     = str(folder_path)
-            metadata["folder_location"] = HARDDRIVE_NAME
-
-            missing = missing_fields(metadata)
-            needs_api = missing - LOCAL_FIELDS
-
-            if not missing:
-                with meta_file.open("w", encoding="utf-8") as f:
-                    json.dump(metadata, f, indent=4, ensure_ascii=False)
-                print(f"        ↩  Cache up to date, local fields refreshed …")
-                movies.append(metadata)
-                cached += 1
-                continue
-
-            print(f"        ⚠  Cache missing fields: {missing}")
-
-            if not needs_api:
-                with meta_file.open("w", encoding="utf-8") as f:
-                    json.dump(metadata, f, indent=4, ensure_ascii=False)
-                print(f"        ✓  Patched local fields → {meta_file.name}")
-                movies.append(metadata)
-                cached += 1
-                continue
-
-            # Missing OMDB fields → re-fetch
-            print(f"        🔄  Re-fetching OMDB data for missing: {needs_api}")
+        else:
+            # GANZ NEUER FILM
             data = omdb_fetch(imdb_id)
             time.sleep(0.25)
-
             if not data:
-                print(f"        ✗  Could not re-fetch — using existing cache")
-                movies.append(metadata)
-                cached += 1
+                print(f"        ✗  Could not fetch OMDB data — skipping")
+                skipped += 1
                 continue
 
-            field_map = {
-                "title":          data.get("Title",       metadata.get("title")),
-                "original_title": data.get("Title",       metadata.get("original_title")),
-                "duration":       data.get("Runtime",     "N/A"),
-                "director":       data.get("Director",    "N/A"),
-                "genres":         safe_list(data.get("Genre",   "")),
-                "outline":        data.get("Plot",        "N/A"),
-                "imdb_link":      f"https://www.imdb.com/title/{imdb_id}/",
-                "imdb_rating":    data.get("imdbRating",  "N/A"),
-                "stars":          safe_list(data.get("Actors",  "")),
-                "rated":          data.get("Rated",       "N/A"),
-                "country":        data.get("Country",     "N/A"),
-                "language":       data.get("Language",    "N/A"),
-                "poster_url":     data.get("Poster",      ""),
+            # Cover herunterladen
+            poster_url = data.get("Poster", "")
+            cover_filename = None
+            if not cover_file.exists():
+                if download_image(poster_url, cover_file):
+                    print(f"        ✓  Cover gespeichert → {cover_file.name}")
+                    cover_filename = cover_file.name
+            else:
+                cover_filename = cover_file.name
+
+            if cover_file.exists():
+                dest_cover = covers_dir / f"{imdb_id}.jpg"
+                if not dest_cover.exists():
+                    shutil.copy2(cover_file, dest_cover)
+
+            metadata = {
+                "num": num,
+                "folder_name": folder_path.name,
+                "folder_path": str(folder_path),
+                "title": data.get("Title", title),
+                "original_title": data.get("Title", title),
+                "year": year,
+                "duration": data.get("Runtime", "N/A"),
+                "director": data.get("Director", "N/A"),
+                "genres": safe_list(data.get("Genre", "")),
+                "outline": data.get("Plot", "N/A"),
+                "imdb_id": imdb_id,
+                "imdb_link": f"https://www.imdb.com/title/{imdb_id}/",
+                "imdb_rating": data.get("imdbRating", "N/A"),
+                "stars": safe_list(data.get("Actors", "")),
+                "rated": data.get("Rated", "N/A"),
+                "country": data.get("Country", "N/A"),
+                "language": data.get("Language", "N/A"),
+                "poster_url": poster_url,
+                "cover_file": cover_filename,
+                "folder_location": drive_name,
             }
 
-            for field in needs_api:
-                if field in field_map:
-                    metadata[field] = field_map[field]
+        # ── 2. MKV Sprachen analysieren (Bedingt) ─────────────────────────────
+        needs_mkv_scan = False
 
-            with meta_file.open("w", encoding="utf-8") as f:
-                json.dump(metadata, f, indent=4, ensure_ascii=False)
-            print(f"        ✓  Patched {len(missing)} fields → {meta_file.name}")
-            movies.append(metadata)
-            cached += 1
-            continue
+        # Prüfen, ob die Felder fehlen
+        for f in NEW_MEDIA_FIELDS:
+            if f not in metadata:
+                needs_mkv_scan = True
+                break
 
-        # ── New movie → fetch from OMDB ────────────────────────────────────
-        data = omdb_fetch(imdb_id)
-        time.sleep(0.25)
+        # Prüfen, ob der User den Scan in der Config erzwingt
+        if num in FORCE_MKV_RESCAN:
+            needs_mkv_scan = True
 
-        if not data:
-            print(f"        ✗  Could not fetch OMDB data — skipping")
-            skipped += 1
-            continue
+        if needs_mkv_scan:
+            reason = "Erzwungen durch FORCE_MKV_RESCAN" if num in FORCE_MKV_RESCAN else "Fehlende Felder"
+            print(f"        🔍 Analysiere MKV-Datei für Sprachen... ({reason})")
 
-        # ── Download cover ─────────────────────────────────────────────────
-        poster_url     = data.get("Poster", "")
-        cover_filename = None
-
-        if cover_file.exists():
-            print(f"        ✓  Cover already present")
-            cover_filename = cover_file.name
-        else:
-            if download_image(poster_url, cover_file):
-                print(f"        ✓  Cover saved → {cover_file.name}")
-                cover_filename = cover_file.name
+            largest_mkv = get_largest_mkv(folder_path)
+            if largest_mkv:
+                aud_de, aud_en, sub_de, sub_en = extract_mkv_languages(largest_mkv)
+                metadata["audio_languages_german"] = aud_de
+                metadata["audio_languages_english"] = aud_en
+                metadata["subtitles_languages_german"] = sub_de
+                metadata["subtitles_languages_english"] = sub_en
+                print(f"        ✓  MKV Sprachen aktualisiert")
             else:
-                print(f"        ✗  No cover available")
+                print(f"        ⚠  Keine MKV gefunden. Setze leere Listen.")
+                metadata["audio_languages_german"] = []
+                metadata["audio_languages_english"] = []
+                metadata["subtitles_languages_german"] = []
+                metadata["subtitles_languages_english"] = []
 
-        if cover_file.exists():
-            dest_cover = covers_dir / f"{imdb_id}.jpg"
-            if not dest_cover.exists():
-                shutil.copy2(cover_file, dest_cover)
-                print(f"        ✓  Cover copied → covers/{imdb_id}.jpg")
-
-        # ── Build metadata ─────────────────────────────────────────────────
-        metadata = {
-            "num":             num,
-            "folder_name":     folder_path.name,
-            "folder_path":     str(folder_path),
-            "title":           data.get("Title", title),
-            "original_title":  data.get("Title", title),
-            "year":            year,
-            "duration":        data.get("Runtime",    "N/A"),
-            "director":        data.get("Director",   "N/A"),
-            "genres":          safe_list(data.get("Genre",   "")),
-            "outline":         data.get("Plot",       "N/A"),
-            "imdb_id":         imdb_id,
-            "imdb_link":       f"https://www.imdb.com/title/{imdb_id}/",
-            "imdb_rating":     data.get("imdbRating", "N/A"),
-            "stars":           safe_list(data.get("Actors",  "")),
-            "rated":           data.get("Rated",      "N/A"),
-            "country":         data.get("Country",    "N/A"),
-            "language":        data.get("Language",   "N/A"),
-            "poster_url":      poster_url,
-            "cover_file":      cover_filename,
-            "folder_location": HARDDRIVE_NAME,
-        }
-
-        # ── Save metadata JSON ─────────────────────────────────────────────
+        # ── 3. JSON Speichern ─────────────────────────────────────────────────
         with meta_file.open("w", encoding="utf-8") as f:
             json.dump(metadata, f, indent=4, ensure_ascii=False)
-        print(f"        ✓  Metadata saved → {meta_file.name}")
+
+        if is_new_movie:
+            print(f"        ✓  Neu angelegt → {meta_file.name}")
+            added += 1
+        else:
+            cached += 1
 
         movies.append(metadata)
-        added += 1
-
-    # ── Per-root summary ───────────────────────────────────────────────────
-    print(f"\n  --- {root} summary ---")
-    print(f"    Added:   {added}")
-    print(f"    Cached:  {cached}")
-    print(f"    Skipped: {skipped}")
-    if missing_parse:
-        print(f"    Could not parse ({len(missing_parse)}):")
-        for name in missing_parse:
-            print(f"      {name}")
 
     return movies
 
 
 def scan_all_configured() -> list[dict]:
-    """Process every root defined in MOVIE_ROOTS."""
     all_movies: list[dict] = []
-    for root in MOVIE_ROOTS:
-        all_movies.extend(process_root(root))
+    for root, drive_name in DRIVE_CONFIG.items():
+        all_movies.extend(process_root(root, drive_name))
     return all_movies
 
 
-def scan_single_drive() -> list[dict]:
-    """Prompt for a drive letter and scan that drive only."""
-    raw = input("Enter the drive letter (e.g. F): ").strip().upper()
-    drive_letter = raw.replace(":", "").replace("\\", "").replace("/", "")
-    root = f"{drive_letter}:\\Movies"
-    return process_root(root)
-
-
-# ── Entry point ────────────────────────────────────────────────────────────────
+# ─── ENTRY POINT ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print("=== Movie Metadata Scanner ===")
-    print("1) Scan all configured drives  (MOVIE_ROOTS in script)")
-    print("2) Scan a single drive         (enter drive letter)")
-    choice = input("\nChoice [1/2]: ").strip()
+    print("=== Movie Metadata & Media Scanner ===")
 
-    if choice == "2":
-        movies = scan_single_drive()
-    else:
-        movies = scan_all_configured()
+    if not check_ffprobe_installed():
+        print("❌ FEHLER: 'ffprobe' wurde nicht gefunden!")
+        print("Bitte installiere ffmpeg, damit MKV-Sprachen ausgelesen werden können.")
+        exit(1)
+
+    print("Scanning all configured drives...\n")
+    movies = scan_all_configured()
 
     print(f"\n✅  Done — {len(movies)} movies processed total.")
 
-    # Write combined index (optional, used by other tools)
     index_path = Path(PROJECT_ROOT) / "movies_index.json"
     with index_path.open("w", encoding="utf-8") as f:
         json.dump(movies, f, indent=4, ensure_ascii=False)

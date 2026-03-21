@@ -25,5 +25,41 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTdmOWViYWMtMjVjNC00MDI5LTk3ZmEtM2MxMzFkMzQ5NzNjXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Hannah und ihre Schwestern_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Griechisch",
+    "Italienisch",
+    "Niederländisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Greek",
+    "Italian",
+    "Polish",
+    "Portuguese",
+    "Spanish"
+  ]
 }

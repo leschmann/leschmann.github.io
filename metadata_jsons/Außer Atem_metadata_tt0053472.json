@@ -25,5 +25,27 @@
   "language": "French, English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZGI5MWNjYmEtNzUxZC00YTI3LWE5MzctZTdhYjJkMGMxYzI3XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Außer Atem_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Niederländisch",
+    "Portugiesisch",
+    "Spanisch",
+    "Türkisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "German",
+    "Portuguese",
+    "Spanish",
+    "Turkish"
+  ]
 }

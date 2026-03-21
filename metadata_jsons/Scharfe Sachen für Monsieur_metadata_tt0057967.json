@@ -26,5 +26,29 @@
   "language": "French, Italian, German",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BZDdhYmFiNTAtZTQyMi00NWNjLWI4OTUtNTE1YWI2ZjI3MTVhXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Scharfe Sachen für Monsieur_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "English",
+    "German",
+    "Spanish"
+  ]
 }

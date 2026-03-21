@@ -26,5 +26,23 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "A Beautiful Mind - Genie und Wahnsinn_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Hebräisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German",
+    "Hebrew"
+  ]
 }

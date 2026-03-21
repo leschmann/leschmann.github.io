@@ -1,28 +1,44 @@
 {
-    "num": "00697",
-    "folder_name": "00697 Das Leben ist ein langer ruhiger Fluss (1988) {imdb-tt0096386}",
-    "folder_path": "E:\\Movies\\00697 Das Leben ist ein langer ruhiger Fluss (1988) {imdb-tt0096386}",
-    "title": "Life Is a Long Quiet River",
-    "original_title": "Life Is a Long Quiet River",
-    "year": "1988",
-    "duration": "90 min",
-    "director": "Étienne Chatiliez",
-    "genres": [
-        "Comedy"
-    ],
-    "outline": "A revengeful nurse switches a girl and a boy at birth. They are raised in two radically different families. When the switch is revealed many years later, the now teenagers and families need to cope with their new environments.",
-    "imdb_id": "tt0096386",
-    "imdb_link": "https://www.imdb.com/title/tt0096386/",
-    "imdb_rating": "6.8",
-    "stars": [
-        "Benoît Magimel",
-        "Hélène Vincent",
-        "Valérie Lalande"
-    ],
-    "rated": "Not Rated",
-    "country": "France",
-    "language": "French, English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BODM1MDUyMTEyN15BMl5BanBnXkFtZTgwMTY3MzkwMzE@._V1_SX300.jpg",
-    "cover_file": "Das Leben ist ein langer ruhiger Fluss_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00697",
+  "folder_name": "00697 Das Leben ist ein langer ruhiger Fluss (1988) {imdb-tt0096386}",
+  "folder_path": "E:\\Movies\\00697 Das Leben ist ein langer ruhiger Fluss (1988) {imdb-tt0096386}",
+  "title": "Life Is a Long Quiet River",
+  "original_title": "Life Is a Long Quiet River",
+  "year": "1988",
+  "duration": "90 min",
+  "director": "Étienne Chatiliez",
+  "genres": [
+    "Comedy"
+  ],
+  "outline": "A revengeful nurse switches a girl and a boy at birth. They are raised in two radically different families. When the switch is revealed many years later, the now teenagers and families need to cope with their new environments.",
+  "imdb_id": "tt0096386",
+  "imdb_link": "https://www.imdb.com/title/tt0096386/",
+  "imdb_rating": "6.8",
+  "stars": [
+    "Benoît Magimel",
+    "Hélène Vincent",
+    "Valérie Lalande"
+  ],
+  "rated": "Not Rated",
+  "country": "France",
+  "language": "French, English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BODM1MDUyMTEyN15BMl5BanBnXkFtZTgwMTY3MzkwMzE@._V1_SX300.jpg",
+  "cover_file": "Das Leben ist ein langer ruhiger Fluss_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

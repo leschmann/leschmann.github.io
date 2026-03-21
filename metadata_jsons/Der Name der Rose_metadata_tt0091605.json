@@ -26,5 +26,23 @@
   "language": "English, Latin",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODcwODk2NmQtMjg0My00NzcxLWFhNTYtNjM4ODUxM2VjNTI2XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Der Name der Rose_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

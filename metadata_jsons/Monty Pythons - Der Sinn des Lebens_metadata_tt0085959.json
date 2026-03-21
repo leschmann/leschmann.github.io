@@ -1,29 +1,45 @@
 {
-    "num": "00216",
-    "folder_name": "00216 Monty Pythons - Der Sinn des Lebens (1983) {imdb-tt0085959}",
-    "folder_path": "F:\\Movies\\00216 Monty Pythons - Der Sinn des Lebens (1983) {imdb-tt0085959}",
-    "title": "Monty Python's the Meaning of Life",
-    "original_title": "Monty Python's the Meaning of Life",
-    "year": "1983",
-    "duration": "107 min",
-    "director": "Terry Jones",
-    "genres": [
-        "Comedy",
-        "Musical"
-    ],
-    "outline": "Why are we here, what's it all about? The Monty Python team is trying to sort out the most important question on Earth: what is the meaning of life? They do so by exploring the various stages of life, starting with birth. A doctor seems more interested in his equipment than in delivering the baby or caring for the mother, a Roman Catholic couple have quite a lot of children because \"every sperm is sacred\". In the growing and learning part of life, Catholic schoolboys attend a rather strange church service and ditto sex education lesson. Onto war, where an officer's plan to attack is thwarted by his underlings wanting to celebrate his birthday, and an officer's leg is bitten off by presumably an African tiger. At middle age, a couple orders \"philosophy\" at a restaurant, after which, the movie continues with live organ transplants. The autumn years are played in a restaurant, which, after being treated to the song \"Isn't It Awfully Nice to Have a Penis?\" by an entertainer, sees the arrival of an extremely fat man. He can eat a lot, but also throw up quite copiously. The Grim Reaper brings for the final stage of human life, death, a visit to a mansion, where the people are rather interested in him. But life doesn't stop at death. It's onto heaven, where it's always Christmas.",
-    "imdb_id": "tt0085959",
-    "imdb_link": "https://www.imdb.com/title/tt0085959/",
-    "imdb_rating": "7.5",
-    "stars": [
-        "John Cleese",
-        "Terry Gilliam",
-        "Eric Idle"
-    ],
-    "rated": "R",
-    "country": "United Kingdom, United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMmZjYzM5OGMtYmY2OS00YzQ3LWEzZjgtY2Q1Yjc1NTNkYTZiXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Monty Pythons - Der Sinn des Lebens_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00216",
+  "folder_name": "00216 Monty Pythons - Der Sinn des Lebens (1983) {imdb-tt0085959}",
+  "folder_path": "F:\\Movies\\00216 Monty Pythons - Der Sinn des Lebens (1983) {imdb-tt0085959}",
+  "title": "Monty Python's the Meaning of Life",
+  "original_title": "Monty Python's the Meaning of Life",
+  "year": "1983",
+  "duration": "107 min",
+  "director": "Terry Jones",
+  "genres": [
+    "Comedy",
+    "Musical"
+  ],
+  "outline": "Why are we here, what's it all about? The Monty Python team is trying to sort out the most important question on Earth: what is the meaning of life? They do so by exploring the various stages of life, starting with birth. A doctor seems more interested in his equipment than in delivering the baby or caring for the mother, a Roman Catholic couple have quite a lot of children because \"every sperm is sacred\". In the growing and learning part of life, Catholic schoolboys attend a rather strange church service and ditto sex education lesson. Onto war, where an officer's plan to attack is thwarted by his underlings wanting to celebrate his birthday, and an officer's leg is bitten off by presumably an African tiger. At middle age, a couple orders \"philosophy\" at a restaurant, after which, the movie continues with live organ transplants. The autumn years are played in a restaurant, which, after being treated to the song \"Isn't It Awfully Nice to Have a Penis?\" by an entertainer, sees the arrival of an extremely fat man. He can eat a lot, but also throw up quite copiously. The Grim Reaper brings for the final stage of human life, death, a visit to a mansion, where the people are rather interested in him. But life doesn't stop at death. It's onto heaven, where it's always Christmas.",
+  "imdb_id": "tt0085959",
+  "imdb_link": "https://www.imdb.com/title/tt0085959/",
+  "imdb_rating": "7.5",
+  "stars": [
+    "John Cleese",
+    "Terry Gilliam",
+    "Eric Idle"
+  ],
+  "rated": "R",
+  "country": "United Kingdom, United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMmZjYzM5OGMtYmY2OS00YzQ3LWEzZjgtY2Q1Yjc1NTNkYTZiXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Monty Pythons - Der Sinn des Lebens_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

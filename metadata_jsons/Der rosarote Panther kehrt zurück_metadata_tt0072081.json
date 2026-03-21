@@ -1,30 +1,78 @@
 {
-    "num": "00628",
-    "folder_name": "00628 Der rosarote Panther kehrt zurück (1975) {imdb-tt0072081}",
-    "folder_path": "E:\\Movies\\00628 Der rosarote Panther kehrt zurück (1975) {imdb-tt0072081}",
-    "title": "The Return of the Pink Panther",
-    "original_title": "The Return of the Pink Panther",
-    "year": "1975",
-    "duration": "113 min",
-    "director": "Blake Edwards",
-    "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-    ],
-    "outline": "That famous jewel, The Pink Panther, has once again been stolen and Inspector Jacque Clouseau (Peter Sellers) is called in to catch the thief. The Inspector is convinced that \"The Phantom\" has returned and utilizes all of his resources, himself and his oriental manservant, to reveal the true identity of \"The Phantom\".",
-    "imdb_id": "tt0072081",
-    "imdb_link": "https://www.imdb.com/title/tt0072081/",
-    "imdb_rating": "7.0",
-    "stars": [
-        "Peter Sellers",
-        "Christopher Plummer",
-        "Catherine Schell"
-    ],
-    "rated": "G",
-    "country": "United Kingdom, United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZTFkNDljYjgtZmQ3NS00MDkxLTk3OGItNzZlZTgxZTAzN2JlXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der rosarote Panther kehrt zurück_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00628",
+  "folder_name": "00628 Der rosarote Panther kehrt zurück (1975) {imdb-tt0072081}",
+  "folder_path": "E:\\Movies\\00628 Der rosarote Panther kehrt zurück (1975) {imdb-tt0072081}",
+  "title": "The Return of the Pink Panther",
+  "original_title": "The Return of the Pink Panther",
+  "year": "1975",
+  "duration": "113 min",
+  "director": "Blake Edwards",
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Mystery"
+  ],
+  "outline": "That famous jewel, The Pink Panther, has once again been stolen and Inspector Jacque Clouseau (Peter Sellers) is called in to catch the thief. The Inspector is convinced that \"The Phantom\" has returned and utilizes all of his resources, himself and his oriental manservant, to reveal the true identity of \"The Phantom\".",
+  "imdb_id": "tt0072081",
+  "imdb_link": "https://www.imdb.com/title/tt0072081/",
+  "imdb_rating": "7.0",
+  "stars": [
+    "Peter Sellers",
+    "Christopher Plummer",
+    "Catherine Schell"
+  ],
+  "rated": "G",
+  "country": "United Kingdom, United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZTFkNDljYjgtZmQ3NS00MDkxLTk3OGItNzZlZTgxZTAzN2JlXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der rosarote Panther kehrt zurück_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch",
+    "Italienisch",
+    "Russisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Russian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Italienisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hungarian",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Spanish",
+    "Swedish"
+  ]
 }

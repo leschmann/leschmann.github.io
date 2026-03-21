@@ -23,5 +23,13 @@
   "language": "French",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMwODhiY2MtZDY3OC00N2ZkLWIwM2MtOGU1ZDg1Njk4NmZkXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Mikrokosmos - Das Volk der Gräser_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

@@ -1,30 +1,56 @@
 {
-    "num": "00769",
-    "folder_name": "00769 Der Mann, der zuviel wusste (1956) {imdb-tt0049470}",
-    "folder_path": "E:\\Movies\\00769 Der Mann, der zuviel wusste (1956) {imdb-tt0049470}",
-    "title": "The Man Who Knew Too Much",
-    "original_title": "The Man Who Knew Too Much",
-    "year": "1956",
-    "duration": "120 min",
-    "director": "Alfred Hitchcock",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-    ],
-    "outline": "While attending a medical conference in Paris, American physician Dr. Ben McKenna, his wife, retired musical theater actress and singer Jo McKenna née Conway, and their adolescent son Hank McKenna decide to take a side trip to among other places Marrekesh, French Morocco. With a knife plunged into his back, Frenchman Louis Bernard, who the family met earlier in their bus ride into Marrakesh and who is now masquerading as an Arab, approaches Ben, cryptically whispering into Ben's ears that there will be an attempted assassination in London of a statesman, this news whispered just before Bernard dies. Ben is reluctant to provide any information of this news to the authorities because concurrently Hank is kidnapped by British couple, Edward and Lucy Drayton, who also befriended the McKennas in Marrakesh and who probably have taken Hank out of the country back to England. Whoever the unknown people the Draytons are working for have threatened to kill Hank if Ben divulges any information told to him by Bernard. With what little information they have on hand, Ben and Jo head to London to try and thwart the assassination attempt and more importantly find an alive and safe Hank. Scotland Yard is aware of some pieces to the puzzle, including the fact that Bernard was a French secret service agent and that there will be an assassination attempt on someone. They and the McKennas will have to work together as they hit a diplomatic roadblock, one that may be overcome with a special Jo Conway song.",
-    "imdb_id": "tt0049470",
-    "imdb_link": "https://www.imdb.com/title/tt0049470/",
-    "imdb_rating": "7.4",
-    "stars": [
-        "James Stewart",
-        "Doris Day",
-        "Brenda de Banzie"
-    ],
-    "rated": "PG",
-    "country": "United States",
-    "language": "English, Arabic, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNDg1NzljZmMtMDU3OS00Y2E5LWE3OGEtMzM4ZjhjMmZmZTI5XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der Mann, der zuviel wusste_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00769",
+  "folder_name": "00769 Der Mann, der zuviel wusste (1956) {imdb-tt0049470}",
+  "folder_path": "E:\\Movies\\00769 Der Mann, der zuviel wusste (1956) {imdb-tt0049470}",
+  "title": "The Man Who Knew Too Much",
+  "original_title": "The Man Who Knew Too Much",
+  "year": "1956",
+  "duration": "120 min",
+  "director": "Alfred Hitchcock",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
+  "outline": "While attending a medical conference in Paris, American physician Dr. Ben McKenna, his wife, retired musical theater actress and singer Jo McKenna née Conway, and their adolescent son Hank McKenna decide to take a side trip to among other places Marrekesh, French Morocco. With a knife plunged into his back, Frenchman Louis Bernard, who the family met earlier in their bus ride into Marrakesh and who is now masquerading as an Arab, approaches Ben, cryptically whispering into Ben's ears that there will be an attempted assassination in London of a statesman, this news whispered just before Bernard dies. Ben is reluctant to provide any information of this news to the authorities because concurrently Hank is kidnapped by British couple, Edward and Lucy Drayton, who also befriended the McKennas in Marrakesh and who probably have taken Hank out of the country back to England. Whoever the unknown people the Draytons are working for have threatened to kill Hank if Ben divulges any information told to him by Bernard. With what little information they have on hand, Ben and Jo head to London to try and thwart the assassination attempt and more importantly find an alive and safe Hank. Scotland Yard is aware of some pieces to the puzzle, including the fact that Bernard was a French secret service agent and that there will be an assassination attempt on someone. They and the McKennas will have to work together as they hit a diplomatic roadblock, one that may be overcome with a special Jo Conway song.",
+  "imdb_id": "tt0049470",
+  "imdb_link": "https://www.imdb.com/title/tt0049470/",
+  "imdb_rating": "7.4",
+  "stars": [
+    "James Stewart",
+    "Doris Day",
+    "Brenda de Banzie"
+  ],
+  "rated": "PG",
+  "country": "United States",
+  "language": "English, Arabic, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNDg1NzljZmMtMDU3OS00Y2E5LWE3OGEtMzM4ZjhjMmZmZTI5XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der Mann, der zuviel wusste_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Schwedisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Norwegian",
+    "Swedish"
+  ]
 }

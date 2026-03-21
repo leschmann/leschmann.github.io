@@ -26,5 +26,49 @@
   "language": "English, Italian",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYyNjgwMDg4NF5BMl5BanBnXkFtZTgwNTQ5MTM4MTE@._V1_SX300.jpg",
   "cover_file": "Die Marx Brothers in der Oper_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Hebräisch",
+    "Italienisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Danish",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hungarian",
+    "Italian",
+    "Polish",
+    "Portuguese",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

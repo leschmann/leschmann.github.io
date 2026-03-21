@@ -1,30 +1,44 @@
 {
-    "num": "00698",
-    "folder_name": "00698 Die Verlobung des Monsieur Hire (1989) {imdb-tt0097904}",
-    "folder_path": "E:\\Movies\\00698 Die Verlobung des Monsieur Hire (1989) {imdb-tt0097904}",
-    "title": "Monsieur Hire",
-    "original_title": "Monsieur Hire",
-    "year": "1989",
-    "duration": "81 min",
-    "director": "Patrice Leconte",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Romance"
-    ],
-    "outline": "Monsieur Hire is a maladjusted, balding, middle-aged man living in France. He doesn't like to talk to people. A young woman is murdered and a police detective suspects M. Hire, just because his neighbors think he is strange.",
-    "imdb_id": "tt0097904",
-    "imdb_link": "https://www.imdb.com/title/tt0097904/",
-    "imdb_rating": "7.5",
-    "stars": [
-        "Michel Blanc",
-        "Sandrine Bonnaire",
-        "Luc Thuillier"
-    ],
-    "rated": "PG-13",
-    "country": "France",
-    "language": "French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNzA2ZTUwZGItMDE0Yy00ZjhhLTljMDAtODJiYmMyYzYzMTBlXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Die Verlobung des Monsieur Hire_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00698",
+  "folder_name": "00698 Die Verlobung des Monsieur Hire (1989) {imdb-tt0097904}",
+  "folder_path": "E:\\Movies\\00698 Die Verlobung des Monsieur Hire (1989) {imdb-tt0097904}",
+  "title": "Monsieur Hire",
+  "original_title": "Monsieur Hire",
+  "year": "1989",
+  "duration": "81 min",
+  "director": "Patrice Leconte",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Romance"
+  ],
+  "outline": "Monsieur Hire is a maladjusted, balding, middle-aged man living in France. He doesn't like to talk to people. A young woman is murdered and a police detective suspects M. Hire, just because his neighbors think he is strange.",
+  "imdb_id": "tt0097904",
+  "imdb_link": "https://www.imdb.com/title/tt0097904/",
+  "imdb_rating": "7.5",
+  "stars": [
+    "Michel Blanc",
+    "Sandrine Bonnaire",
+    "Luc Thuillier"
+  ],
+  "rated": "PG-13",
+  "country": "France",
+  "language": "French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNzA2ZTUwZGItMDE0Yy00ZjhhLTljMDAtODJiYmMyYzYzMTBlXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Die Verlobung des Monsieur Hire_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

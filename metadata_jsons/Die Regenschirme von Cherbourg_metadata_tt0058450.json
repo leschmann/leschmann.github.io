@@ -1,30 +1,42 @@
 {
-    "num": "00767",
-    "folder_name": "00767 Die Regenschirme von Cherbourg (1964) {imdb-tt0058450}",
-    "folder_path": "E:\\Movies\\00767 Die Regenschirme von Cherbourg (1964) {imdb-tt0058450}",
-    "title": "The Umbrellas of Cherbourg",
-    "original_title": "The Umbrellas of Cherbourg",
-    "year": "1964",
-    "duration": "91 min",
-    "director": "Jacques Demy",
-    "genres": [
-        "Drama",
-        "Musical",
-        "Romance"
-    ],
-    "outline": "16-year-old Genevieve and 20-year-old Guy are very much in love. Her kind mother, who runs an umbrella shop, won't hear of her marrying, particularly as Guy has yet to complete his compulsory military service. Genevieve is heartbroken when he leaves for his army service in colonial Algeria and is upset to have received only one letter from him in two months. Her mother's solution to this situation is kind diamond-merchant Roland Cassard, who has helped them in the past.",
-    "imdb_id": "tt0058450",
-    "imdb_link": "https://www.imdb.com/title/tt0058450/",
-    "imdb_rating": "7.8",
-    "stars": [
-        "Catherine Deneuve",
-        "Nino Castelnuovo",
-        "Anne Vernon"
-    ],
-    "rated": "Not Rated",
-    "country": "France, West Germany",
-    "language": "French, English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNmY3NWE5YWYtMGFkNC00Y2JhLWI5MTYtMTA0OWE5NjZlNGY4XkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": null,
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00767",
+  "folder_name": "00767 Die Regenschirme von Cherbourg (1964) {imdb-tt0058450}",
+  "folder_path": "E:\\Movies\\00767 Die Regenschirme von Cherbourg (1964) {imdb-tt0058450}",
+  "title": "The Umbrellas of Cherbourg",
+  "original_title": "The Umbrellas of Cherbourg",
+  "year": "1964",
+  "duration": "91 min",
+  "director": "Jacques Demy",
+  "genres": [
+    "Drama",
+    "Musical",
+    "Romance"
+  ],
+  "outline": "16-year-old Genevieve and 20-year-old Guy are very much in love. Her kind mother, who runs an umbrella shop, won't hear of her marrying, particularly as Guy has yet to complete his compulsory military service. Genevieve is heartbroken when he leaves for his army service in colonial Algeria and is upset to have received only one letter from him in two months. Her mother's solution to this situation is kind diamond-merchant Roland Cassard, who has helped them in the past.",
+  "imdb_id": "tt0058450",
+  "imdb_link": "https://www.imdb.com/title/tt0058450/",
+  "imdb_rating": "7.8",
+  "stars": [
+    "Catherine Deneuve",
+    "Nino Castelnuovo",
+    "Anne Vernon"
+  ],
+  "rated": "Not Rated",
+  "country": "France, West Germany",
+  "language": "French, English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNmY3NWE5YWYtMGFkNC00Y2JhLWI5MTYtMTA0OWE5NjZlNGY4XkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": null,
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "French"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

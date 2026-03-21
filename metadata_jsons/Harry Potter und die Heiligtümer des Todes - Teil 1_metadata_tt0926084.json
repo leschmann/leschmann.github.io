@@ -1,30 +1,50 @@
 {
-    "num": "00627",
-    "folder_name": "00627 Harry Potter und die Heiligtümer des Todes - Teil 1 (2010) {imdb-tt0926084}",
-    "folder_path": "E:\\Movies\\00627 Harry Potter und die Heiligtümer des Todes - Teil 1 (2010) {imdb-tt0926084}",
-    "title": "Harry Potter and the Deathly Hallows: Part 1",
-    "original_title": "Harry Potter and the Deathly Hallows: Part 1",
-    "year": "2010",
-    "duration": "146 min",
-    "director": "David Yates",
-    "genres": [
-        "Adventure",
-        "Family",
-        "Fantasy"
-    ],
-    "outline": "Voldemort's (Ralph Fiennes') power is growing stronger. He now has control over the Ministry of Magic and Hogwarts. Harry (Daniel Radcliffe), Ron (Rupert Grint), and Hermione (Emma Watson) decide to finish Dumbledore's (Sir Michael Gambon's) work and find the rest of the Horcruxes to defeat the Dark Lord. But little hope remains for the trio and the rest of the Wizarding World, so everything they do must go as planned.",
-    "imdb_id": "tt0926084",
-    "imdb_link": "https://www.imdb.com/title/tt0926084/",
-    "imdb_rating": "7.7",
-    "stars": [
-        "Daniel Radcliffe",
-        "Emma Watson",
-        "Rupert Grint"
-    ],
-    "rated": "PG-13",
-    "country": "United Kingdom, United States",
-    "language": "English, Latin",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
-    "cover_file": "Harry Potter und die Heiligtümer des Todes - Teil 1_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00627",
+  "folder_name": "00627 Harry Potter und die Heiligtümer des Todes - Teil 1 (2010) {imdb-tt0926084}",
+  "folder_path": "E:\\Movies\\00627 Harry Potter und die Heiligtümer des Todes - Teil 1 (2010) {imdb-tt0926084}",
+  "title": "Harry Potter and the Deathly Hallows: Part 1",
+  "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+  "year": "2010",
+  "duration": "146 min",
+  "director": "David Yates",
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "outline": "Voldemort's (Ralph Fiennes') power is growing stronger. He now has control over the Ministry of Magic and Hogwarts. Harry (Daniel Radcliffe), Ron (Rupert Grint), and Hermione (Emma Watson) decide to finish Dumbledore's (Sir Michael Gambon's) work and find the rest of the Horcruxes to defeat the Dark Lord. But little hope remains for the trio and the rest of the Wizarding World, so everything they do must go as planned.",
+  "imdb_id": "tt0926084",
+  "imdb_link": "https://www.imdb.com/title/tt0926084/",
+  "imdb_rating": "7.7",
+  "stars": [
+    "Daniel Radcliffe",
+    "Emma Watson",
+    "Rupert Grint"
+  ],
+  "rated": "PG-13",
+  "country": "United Kingdom, United States",
+  "language": "English, Latin",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
+  "cover_file": "Harry Potter und die Heiligtümer des Todes - Teil 1_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch"
+  ],
+  "audio_languages_english": [
+    "Dutch",
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch"
+  ],
+  "subtitles_languages_english": [
+    "Dutch",
+    "English",
+    "German"
+  ]
 }

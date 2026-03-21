@@ -1,30 +1,40 @@
 {
-    "num": "00644",
-    "folder_name": "00644 Chopin – Sehnsucht nach Liebe (2002) {imdb-tt0284406}",
-    "folder_path": "E:\\Movies\\00644 Chopin – Sehnsucht nach Liebe (2002) {imdb-tt0284406}",
-    "title": "Chopin: Desire for Love",
-    "original_title": "Chopin: Desire for Love",
-    "year": "2002",
-    "duration": "134 min",
-    "director": "Jerzy Antczak",
-    "genres": [
-        "Drama",
-        "Romance",
-        "Music"
-    ],
-    "outline": "A tangled web of unruly passion lies at the center of this drama, chronicling the stormy affair between the great piano virtuoso Frederic Chopin and the flamboyant feminist writer Aurore Dupin, who called herself George Sand. Academy Award nominated Jerzy Antczak directs this sweeping portrayal of the famed composer and his intense but hurtful relationship with George Sand and her children. Chopin's Music known and loved by millions worldwide provides a powerful score that underlines the drama. The world recognized Yo-Yo-MA (cellist), Emanuel Ax (pianist), Yukio Yokoyama (pianist), Janusz Olejniczak pianist), Pamela Frank (violin), Vadim Brodsky (violin) use their talents to brilliantly perform Chopin's music.",
-    "imdb_id": "tt0284406",
-    "imdb_link": "https://www.imdb.com/title/tt0284406/",
-    "imdb_rating": "5.1",
-    "stars": [
-        "Piotr Adamczyk",
-        "Danuta Stenka",
-        "Adam Woronowicz"
-    ],
-    "rated": "R",
-    "country": "Poland",
-    "language": "Polish, French, English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNmMzNDRhNjYtOWEyOC00ZjAwLTkyOTgtZDM0NmZmNzllZGI3XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
-    "cover_file": null,
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00644",
+  "folder_name": "00644 Chopin – Sehnsucht nach Liebe (2002) {imdb-tt0284406}",
+  "folder_path": "E:\\Movies\\00644 Chopin – Sehnsucht nach Liebe (2002) {imdb-tt0284406}",
+  "title": "Chopin: Desire for Love",
+  "original_title": "Chopin: Desire for Love",
+  "year": "2002",
+  "duration": "134 min",
+  "director": "Jerzy Antczak",
+  "genres": [
+    "Drama",
+    "Romance",
+    "Music"
+  ],
+  "outline": "A tangled web of unruly passion lies at the center of this drama, chronicling the stormy affair between the great piano virtuoso Frederic Chopin and the flamboyant feminist writer Aurore Dupin, who called herself George Sand. Academy Award nominated Jerzy Antczak directs this sweeping portrayal of the famed composer and his intense but hurtful relationship with George Sand and her children. Chopin's Music known and loved by millions worldwide provides a powerful score that underlines the drama. The world recognized Yo-Yo-MA (cellist), Emanuel Ax (pianist), Yukio Yokoyama (pianist), Janusz Olejniczak pianist), Pamela Frank (violin), Vadim Brodsky (violin) use their talents to brilliantly perform Chopin's music.",
+  "imdb_id": "tt0284406",
+  "imdb_link": "https://www.imdb.com/title/tt0284406/",
+  "imdb_rating": "5.1",
+  "stars": [
+    "Piotr Adamczyk",
+    "Danuta Stenka",
+    "Adam Woronowicz"
+  ],
+  "rated": "R",
+  "country": "Poland",
+  "language": "Polish, French, English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNmMzNDRhNjYtOWEyOC00ZjAwLTkyOTgtZDM0NmZmNzllZGI3XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
+  "cover_file": null,
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

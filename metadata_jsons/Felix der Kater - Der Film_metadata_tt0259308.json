@@ -26,5 +26,13 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNjBmOWI2NDMtMWU0MS00ZmI0LTljYWEtNmM0MmY0YTIzYjBjXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Felix der Kater - Der Film_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }

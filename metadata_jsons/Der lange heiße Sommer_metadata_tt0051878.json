@@ -1,28 +1,42 @@
 {
-    "num": "00731",
-    "folder_name": "00731 Der lange heiße Sommer (1958) {imdb-tt0051878}",
-    "folder_path": "E:\\Movies\\00731 Der lange heiße Sommer (1958) {imdb-tt0051878}",
-    "title": "The Long, Hot Summer",
-    "original_title": "The Long, Hot Summer",
-    "year": "1958",
-    "duration": "115 min",
-    "director": "Martin Ritt",
-    "genres": [
-        "Drama"
-    ],
-    "outline": "Sixty-one year old widower Will Varner (Orson Welles), in ill health, owns many businesses and property in Frenchman's Bend, Mississippi, including a plantation. To him, his children are a disappointment, who he sees as not being able to carry on the Varner name in the style to which he has built around it. Son Jody (Anthony Francoisa) has no ambition and does not work, spending much of his time fooling around with his seductive wife, Eula (Lee Remick). He finds 23-year-old daughter Clara (Joanne Woodward) clever, but he feels she also wastes her time on more contemplative pursuits. While most of her contemporaries are married, Clara has been dating Alan Stewart (Richard Anderson), a genteel mama's boy, for six years. Will would not mind Alan so much if he too thought Alan had a bit of a forceful man in him, which he could demonstrate by actually asking Clara to marry him. Conversely, Jody laments that nothing he does is ever good enough for his father, while Clara plain does not like the way he treats them. Into their lives comes Ben Quick (Paul Newman), who Jody hired while Will was hospitalized, to do some sharecropping on currently vacant land. Despite Will believing the unsubstantiated stories that Ben burned down someone's barn as an act of vengeance, Will becomes to view Ben as the son he never had, as he is much the same mold. As such, Will does whatever he can to get Ben to be part of the family to carry on the Varner name the way Will wants it be, which means marrying Clara. Through the process, Clara may come to a realization about what she really wants in life, while Jody does whatever he can to retain his position in the family.",
-    "imdb_id": "tt0051878",
-    "imdb_link": "https://www.imdb.com/title/tt0051878/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Paul Newman",
-        "Joanne Woodward",
-        "Anthony Franciosa"
-    ],
-    "rated": "Approved",
-    "country": "United States",
-    "language": "English",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZGNhZTlkMzAtZjY2Ny00YjlhLThlOWEtOWExYTVmMzI2OWExXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Der lange heiße Sommer_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00731",
+  "folder_name": "00731 Der lange heiße Sommer (1958) {imdb-tt0051878}",
+  "folder_path": "E:\\Movies\\00731 Der lange heiße Sommer (1958) {imdb-tt0051878}",
+  "title": "The Long, Hot Summer",
+  "original_title": "The Long, Hot Summer",
+  "year": "1958",
+  "duration": "115 min",
+  "director": "Martin Ritt",
+  "genres": [
+    "Drama"
+  ],
+  "outline": "Sixty-one year old widower Will Varner (Orson Welles), in ill health, owns many businesses and property in Frenchman's Bend, Mississippi, including a plantation. To him, his children are a disappointment, who he sees as not being able to carry on the Varner name in the style to which he has built around it. Son Jody (Anthony Francoisa) has no ambition and does not work, spending much of his time fooling around with his seductive wife, Eula (Lee Remick). He finds 23-year-old daughter Clara (Joanne Woodward) clever, but he feels she also wastes her time on more contemplative pursuits. While most of her contemporaries are married, Clara has been dating Alan Stewart (Richard Anderson), a genteel mama's boy, for six years. Will would not mind Alan so much if he too thought Alan had a bit of a forceful man in him, which he could demonstrate by actually asking Clara to marry him. Conversely, Jody laments that nothing he does is ever good enough for his father, while Clara plain does not like the way he treats them. Into their lives comes Ben Quick (Paul Newman), who Jody hired while Will was hospitalized, to do some sharecropping on currently vacant land. Despite Will believing the unsubstantiated stories that Ben burned down someone's barn as an act of vengeance, Will becomes to view Ben as the son he never had, as he is much the same mold. As such, Will does whatever he can to get Ben to be part of the family to carry on the Varner name the way Will wants it be, which means marrying Clara. Through the process, Clara may come to a realization about what she really wants in life, while Jody does whatever he can to retain his position in the family.",
+  "imdb_id": "tt0051878",
+  "imdb_link": "https://www.imdb.com/title/tt0051878/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Paul Newman",
+    "Joanne Woodward",
+    "Anthony Franciosa"
+  ],
+  "rated": "Approved",
+  "country": "United States",
+  "language": "English",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZGNhZTlkMzAtZjY2Ny00YjlhLThlOWEtOWExYTVmMzI2OWExXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Der lange heiße Sommer_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English"
+  ]
 }

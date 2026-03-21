@@ -1,30 +1,46 @@
 {
-    "num": "00730",
-    "folder_name": "00730 Jane Eyre (2011) {imdb-tt1229822}",
-    "folder_path": "E:\\Movies\\00730 Jane Eyre (2011) {imdb-tt1229822}",
-    "title": "Jane Eyre",
-    "original_title": "Jane Eyre",
-    "year": "2011",
-    "duration": "120 min",
-    "director": "Cary Joji Fukunaga",
-    "genres": [
-        "Drama",
-        "Mystery",
-        "Romance"
-    ],
-    "outline": "After a bleak childhood, Jane Eyre (Mia Wasikowska) goes out into the world to become a governess. As she lives happily in her new position at Thornfield Hall, she meets the dark, cold, and abrupt master of the house, Mr. Edward Rochester (Michael Fassbender). Jane and her employer grow close in friendship and she soon finds herself falling in love with him. Happiness seems to have found Jane at last, but could Mr. Rochester's terrible secret be about to destroy it forever?",
-    "imdb_id": "tt1229822",
-    "imdb_link": "https://www.imdb.com/title/tt1229822/",
-    "imdb_rating": "7.3",
-    "stars": [
-        "Mia Wasikowska",
-        "Michael Fassbender",
-        "Jamie Bell"
-    ],
-    "rated": "PG-13",
-    "country": "United Kingdom, United States",
-    "language": "English, French",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BNjU0Mjc0NzU3NF5BMl5BanBnXkFtZTcwMTU4OTkwNA@@._V1_SX300.jpg",
-    "cover_file": "Jane Eyre_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091"
+  "num": "00730",
+  "folder_name": "00730 Jane Eyre (2011) {imdb-tt1229822}",
+  "folder_path": "E:\\Movies\\00730 Jane Eyre (2011) {imdb-tt1229822}",
+  "title": "Jane Eyre",
+  "original_title": "Jane Eyre",
+  "year": "2011",
+  "duration": "120 min",
+  "director": "Cary Joji Fukunaga",
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Romance"
+  ],
+  "outline": "After a bleak childhood, Jane Eyre (Mia Wasikowska) goes out into the world to become a governess. As she lives happily in her new position at Thornfield Hall, she meets the dark, cold, and abrupt master of the house, Mr. Edward Rochester (Michael Fassbender). Jane and her employer grow close in friendship and she soon finds herself falling in love with him. Happiness seems to have found Jane at last, but could Mr. Rochester's terrible secret be about to destroy it forever?",
+  "imdb_id": "tt1229822",
+  "imdb_link": "https://www.imdb.com/title/tt1229822/",
+  "imdb_rating": "7.3",
+  "stars": [
+    "Mia Wasikowska",
+    "Michael Fassbender",
+    "Jamie Bell"
+  ],
+  "rated": "PG-13",
+  "country": "United Kingdom, United States",
+  "language": "English, French",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNjU0Mjc0NzU3NF5BMl5BanBnXkFtZTcwMTU4OTkwNA@@._V1_SX300.jpg",
+  "cover_file": "Jane Eyre_cover.jpg",
+  "folder_location": "FFM DVD 00601 - 01091",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

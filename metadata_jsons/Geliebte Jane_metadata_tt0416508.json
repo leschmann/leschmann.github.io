@@ -26,5 +26,19 @@
   "language": "English, British Sign ",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTIzMjQyMDMxM15BMl5BanBnXkFtZTcwMjAwOTM1MQ@@._V1_SX300.jpg",
   "cover_file": "Geliebte Jane_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

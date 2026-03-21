@@ -25,5 +25,35 @@
   "language": "English, Hindi, Sinhala",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BOGUwZjZiNWQtYzAzZi00NGI5LWE4YmUtN2Y4YWMwY2RlZDkyXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Indiana Jones und der Tempel des Todes_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Tschechisch",
+    "Ungarisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German",
+    "Hungarian"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Niederländisch",
+    "Polnisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Czech",
+    "Dutch",
+    "English",
+    "German",
+    "Hungarian",
+    "Polish",
+    "Turkish"
+  ]
 }

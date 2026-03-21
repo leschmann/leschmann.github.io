@@ -26,5 +26,55 @@
   "language": "English, Japanese, Thai",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNzdkYmU2YmItNmZiYy00OWQyLTg0YWYtZmUxM2U3YTRiNTQ1XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Die Brücke am Kwai_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Französisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "French",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Hebräisch",
+    "Hindi",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hindi",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Swedish",
+    "Turkish"
+  ]
 }

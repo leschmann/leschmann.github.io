@@ -1,7 +1,7 @@
 {
-  "num": "00473",
-  "folder_name": "00473 Die vier Musketiere (1974) {imdb-tt0073012}",
-  "folder_path": "F:\\Movies\\00473 Die vier Musketiere (1974) {imdb-tt0073012}",
+  "num": "00474",
+  "folder_name": "00474 Die vier Musketiere (1974) {imdb-tt0073012}",
+  "folder_path": "F:\\Movies\\00474 Die vier Musketiere (1974) {imdb-tt0073012}",
   "title": "The Four Musketeers",
   "original_title": "The Four Musketeers",
   "year": "1974",
@@ -26,5 +26,37 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BOGNhNDRlODMtYzhkZS00OTQyLWIyMGUtN2M2Nzk1OTdkZmE3XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Die vier Musketiere_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Italienisch",
+    "Spanisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German",
+    "Italian",
+    "Spanish"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Finnisch",
+    "Italienisch",
+    "Norwegisch",
+    "Portugiesisch",
+    "Schwedisch",
+    "Spanisch"
+  ],
+  "subtitles_languages_english": [
+    "Danish",
+    "Finnish",
+    "German",
+    "Italian",
+    "Norwegian",
+    "Portuguese",
+    "Spanish",
+    "Swedish"
+  ]
 }

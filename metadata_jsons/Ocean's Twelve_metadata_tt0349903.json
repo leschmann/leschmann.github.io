@@ -25,5 +25,25 @@
   "language": "English, Dutch, French, Italian, Mandarin",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNjgxNjY3ODEtMTZhOC00NjgyLTg4YTAtZjA4ZDI2MDQ4OGJmXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Ocean's Twelve_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Deutsch",
+    "Englisch",
+    "Hebräisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "English",
+    "German",
+    "Hebrew"
+  ]
 }

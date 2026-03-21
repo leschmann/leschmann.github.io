@@ -26,5 +26,49 @@
   "language": "English, French, German, Spanish, Yiddish",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNTFlOWU2NTItNDlmMS00MmZhLTgyMjMtODYxMjkwZGY3ODg2XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Marathon Man_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch",
+    "Tschechisch"
+  ],
+  "audio_languages_english": [
+    "Czech",
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Arabisch",
+    "Bulgarisch",
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Isländisch",
+    "Niederländisch",
+    "Norwegisch",
+    "Polnisch",
+    "Rumänisch",
+    "Schwedisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Arabic",
+    "Bulgarian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "Finnish",
+    "German",
+    "Hungarian",
+    "Icelandic",
+    "Norwegian",
+    "Polish",
+    "Romanian",
+    "Swedish",
+    "Turkish"
+  ]
 }

@@ -1,30 +1,42 @@
 {
-    "num": "00219",
-    "folder_name": "00219 Arsen und Spitzenhäubchen (1944) {imdb-tt0036613}",
-    "folder_path": "F:\\Movies\\00219 Arsen und Spitzenhäubchen (1944) {imdb-tt0036613}",
-    "title": "Arsenic and Old Lace",
-    "original_title": "Arsenic and Old Lace",
-    "year": "1944",
-    "duration": "118 min",
-    "director": "Frank Capra",
-    "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-    ],
-    "outline": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
-    "imdb_id": "tt0036613",
-    "imdb_link": "https://www.imdb.com/title/tt0036613/",
-    "imdb_rating": "7.9",
-    "stars": [
-        "Cary Grant",
-        "Priscilla Lane",
-        "Raymond Massey"
-    ],
-    "rated": "Approved",
-    "country": "United States",
-    "language": "English, German",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BZmRhYTJlOTktMjg2NC00MmZmLWE2YzAtZWUwNzU4ZWY1ODlhXkEyXkFqcGc@._V1_SX300.jpg",
-    "cover_file": "Arsen und Spitzenhäubchen_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600"
+  "num": "00219",
+  "folder_name": "00219 Arsen und Spitzenhäubchen (1944) {imdb-tt0036613}",
+  "folder_path": "F:\\Movies\\00219 Arsen und Spitzenhäubchen (1944) {imdb-tt0036613}",
+  "title": "Arsenic and Old Lace",
+  "original_title": "Arsenic and Old Lace",
+  "year": "1944",
+  "duration": "118 min",
+  "director": "Frank Capra",
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Thriller"
+  ],
+  "outline": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
+  "imdb_id": "tt0036613",
+  "imdb_link": "https://www.imdb.com/title/tt0036613/",
+  "imdb_rating": "7.9",
+  "stars": [
+    "Cary Grant",
+    "Priscilla Lane",
+    "Raymond Massey"
+  ],
+  "rated": "Approved",
+  "country": "United States",
+  "language": "English, German",
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BZmRhYTJlOTktMjg2NC00MmZmLWE2YzAtZWUwNzU4ZWY1ODlhXkEyXkFqcGc@._V1_SX300.jpg",
+  "cover_file": "Arsen und Spitzenhäubchen_cover.jpg",
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch"
+  ],
+  "audio_languages_english": [
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English"
+  ]
 }

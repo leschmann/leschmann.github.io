@@ -25,5 +25,19 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BYmJkMzZhNzktYjgyYi00N2ZjLTgxN2EtN2JhOGY1NTE3ZWY0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Gefährliche Liebschaften_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch"
+  ],
+  "subtitles_languages_english": [
+    "German"
+  ]
 }

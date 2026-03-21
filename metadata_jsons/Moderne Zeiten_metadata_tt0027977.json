@@ -26,5 +26,55 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BODVkZGFhNGQtYjdiYi00Njc4LWFmYTItNTlmNzJjMTg1ZDc5XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Moderne Zeiten_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Dänisch",
+    "Englisch",
+    "Finnisch",
+    "Französisch",
+    "Griechisch",
+    "Hebräisch",
+    "Isländisch",
+    "Italienisch",
+    "Kroatisch",
+    "Norwegisch",
+    "Polnisch",
+    "Portugiesisch",
+    "Russisch",
+    "Schwedisch",
+    "Spanisch",
+    "Tschechisch",
+    "Türkisch",
+    "Ungarisch"
+  ],
+  "subtitles_languages_english": [
+    "Croatian",
+    "Czech",
+    "Danish",
+    "English",
+    "Finnish",
+    "French",
+    "German",
+    "Greek",
+    "Hebrew",
+    "Hungarian",
+    "Icelandic",
+    "Italian",
+    "Norwegian",
+    "Polish",
+    "Portuguese",
+    "Russian",
+    "Spanish",
+    "Swedish",
+    "Turkish"
+  ]
 }

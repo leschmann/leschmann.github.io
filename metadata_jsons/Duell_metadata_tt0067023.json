@@ -25,5 +25,21 @@
   "language": "English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZhYjY5MzMtMmU4Yy00MDBjLWFhY2UtODg5YzdmNTY0Y2Q0XkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Duell_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English",
+    "German"
+  ],
+  "subtitles_languages_german": [
+    "Deutsch",
+    "Englisch"
+  ],
+  "subtitles_languages_english": [
+    "English",
+    "German"
+  ]
 }

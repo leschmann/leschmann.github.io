@@ -1,7 +1,7 @@
 {
-  "num": "00171",
-  "folder_name": "00171 Gekidnappt (1915) {imdb-tt0006032}",
-  "folder_path": "F:\\Movies\\00171 Gekidnappt (1915) {imdb-tt0006032}",
+  "num": "00022",
+  "folder_name": "00022 Gekidnappt (1915) {imdb-tt0006032}",
+  "folder_path": "F:\\Movies\\00022 Gekidnappt (1915) {imdb-tt0006032}",
   "title": "Shanghaied",
   "original_title": "Shanghaied",
   "year": "1915",
@@ -25,5 +25,13 @@
   "language": "None, English",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BNDE1MzY2ZGYtZDU5ZC00ZTM1LTlmZDItYThjYTViMTcwMzlmXkEyXkFqcGc@._V1_SX300.jpg",
   "cover_file": "Gekidnappt_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600"
+  "folder_location": "FFM DVD 00001 - 00600",
+  "audio_languages_german": [
+    "Englisch"
+  ],
+  "audio_languages_english": [
+    "English"
+  ],
+  "subtitles_languages_german": [],
+  "subtitles_languages_english": []
 }
