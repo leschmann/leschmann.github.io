@@ -20,7 +20,49 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; background-color: va
 .close-mobile-btn { display: none; }
 
 .control-group { margin-bottom: 20px; }
-.control-group label.group-label { display: block; font-weight: bold; margin-bottom: 5px; color: #ccc; font-size: 0.9em; }
+/* Styling für normale Labels UND klickbare Zusammenfassungen (Summary) */
+.control-group label.group-label,
+.control-group summary.group-label {
+    display: block; font-weight: bold; margin-bottom: 5px; color: #ccc; font-size: 0.9em;
+}
+
+/* Spezifisches Styling für aufklappbare Menüs */
+details.control-group summary.group-label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* Versteckt den hässlichen Standard-Pfeil des Browsers */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+    transition: color 0.2s;
+}
+
+/* Hover-Effekt */
+details.control-group summary.group-label:hover {
+    color: var(--accent);
+}
+
+/* Versteckt Marker für Safari/Chrome */
+details.control-group summary.group-label::-webkit-details-marker {
+    display: none;
+}
+
+/* Unser eigener cooler Pfeil, der sich mit CSS dreht */
+details.control-group summary.group-label::after {
+    content: '▼';
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+}
+details.control-group[open] summary.group-label::after {
+    transform: rotate(-180deg);
+}
+
+/* Kleiner Abstand zum aufklappbaren Inhalt */
+details.control-group .expand-content {
+    margin-top: 15px;
+}
+
 select, input[type="text"], input[type="number"] { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #444; background: #333; color: #fff; }
 input[type="text"]::placeholder { color: #888; }
 
