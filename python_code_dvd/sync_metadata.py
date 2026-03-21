@@ -13,7 +13,7 @@ DRIVE_CONFIG = {
 
 SCRIPT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "metadata_jsons")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "metadata_jsons_dvd")
 DATA_JS_PATH = os.path.join(PROJECT_ROOT, "html_dvd_collection/data.js")
 
 

@@ -1,0 +1,91 @@
+{
+    "folder_name": "Agatha Christie's Poirot (1989) {tmdb-790}",
+    "folder_path": "E:\\Serien - TV Shows\\Agatha Christie's Poirot (1989) {tmdb-790}",
+    "title": "Agatha Christie's Poirot",
+    "original_title": "Agatha Christie's Poirot",
+    "year": "1989",
+    "seasons_count": 13,
+    "creator": "N/A",
+    "network": "ITV1",
+    "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "outline": "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first class deceptions.",
+    "tmdb_id": "790",
+    "tmdb_link": "https://www.themoviedb.org/tv/790",
+    "tmdb_rating": 8.2,
+    "stars": [
+        "David Suchet"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6f4IVfbn8knb7RjdZlGLuW5guDc.jpg",
+    "cover_file": "Agatha Christie's Poirot_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_english": [
+        "German"
+    ],
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch"
+    ],
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Köchin gesucht",
+            "E02": "Poirot riecht den Braten",
+            "E03": "Poirot und der Kidnapper",
+            "E04": "24 Schwarzdrosseln",
+            "E05": "Tod im 3. Stock",
+            "E06": "Urlaub auf Rhodos",
+            "E07": "Eine Tür fällt ins Schloss",
+            "E08": "Der unglaubliche Diebstahl der Bomberpläne",
+            "E09": "Die Abenteuer des Kreuzkönigs",
+            "E10": "Der Traum"
+        },
+        "Season 02": {
+            "E01": "Das Haus auf der Klippe",
+            "E02": "Erpressung und andere Kleinigkeiten",
+            "E03": "Die verschollene Silbermine",
+            "E04": "Das Rätsel von Cornwall",
+            "E05": "Mord ohne Leiche",
+            "E06": "Doppelte Sünde",
+            "E07": "Mord im Mietpreis inbegriffen",
+            "E08": "Im Namen der Nation",
+            "E09": "Die Augen des chinesischen Gottes"
+        },
+        "Season 03": {
+            "E02": "Edle Düfte",
+            "E03": "Die Reise auf der Queen Mary",
+            "E04": "Mitgiftjäger",
+            "E05": "Das Wespennest",
+            "E06": "Geistergeschichten",
+            "E07": "Die russische Gräfin",
+            "E08": "Das Geheimnis der Spanischen Truhe",
+            "E09": "Der Diebstahl des königlichen Rubins",
+            "E10": "Maskenball",
+            "E11": "Geheimnisvoller Mord im Jagdhaus"
+        },
+        "Season 04": {
+            "E01": "Mord nach Fahrplan",
+            "E02": "Die Wespe",
+            "E03": "Himmel und Hölle"
+        },
+        "Season 05": {
+            "E01": "Das Abenteuer des ägyptischen Grabes",
+            "E02": "Der Prügelknabe",
+            "E03": "Lasst Blumen sprechen",
+            "E04": "Das fehlende Testament",
+            "E05": "Das Abenteuer des italienischen Edelmannes",
+            "E06": "Die Pralinenschachtel",
+            "E07": "Auch Pünktlichkeit kann töten",
+            "E08": "Der Juwelenraub im Grand Hotel"
+        }
+    }
+}

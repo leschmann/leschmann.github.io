@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Movie Collection</title>
-    <!-- Link to our new CSS file -->
+    <title>My TV Show Collection</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,31 +25,32 @@
                 <option value="title_desc">Title (Z-A)</option>
                 <option value="year_desc">Year (Newest First)</option>
                 <option value="year_asc">Year (Oldest First)</option>
-                <option value="rating_desc">IMDb Rating (High to Low)</option>
-                <option value="rating_asc">IMDb Rating (Low to High)</option>
-                <option value="duration_desc">Duration (Longest First)</option>
-                <option value="duration_asc">Duration (Shortest First)</option>
-                <option value="director_asc">Director (A-Z)</option>
+                <option value="rating_desc">TMDB Rating (High to Low)</option>
+                <option value="rating_asc">TMDB Rating (Low to High)</option>
+                <option value="duration_desc">Seasons (Most First)</option>
+                <option value="duration_asc">Seasons (Least First)</option>
+                <option value="director_asc">Creator (A-Z)</option>
             </select>
         </div>
 
         <div class="control-group">
-            <label class="group-label">Minimum IMDb Rating</label>
+            <label class="group-label">Minimum TMDB Rating</label>
             <div class="slider-container">
                 <input type="range" id="ratingSlider" min="0" max="10" step="0.1" value="0">
                 <span id="ratingVal" class="slider-val">0.0</span>
             </div>
         </div>
 
+        <!-- Duration is now Seasons -->
         <div class="control-group">
-            <label class="group-label">Duration (Minutes)</label>
+            <label class="group-label">Seasons</label>
             <div style="display: flex; gap: 10px;">
-                <input type="number" id="minDuration" placeholder="Min" value="0">
-                <input type="number" id="maxDuration" placeholder="Max" value="300">
+                <input type="number" id="minDuration" placeholder="Min" value="1">
+                <input type="number" id="maxDuration" placeholder="Max" value="50">
             </div>
         </div>
 
-        <!-- 🔥 Genres (Expandable) "open" falls default open sein soll, bei details am Ende ergänzen-->
+        <!-- 🔥 Genres (Expandable) -->
         <details class="control-group">
             <summary class="group-label">Genres</summary>
             <div class="expand-content">
@@ -87,9 +87,9 @@
         </details>
 
         <div class="control-group">
-            <label class="group-label">Director</label>
+            <label class="group-label">Creator / Showrunner</label>
             <select id="directorFilter">
-                <option value="">-- All Directors --</option>
+                <option value="">-- All Creators --</option>
             </select>
         </div>
 
@@ -106,14 +106,14 @@
     <div class="main-content">
         <div class="header-top">
             <button class="toggle-btn-header" onclick="toggleSidebar()" title="Toggle Sidebar">☰</button>
-            <h1>My Movie Collection</h1>
+            <h1>My TV Show Collection</h1>
         </div>
 
         <div class="header-controls">
-            <div class="movie-count" id="movieCount">0 Movies</div>
+            <div class="movie-count" id="movieCount">0 Shows</div>
             <div class="size-control">
                 <label>Card Size:</label>
-                <input type="range" id="sizeSlider" min="120" max="450" value="280">
+                <input type="range" id="sizeSlider" min="120" max="450" value="200">
             </div>
         </div>
 
@@ -126,18 +126,18 @@
     <div class="modal-overlay" id="movieModal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <button class="modal-close-btn" onclick="closeModal()">✕</button>
-    
+
             <img class="modal-img" id="modalImg" src="" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';">
-    
+
             <div class="modal-details">
                 <h2 class="modal-title" id="modalTitle">Title</h2>
                 <div class="modal-meta" id="modalMeta"></div>
                 <div class="modal-genres" id="modalGenres"></div>
                 <div class="modal-plot" id="modalPlot"></div>
                 <div class="modal-credits" id="modalCredits"></div>
-    
+
                 <div class="modal-btn-row">
-                    <a id="modalLink" href="#" target="_blank" class="modal-imdb-btn">View on IMDb</a>
+                    <a id="modalLink" href="#" target="_blank" class="modal-imdb-btn">View on TMDB</a>
                     <button id="modalCopyBtn" class="modal-imdb-btn modal-copy-btn">📋 Copy Path</button>
                 </div>
             </div>

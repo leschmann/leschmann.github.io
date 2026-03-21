@@ -1,0 +1,84 @@
+{
+    "folder_name": "Game of Thrones (2011) {tmdb-1399}",
+    "folder_path": "E:\\Serien - TV Shows\\Game of Thrones (2011) {tmdb-1399}",
+    "title": "Game of Thrones",
+    "original_title": "Game of Thrones",
+    "year": "2011",
+    "seasons_count": 8,
+    "creator": "David Benioff, D. B. Weiss",
+    "network": "HBO",
+    "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+    ],
+    "outline": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+    "tmdb_id": "1399",
+    "tmdb_link": "https://www.themoviedb.org/tv/1399",
+    "tmdb_rating": 8.5,
+    "stars": [
+        "Peter Dinklage",
+        "Kit Harington",
+        "Nikolaj Coster-Waldau",
+        "Lena Headey",
+        "Emilia Clarke",
+        "Liam Cunningham"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+    "cover_file": "Game of Thrones_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_english": [
+        "English",
+        "German"
+    ],
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Der Winter naht",
+            "E02": "Der Königsweg",
+            "E03": "Lord Schnee",
+            "E04": "Krüppel, Bastarde und Zerbrochenes",
+            "E05": "Der Wolf und der Löwe",
+            "E06": "Eine goldene Krone",
+            "E07": "Gewinn oder stirb",
+            "E08": "Das spitze Ende",
+            "E09": "Baelor",
+            "E10": "Feuer und Blut"
+        },
+        "Season 02": {
+            "E01": "Der Norden vergisst nicht",
+            "E02": "Die Nachtlande",
+            "E03": "Was tot ist, kann niemals sterben",
+            "E04": "Der Garten der Knochen",
+            "E05": "Der Geist von Harrenhal",
+            "E06": "Alte und neue Götter",
+            "E07": "Ein Mann ohne Ehre",
+            "E08": "Der Prinz von Winterfell",
+            "E09": "Schwarzwasser",
+            "E10": "Valar Morghulis"
+        },
+        "Season 03": {
+            "E01": "Valar Dohaeris",
+            "E02": "Dunkle Schwingen, Dunkle Worte",
+            "E03": "Der Weg der Züchtigung",
+            "E04": "Und jetzt ist seine Wache zu Ende",
+            "E05": "Vom Feuer geküsst",
+            "E06": "Der Aufstieg",
+            "E07": "Der Bär und die Jungfrau Hehr",
+            "E08": "Die Zweitgeborenen",
+            "E09": "Der Regen von Castamaer",
+            "E10": "Mhysa"
+        }
+    }
+}
