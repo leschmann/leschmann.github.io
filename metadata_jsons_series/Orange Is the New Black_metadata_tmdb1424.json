@@ -1,0 +1,108 @@
+{
+    "folder_name": "Orange Is the New Black (2013) {tmdb-1424}",
+    "folder_path": "F:\\Serien - TV Shows\\Orange Is the New Black (2013) {tmdb-1424}",
+    "title": "Orange Is the New Black",
+    "original_title": "Orange Is the New Black",
+    "year": "2013",
+    "seasons_count": 7,
+    "creator": "Jenji Kohan",
+    "network": "Netflix",
+    "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+    ],
+    "outline": "A crime she committed in her youthful past sends Piper Chapman to a women's prison, where she trades her comfortable New York life for one of unexpected camaraderie and conflict in an eccentric group of fellow inmates.",
+    "tmdb_id": "1424",
+    "tmdb_link": "https://www.themoviedb.org/tv/1424",
+    "tmdb_rating": 7.6,
+    "stars": [
+        "Taylor Schilling",
+        "Laura Prepon",
+        "Kate Mulgrew",
+        "Natasha Lyonne",
+        "Selenis Leyva",
+        "Elizabeth Rodriguez"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
+    "cover_file": "Orange Is the New Black_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Ich war nicht bereit",
+            "E02": "Tittenschlag",
+            "E03": "Lesben-Anfrage abgelehnt",
+            "E04": "Eingebildete Feinde",
+            "E05": "Hühnerjagd",
+            "E06": "Gefängnispolitik",
+            "E07": "Süße Verlockung",
+            "E08": "Die Schmugglerin aus Moskau",
+            "E09": "Fcksgiving",
+            "E10": "Bora Bora Bora",
+            "E11": "Große Männer mit Gefühlen",
+            "E12": "Selber schuld",
+            "E13": "Hoffnungslos verrückt"
+        },
+        "Season 02": {
+            "E01": "Durstiger Vogel",
+            "E02": "Blau mit rotem Geschmack",
+            "E03": "Trügerische Umarmungen",
+            "E04": "Ein ganz anderes Loch",
+            "E05": "Das älteste Spiel der Welt",
+            "E06": "Und ’ne Pizza dazu",
+            "E07": "Comic Sans",
+            "E08": "Die richtigen Töpfe",
+            "E09": "40 Vol-% Freigang",
+            "E10": "Kleiner schnauzbärtiger Scheißer",
+            "E11": "Auch Prinzipien brauchen mal eine Pause",
+            "E12": "Die Wechseljahre",
+            "E13": "Lady Locksley"
+        },
+        "Season 03": {
+            "E01": "Muttertag",
+            "E02": "Bettwanzen und andere Dinger",
+            "E03": "Empathie ist ein Abtörner",
+            "E04": "Kampflesbe",
+            "E05": "Fake",
+            "E06": "Ching Chong Chang",
+            "E07": "Ein stummes Nichts",
+            "E08": "Furcht und andere Gerüche",
+            "E09": "Wo ist mein Dreidel hin",
+            "E10": "Titten und Schamhaare",
+            "E11": "Wir können Helden sein",
+            "E12": "Muss ich wirklich dazwischengehen",
+            "E13": "Trau keiner Bitch"
+        },
+        "Season 04": {
+            "E01": "Schwere Körperarbeit",
+            "E02": "Machtgerangel",
+            "E03": "Frei Schnauze",
+            "E04": "Dr. Psycho",
+            "E05": "Von Menschenrechten und Ritterlichkeit",
+            "E06": "Ein Stück Scheiße",
+            "E07": "Weiße Scham",
+            "E08": "Tief gesunken",
+            "E09": "Duschen ist überbewertet",
+            "E10": "Häschen, Schädel, Häschen, Schädel",
+            "E11": "Angestellte des Monats",
+            "E12": "Monster",
+            "E13": "Kein Zurück"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "subtitles_languages_english": [
+        "English",
+        "German"
+    ]
+}

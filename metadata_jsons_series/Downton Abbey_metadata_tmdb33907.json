@@ -1,0 +1,122 @@
+{
+    "folder_name": "Downton Abbey (2010) {tmdb-33907}",
+    "folder_path": "F:\\Serien - TV Shows\\Downton Abbey (2010) {tmdb-33907}",
+    "title": "Downton Abbey",
+    "original_title": "Downton Abbey",
+    "year": "2010",
+    "seasons_count": 6,
+    "creator": "Julian Fellowes",
+    "network": "ITV1",
+    "genres": [
+        "Drama"
+    ],
+    "outline": "A chronicle of the lives of the aristocratic Crawley family and their servants in the post-Edwardian era—with great events in history having an effect on their lives and on the British social hierarchy.\n\n",
+    "tmdb_id": "33907",
+    "tmdb_link": "https://www.themoviedb.org/tv/33907",
+    "tmdb_rating": 8.1,
+    "stars": [
+        "Maggie Smith",
+        "Michelle Dockery",
+        "Laura Carmichael",
+        "Joanne Froggatt",
+        "Hugh Bonneville",
+        "Phyllis Logan"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7HgDYRYjym4BwbhKaqTQq771SKb.jpg",
+    "cover_file": "Downton Abbey_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season": {
+            "Downton Abbey - SE - Besuch aus Amerika (Staffel 4)": "",
+            "Downton Abbey - SE - Das große Finale (Staffel 6)": "",
+            "Downton Abbey - SE - Ein Antrag aus Liebe (Staffel 2)": "",
+            "Downton Abbey - SE - Himmel und Hölle (Staffel 3)": "",
+            "Downton Abbey - SE - Weihnachten (Staffel 5)": ""
+        },
+        "Season 01": {
+            "E01": "Das Vermächtnis",
+            "E02": "Das Familienerbe",
+            "E03": "Eine verhängnisvolle Affäre",
+            "E04": "Neue Zeiten",
+            "E05": "Unter Verdacht",
+            "E06": "Das Geständnis",
+            "E07": "Tage des Schicksals"
+        },
+        "Season 02": {
+            "E01": "Kriegszeiten",
+            "E02": "Hoffnung für Mary",
+            "E03": "Das Hospital",
+            "E04": "Bates’ Rückkehr",
+            "E05": "Bis dass der Tod euch scheidet",
+            "E06": "Verwirrung der Gefühle",
+            "E07": "Das Wunder",
+            "E08": "Am Abgrund"
+        },
+        "Season 03": {
+            "E01": "Hochzeit auf Downton",
+            "E02": "Die Welt im Wandel",
+            "E03": "Scherbenhaufen",
+            "E04": "Flucht nach Downton",
+            "E05": "Auf Leben und Tod",
+            "E06": "Entfremdung",
+            "E07": "Veränderungen",
+            "E08": "Intrigen"
+        },
+        "Season 04": {
+            "E01": "Schatten des Todes",
+            "E02": "Matthews Vermächtnis",
+            "E03": "Das Verbrechen",
+            "E04": "Matthews Brief",
+            "E05": "Annas Geheimnis",
+            "E06": "Unter Verdacht",
+            "E07": "Eine schwere Entscheidung",
+            "E08": "Der große Basar"
+        },
+        "Season 05": {
+            "E01": "Der Hochzeitstag",
+            "E02": "Zeitenwende",
+            "E03": "Fragen ohne Antworten",
+            "E04": "Der Eklat",
+            "E05": "Das Desaster",
+            "E06": "Nachricht aus Deutschland",
+            "E07": "Heiratspläne",
+            "E08": "Die Hochzeit"
+        },
+        "Season 06": {
+            "E01": "Eine gute Nachricht",
+            "E02": "Hochzeit mit Hindernissen",
+            "E03": "Der schönste Tag",
+            "E04": "Willkommen zu Hause",
+            "E05": "Hoher Besuch",
+            "E06": "Tag der offenen Tür",
+            "E07": "Das Autorennen",
+            "E08": "Gebrochene Herzen"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Spanisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "French",
+        "German",
+        "Spanish"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Niederländisch",
+        "Spanisch"
+    ],
+    "subtitles_languages_english": [
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Spanish"
+    ]
+}

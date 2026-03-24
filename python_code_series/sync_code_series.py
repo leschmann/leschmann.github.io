@@ -5,6 +5,7 @@ import glob
 
 # --- Config ---
 DRIVE_CONFIG = {
+    r"G:\Serien - TV Shows": "TV Harddrive G",
     r"E:\Serien - TV Shows": "TV Harddrive E",
     r"F:\Serien - TV Shows": "TV Harddrive F",
 }

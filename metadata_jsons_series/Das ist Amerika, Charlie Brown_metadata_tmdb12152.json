@@ -1,0 +1,50 @@
+{
+    "folder_name": "Das ist Amerika, Charlie Brown (1988) {tmdb-12152}",
+    "folder_path": "G:\\Serien - TV Shows\\Das ist Amerika, Charlie Brown (1988) {tmdb-12152}",
+    "title": "This Is America, Charlie Brown",
+    "original_title": "This Is America, Charlie Brown",
+    "year": "1988",
+    "seasons_count": 1,
+    "creator": "Charles M. Schulz",
+    "network": "CBS",
+    "genres": [
+        "Animation",
+        "Comedy",
+        "Kids",
+        "Family"
+    ],
+    "outline": "From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!",
+    "tmdb_id": "12152",
+    "tmdb_link": "https://www.themoviedb.org/tv/12152",
+    "tmdb_rating": 7.1,
+    "stars": [
+        "Erin Chase",
+        "Erica Gayle",
+        "Brittany Thornton",
+        "Brandon Stewart",
+        "Jason Mendelson",
+        "Marie Cole"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1q745vkaoHZ9F9zaElmbUK6cwsV.jpg",
+    "cover_file": "Das ist Amerika, Charlie Brown_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Die Leute von der Mayflower"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch"
+    ],
+    "subtitles_languages_english": [
+        "German"
+    ]
+}

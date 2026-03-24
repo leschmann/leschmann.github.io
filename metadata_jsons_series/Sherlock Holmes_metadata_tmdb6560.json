@@ -1,0 +1,44 @@
+{
+    "folder_name": "Sherlock Holmes (1954) {tmdb-6560}",
+    "folder_path": "G:\\Serien - TV Shows\\Sherlock Holmes (1954) {tmdb-6560}",
+    "title": "Sherlock Holmes",
+    "original_title": "Sherlock Holmes",
+    "year": "1954",
+    "seasons_count": 1,
+    "creator": "N/A",
+    "network": "N/A",
+    "genres": [
+        "Mystery",
+        "Drama"
+    ],
+    "outline": "The first American television series of Sherlock Holmes adventures aired in syndication in the fall of 1954. The 39 half-hour mostly original stories were produced by Sheldon Reynolds and filmed in France by Guild Films, starring Ronald Howard as Holmes and Howard Marion Crawford as Watson. Archie Duncan appeared in many episodes as Inspector Lestrade. Richard Larke, billed as Kenneth Richards, played Sgt. Wilkins in about fifteen episodes. The series' associate producer, Nicole Milinaire, was one of the first women to attain a senior production role in a television series.",
+    "tmdb_id": "6560",
+    "tmdb_link": "https://www.themoviedb.org/tv/6560",
+    "tmdb_rating": 7.1,
+    "stars": [
+        "Howard Marion-Crawford",
+        "Ronald Howard",
+        "Archie Duncan",
+        "Richard Larke"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eroaHmsBZXTsL64oo72Yi3eJaiz.jpg",
+    "cover_file": "Sherlock Holmes_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E04": "Der Fall des Texas Showgirls",
+            "E05": "Der streitsüchtige Geist",
+            "E06": "Die schüchterne Ballerina"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

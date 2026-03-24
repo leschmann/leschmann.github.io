@@ -1,0 +1,63 @@
+{
+    "folder_name": "Shaun das Schaf (2007) {tmdb-3902}",
+    "folder_path": "G:\\Serien - TV Shows\\Shaun das Schaf (2007) {tmdb-3902}",
+    "title": "Shaun the Sheep",
+    "original_title": "Shaun the Sheep",
+    "year": "2007",
+    "seasons_count": 6,
+    "creator": "Richard Starzak",
+    "network": "BBC One, CBBC",
+    "genres": [
+        "Kids",
+        "Animation",
+        "Family",
+        "Comedy"
+    ],
+    "outline": "Shaun the Sheep thinks and acts like a person in a barnyard, which usually gets him into trouble. The farmer's sheepdog, Bitzer, tries to keep Shaun and his friends out of trouble. The farmer is oblivious to the humanlike features of his flock, who are like one big, happy family.",
+    "tmdb_id": "3902",
+    "tmdb_link": "https://www.themoviedb.org/tv/3902",
+    "tmdb_rating": 7.6,
+    "stars": [],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z2gPfTQd3I0JLWOAEdKYMQRLoun.jpg",
+    "cover_file": "Shaun das Schaf_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Behind The Scenes": {
+            "behind the scenes - season 2": ""
+        },
+        "Season 02": {
+            "E01": "Doppeltes Unheil",
+            "E02": "Voll auf der Linie",
+            "E03": "Schaflose Nacht",
+            "E04": "Das Hüpfschaf",
+            "E05": "Tanz in der Nacht",
+            "E06": "Der Golfprofi",
+            "E07": "Ein haariges Problem",
+            "E08": "Ein neuer Freund",
+            "E09": "Supersize Timmy",
+            "E10": "Ausgesperrt",
+            "E11": "Das Auge der Mieze",
+            "E12": "Die Brille",
+            "E13": "Bitzers neuer Hut",
+            "E14": "Die Landmaus",
+            "E15": "Das Date",
+            "E16": "Ausverkauf",
+            "E18": "Körpertausch",
+            "E19": "Frisch verliebt",
+            "E20": "Die Hundehütte",
+            "E22": "Abgehoben",
+            "E23": "Die Entführung",
+            "E25": "Ein schwerer Brocken",
+            "E26": "Schweineärger",
+            "E29": "Triller-Pfeifer"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch"
+    ],
+    "audio_languages_english": [
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

@@ -180,7 +180,7 @@ function renderMovies(movies) {
         card.setAttribute('onclick', `openModal('${movie.tmdb_id}')`);
 
         card.innerHTML = `
-            <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';">
+            <img src="${movie.img_uri}" class="cover-img" alt="Cover">
             <div class="movie-info">
                 <div class="title" title="${fullTitle}">${fullTitle}</div>
                 <div class="meta">

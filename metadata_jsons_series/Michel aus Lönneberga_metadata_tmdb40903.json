@@ -1,0 +1,50 @@
+{
+    "folder_name": "Michel aus Lönneberga (1975) {tmdb-40903}",
+    "folder_path": "G:\\Serien - TV Shows\\Michel aus Lönneberga (1975) {tmdb-40903}",
+    "title": "Emil of Lönneberga",
+    "original_title": "Emil i Lönneberga",
+    "year": "1975",
+    "seasons_count": 1,
+    "creator": "Astrid Lindgren",
+    "network": "SVT1",
+    "genres": [
+        "Family",
+        "Comedy"
+    ],
+    "outline": "Emil i Lönneberga is a Swedish television adaptation of Astrid Lindgren's Emil i Lönneberga books",
+    "tmdb_id": "40903",
+    "tmdb_link": "https://www.themoviedb.org/tv/40903",
+    "tmdb_rating": 7.4,
+    "stars": [
+        "Jan Ohlsson",
+        "Lena Wisborg",
+        "Emy Storm",
+        "Allan Edwall",
+        "Maud Hansson",
+        "Björn Gustafson"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cFOdbBJrbwyuoaYQCuYqDFtvn7e.jpg",
+    "cover_file": "Michel aus Lönneberga_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E05": "Als Michel das Fest für die Armen gab",
+            "E06": "Als Michel zur Auktion ging",
+            "E07": "Als Michel die Kuh überlistete",
+            "E08": "Als Michel Lina einen Zahn ziehen wollte",
+            "E09": "Als Michel in die Schule kam",
+            "E10": "Als Michel nur noch gute Vorsätze hatte",
+            "E11": "Als Michel einen Freund gewann",
+            "E12": "Als Michel die Tiere mit Kirschen fütterte",
+            "E13": "Als Michel ein Held wurde"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch"
+    ],
+    "audio_languages_english": [
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

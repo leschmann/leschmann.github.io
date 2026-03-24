@@ -1,0 +1,55 @@
+{
+    "folder_name": "Alfred Hitchcock zeigt (1962) {tmdb-21728}",
+    "folder_path": "F:\\Serien - TV Shows\\Alfred Hitchcock zeigt (1962) {tmdb-21728}",
+    "title": "The Alfred Hitchcock Hour",
+    "original_title": "The Alfred Hitchcock Hour",
+    "year": "1962",
+    "seasons_count": 3,
+    "creator": "Alfred Hitchcock",
+    "network": "NBC, CBS",
+    "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+    ],
+    "outline": "A continuation of the anthology series “Alfred Hitchcock Presents”, hosted by the master of suspense and featuring thrillers and mysteries.",
+    "tmdb_id": "21728",
+    "tmdb_link": "https://www.themoviedb.org/tv/21728",
+    "tmdb_rating": 7.8,
+    "stars": [
+        "Alfred Hitchcock"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6bnJU1YmobWBNokjLruUsZ6cykC.jpg",
+    "cover_file": "Alfred Hitchcock zeigt_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 02": {
+            "E15": "Folge 15",
+            "E19": "Folge 19",
+            "E26": "Folge 26",
+            "E27": "Folge 27",
+            "E32": "Folge 32"
+        },
+        "Season 03": {
+            "E04": "Folge 4",
+            "E17": "Folge 17",
+            "E18": "Folge 18",
+            "E24": "Folge 24",
+            "E29": "Folge 29"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch"
+    ],
+    "subtitles_languages_english": [
+        "German"
+    ]
+}

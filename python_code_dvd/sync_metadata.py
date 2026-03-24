@@ -7,6 +7,7 @@ import re
 # --- Config ---
 # Hier die gleiche Config wie im Metadaten-Skript nutzen:
 DRIVE_CONFIG = {
+    r"G:\Movies": "FFM DVD 00001 - 00600",
     r"F:\Movies": "FFM DVD 00001 - 00600",
     r"E:\Movies": "FFM DVD 00601 - 01091",
 }
@@ -55,7 +56,7 @@ def metadata_to_entry(meta: dict) -> dict:
         "duration_str": duration_str,
         "duration_min": parse_duration_min(duration_str),
         "imdb_rating_str": meta.get("imdb_rating", "N/A"),
-        "imdb_rating_val": float(meta.get("imdb_rating", 0) or 0),
+        "imdb_rating_val": float(meta.get("imdb_rating")) if meta.get("imdb_rating") not in (None, "", "N/A") else 0.0,
         "fsk_rating": meta.get("rated", "N/A"),
         "genres_str": ", ".join(genres_list),
         "genres_list": genres_list,

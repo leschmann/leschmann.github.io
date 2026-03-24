@@ -1,0 +1,54 @@
+{
+    "folder_name": "Die Charlie Brown und Snoopy Show (1983) {tmdb-6670}",
+    "folder_path": "G:\\Serien - TV Shows\\Die Charlie Brown und Snoopy Show (1983) {tmdb-6670}",
+    "title": "The Charlie Brown and Snoopy Show",
+    "original_title": "The Charlie Brown and Snoopy Show",
+    "year": "1983",
+    "seasons_count": 2,
+    "creator": "Charles M. Schulz",
+    "network": "CBS",
+    "genres": [
+        "Animation",
+        "Comedy"
+    ],
+    "outline": "Your favorite Peanuts stories come to life in this animated television series. With short sketches featuring these classic and much-loved characters, it's easy to, as the opening song suggests, “have a party with Charlie Brown and Snoopy.”",
+    "tmdb_id": "6670",
+    "tmdb_link": "https://www.themoviedb.org/tv/6670",
+    "tmdb_rating": 7.7,
+    "stars": [
+        "Bill Melendez",
+        "Jeremy Schoenberg",
+        "Fergie",
+        "Gini Holtzman",
+        "Keri Houlihan",
+        "Brett Johnson"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4tpCaJq94eHBWsWVtwFWojbUjcM.jpg",
+    "cover_file": "Die Charlie Brown und Snoopy Show_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E04": "Wer streichelt schon einen Vogel",
+            "E10": "Goldene Sterne und viel Musik",
+            "E11": "Das überfahrene Lineal"
+        },
+        "Season 02": {
+            "E02": "Snoopys Bruder Spike",
+            "E04": "Snoopys Trick"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch"
+    ],
+    "subtitles_languages_english": [
+        "German"
+    ]
+}

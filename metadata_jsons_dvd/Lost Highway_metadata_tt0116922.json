@@ -1,0 +1,44 @@
+{
+    "num": "01341",
+    "folder_name": "01341 Lost Highway (1997) {imdb-tt0116922}",
+    "folder_path": "F:\\Movies\\01341 Lost Highway (1997) {imdb-tt0116922}",
+    "title": "Lost Highway",
+    "original_title": "Lost Highway",
+    "year": "1997",
+    "duration": "134 min",
+    "director": "David Lynch",
+    "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+    ],
+    "outline": "Fred Madison, a saxophonist, is accused under mysterious circumstances of murdering his wife Renee. On death row, he inexplicably morphs into a young man named Pete Dayton, leading a completely different life. When Pete is released, his and Fred's paths begin to cross in a surreal, suspenseful web of intrigue, orchestrated by a shady gangster boss named Dick Laurent.",
+    "imdb_id": "tt0116922",
+    "imdb_link": "https://www.imdb.com/title/tt0116922/",
+    "imdb_rating": "7.6",
+    "stars": [
+        "Bill Pullman",
+        "Patricia Arquette",
+        "John Roselius"
+    ],
+    "rated": "R",
+    "country": "France, United States",
+    "language": "English",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNjcyNmM2ODktYzk0Mi00Njk0LTljZGMtNGZhMzI4NmY1NzA1XkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Lost Highway_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch"
+    ],
+    "subtitles_languages_english": [
+        "German"
+    ]
+}

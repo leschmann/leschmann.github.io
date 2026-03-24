@@ -1,0 +1,54 @@
+{
+    "num": "01221",
+    "folder_name": "01221 Public Enemies (2009) {imdb-tt1152836}",
+    "folder_path": "F:\\Movies\\01221 Public Enemies (2009) {imdb-tt1152836}",
+    "title": "Public Enemies",
+    "original_title": "Public Enemies",
+    "year": "2009",
+    "duration": "140 min",
+    "director": "Michael Mann",
+    "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+    ],
+    "outline": "The difficult 1930s is a time of robbers who knock over banks and other rich targets with alarming frequency. Of them, none is more notorious than John Dillinger, whose gang plies its trade with cunning efficiency against big businesses while leaving ordinary citizens alone. As Dillinger becomes a folk hero, FBI head J. Edger Hoover is determined to stop his ilk by assigning ace agent Melvin Purvis to hunt down Dillinger. As Purvis struggles with the manhunt's realities, Dillinger himself faces an ominous future with the loss of friends, dwindling options and a changing world of organized crime with no room for him.",
+    "imdb_id": "tt1152836",
+    "imdb_link": "https://www.imdb.com/title/tt1152836/",
+    "imdb_rating": "6.9",
+    "stars": [
+        "Christian Bale",
+        "Johnny Depp",
+        "Christian Stolte"
+    ],
+    "rated": "R",
+    "country": "United States, Japan",
+    "language": "English",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BY2FjYTZjZTUtNDMyOS00YzViLWFlZjQtZTAzNGQwM2VjYjVjXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Public Enemies_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Bulgarisch",
+        "Deutsch",
+        "Englisch",
+        "Estnisch",
+        "Lettisch",
+        "Litauisch"
+    ],
+    "subtitles_languages_english": [
+        "Bulgarian",
+        "English",
+        "Estonian",
+        "German",
+        "Latvian",
+        "Lithuanian"
+    ]
+}

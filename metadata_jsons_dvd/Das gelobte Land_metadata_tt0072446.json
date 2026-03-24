@@ -1,7 +1,7 @@
 {
-  "num": "00185",
-  "folder_name": "00185 Das gelobte Land (1975) {imdb-tt0072446}",
-  "folder_path": "F:\\Movies\\00185 Das gelobte Land (1975) {imdb-tt0072446}",
+  "num": "01321",
+  "folder_name": "01321 Das gelobte Land (1975) {imdb-tt0072446}",
+  "folder_path": "F:\\Movies\\01321 Das gelobte Land (1975) {imdb-tt0072446}",
   "title": "The Promised Land",
   "original_title": "The Promised Land",
   "year": "1975",
@@ -24,29 +24,17 @@
   "language": "Polish, German, Yiddish, Russian",
   "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQwMjc4NzQyN15BMl5BanBnXkFtZTgwMDUzMjkwMTE@._V1_SX300.jpg",
   "cover_file": "Das gelobte Land_cover.jpg",
-  "folder_location": "FFM DVD 00001 - 00600",
+  "folder_location": "FFM DVD 01092 - 00000",
   "audio_languages_german": [
-    "Englisch"
+    "Polnisch"
   ],
   "audio_languages_english": [
-    "English"
+    "Polish"
   ],
   "subtitles_languages_german": [
-    "Deutsch",
-    "Englisch",
-    "Französisch",
-    "Italienisch",
-    "Polnisch",
-    "Russisch",
-    "Spanisch"
+    "Englisch"
   ],
   "subtitles_languages_english": [
-    "English",
-    "French",
-    "German",
-    "Italian",
-    "Polish",
-    "Russian",
-    "Spanish"
+    "English"
   ]
 }

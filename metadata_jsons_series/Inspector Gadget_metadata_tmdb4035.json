@@ -1,0 +1,53 @@
+{
+    "folder_name": "Inspector Gadget (1983) {tmdb-4035}",
+    "folder_path": "G:\\Serien - TV Shows\\Inspector Gadget (1983) {tmdb-4035}",
+    "title": "Inspector Gadget",
+    "original_title": "Inspector Gadget",
+    "year": "1983",
+    "seasons_count": 2,
+    "creator": "Jean Chalopin, Andy Heyward, Bruno Bianchi",
+    "network": "Syndication",
+    "genres": [
+        "Animation",
+        "Comedy",
+        "Kids",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+    ],
+    "outline": "Inspector Gadget is a clumsy, dim-witted human cyborg detective with various bionic gadgets built into his body. Gadget stumbles around working the cases while his niece and dog do most of the investigating. Gadget's arch-nemesis is Dr. Claw, the leader of an evil organisation, known as \"M.A.D.\"",
+    "tmdb_id": "4035",
+    "tmdb_link": "https://www.themoviedb.org/tv/4035",
+    "tmdb_rating": 6.8,
+    "stars": [
+        "Don Adams",
+        "Maurice LaMarche",
+        "Holly Berger"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/j9ePYXtL3giEJq6ZVh4kDaUU0o4.jpg",
+    "cover_file": "Inspector Gadget_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Das Ungeheuer von Loch Ness",
+            "E02": "Operation Bauernhof",
+            "E03": "Im Zirkus",
+            "E04": "Abenteuer in Amazonia",
+            "E05": "Die Fitnesskur",
+            "E06": "Die Kreuzfahrt",
+            "E07": "Das Gespensterschloss",
+            "E08": "Der Grand Prix",
+            "E09": "Der Rubin",
+            "E10": "Gadget Superstar",
+            "E11": "Die Goldene Stadt",
+            "E12": "Gadget beim Film"
+        }
+    },
+    "audio_languages_german": [
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

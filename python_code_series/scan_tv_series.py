@@ -10,6 +10,8 @@ from pathlib import Path
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 
 DRIVE_CONFIG = {
+    r"G:\Serien - TV Shows": "FFM DVD 00001 - 00600",
+    r"F:\Serien - TV Shows": "FFM DVD 01092 - 00000",
     r"E:\Serien - TV Shows": "FFM DVD 00601 - 01091",
 }
 
@@ -177,7 +179,7 @@ def download_image(url: str, dest: Path) -> bool:
 # ─── CORE PROCESSING ───────────────────────────────────────────────────────────
 def process_root(root: str, drive_name: str) -> list[dict]:
     root_path = Path(root)
-    covers_dir = Path(PROJECT_ROOT) / "covers"
+    covers_dir = Path(PROJECT_ROOT) / "html_series_collection/covers"
     covers_dir.mkdir(parents=True, exist_ok=True)
     if not root_path.exists(): return []
 

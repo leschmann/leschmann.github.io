@@ -7,8 +7,8 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 
 def sync_covers():
-    index_path = os.path.join(PROJECT_ROOT, "movies_index.json")
-    covers_dir = os.path.join(PROJECT_ROOT, "covers")
+    index_path = os.path.join(PROJECT_ROOT, "html_dvd_collection/movies_index.json")
+    covers_dir = os.path.join(PROJECT_ROOT, "html_dvd_collection/covers")
     os.makedirs(covers_dir, exist_ok=True)
 
     if not os.path.exists(index_path):

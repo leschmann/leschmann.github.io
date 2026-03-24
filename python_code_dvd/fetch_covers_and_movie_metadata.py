@@ -10,7 +10,8 @@ from pathlib import Path
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 
 DRIVE_CONFIG = {
-    r"F:\Movies": "FFM DVD 00001 - 00600",
+    r"G:\Movies": "FFM DVD 00001 - 00600",
+    r"F:\Movies": "FFM DVD 01092 - 00000",
     r"E:\Movies": "FFM DVD 00601 - 01091",
 }
 
@@ -367,7 +368,7 @@ if __name__ == "__main__":
 
     print(f"\n✅  Done — {len(movies)} movies processed total.")
 
-    index_path = Path(PROJECT_ROOT) / "movies_index.json"
+    index_path = Path(PROJECT_ROOT) / "html_dvd_collection/movies_index.json"
     with index_path.open("w", encoding="utf-8") as f:
         json.dump(movies, f, indent=4, ensure_ascii=False)
     print(f"📄  Combined index written → {index_path}")

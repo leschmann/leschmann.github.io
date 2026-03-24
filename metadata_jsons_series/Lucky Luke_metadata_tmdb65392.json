@@ -1,0 +1,84 @@
+{
+    "folder_name": "Lucky Luke (1984) {tmdb-65392}",
+    "folder_path": "G:\\Serien - TV Shows\\Lucky Luke (1984) {tmdb-65392}",
+    "title": "Lucky Luke",
+    "original_title": "Lucky Luke",
+    "year": "1984",
+    "seasons_count": 2,
+    "creator": "N/A",
+    "network": "France 3, Super RTL",
+    "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Western",
+        "Kids"
+    ],
+    "outline": "Lucky Luke, with his horse Double Six, travels the Old West to right wrongs and bring evildoers (usually his traditional enemies the Dalton Brothers) to justice. \"The man who shoots faster than his shadow.\"",
+    "tmdb_id": "65392",
+    "tmdb_link": "https://www.themoviedb.org/tv/65392",
+    "tmdb_rating": 6.6,
+    "stars": [
+        "Jacques Thébault",
+        "Bernard Demory",
+        "Gilles Biot",
+        "Jean Tolzaque",
+        "Pierre Tornade",
+        "Patrice Baudrier"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3UtiRPf8K4Y2SC36qjhKLz9qCUB.jpg",
+    "cover_file": "Lucky Luke_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Die Gesetzlosen",
+            "E02": "Das Greenhorn",
+            "E03": "Stacheldraht auf der Prärie",
+            "E04": "Der Großfürst",
+            "E05": "Die Daltons auf Schatzsuche",
+            "E06": "Calamity Jane",
+            "E07": "Schienen durch die Prärie",
+            "E08": "Phil Defer",
+            "E09": "Die Daltons im Blizzard",
+            "E10": "Im Schatten der Bohrtürme",
+            "E11": "Die Postkutsche",
+            "E12": "Familienkrieg in Painful Gulch",
+            "E13": "Den Daltons auf der Spur",
+            "E14": "Billy, the Kid",
+            "E15": "Eskorte nach Neu-Mexiko",
+            "E16": "Der singende Draht",
+            "E17": "Doktor Doxey",
+            "E18": "Lucky Luke am Mississippi",
+            "E19": "Ma Dalton",
+            "E20": "Der weiße Reiter",
+            "E21": "In den schwarzen Hügeln",
+            "E22": "Jesse James",
+            "E24": "Die Daltons bewähren sich",
+            "E26": "Dalton City"
+        },
+        "Season 02": {
+            "E01": "Die Geisterstadt",
+            "E02": "Der Richter",
+            "E03": "Die Daltons brechen aus",
+            "E04": "Lucky Luke reitet für die 20er Kavallerie",
+            "E05": "Lucky Luke gegen Joss Jamon",
+            "E06": "Nitroglyzerin",
+            "E07": "Tortillas für die Daltons",
+            "E08": "Der Kopfgeldjäger",
+            "E09": "Der Apachencanyon",
+            "E11": "Die Erbschaft von Rantanplan",
+            "E13": "Sarah Bernhardt",
+            "E24": "Der Daily Star"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Französisch"
+    ],
+    "audio_languages_english": [
+        "French",
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}
