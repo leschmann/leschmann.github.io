@@ -1,6 +1,6 @@
 {
     "folder_name": "The Big Bang Theory (2007) {tmdb-1418}",
-    "folder_path": "E:\\Serien - TV Shows\\The Big Bang Theory (2007) {tmdb-1418}",
+    "folder_path": "F:\\Serien - TV Shows\\The Big Bang Theory (2007) {tmdb-1418}",
     "title": "The Big Bang Theory",
     "original_title": "The Big Bang Theory",
     "year": "2007",
@@ -24,7 +24,7 @@
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/an3uTx1P0XgHPylgfPV6W7yxKAo.jpg",
     "cover_file": "The Big Bang Theory_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091",
+    "folder_location": "FFM DVD 01092 - 00000",
     "audio_languages_english": [
         "English",
         "German"
@@ -147,7 +147,23 @@
             "E05": "Ab nach Baikonur!",
             "E06": "Mamis Liebling",
             "E07": "Ein guter Kerl",
-            "E08": "Leichtes Fummeln"
+            "E08": "Leichtes Fummeln",
+            "E09": "Zwei komische Vögel",
+            "E10": "Die Beziehungsrahmenvereinbarung",
+            "E11": "Das Speckerman-Trauma",
+            "E12": "Kinder Nein danke!",
+            "E13": "Penny und Leonard 2.0",
+            "E14": "Spaß mit Flaggen",
+            "E15": "Die Mitbewohnervereinbarung",
+            "E16": "Die Urlaubs-Diktatur",
+            "E17": "Antisportler",
+            "E18": "Kuscheln mit dem Gürteltier",
+            "E19": "Wochenendkrieger",
+            "E20": "Traum mit Spock",
+            "E21": "Noch so ein Weichei",
+            "E22": "Sex auf der Waschmaschine",
+            "E23": "Falscher Ort, falsche Frage",
+            "E24": "Fruchtzwerg fliegt ins All"
         }
     }
 }

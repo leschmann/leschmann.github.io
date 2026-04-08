@@ -1,0 +1,44 @@
+{
+    "num": "01053",
+    "folder_name": "01053 Mein Nachbar Totoro (1988) {imdb-tt0096283}",
+    "folder_path": "E:\\Movies\\01053 Mein Nachbar Totoro (1988) {imdb-tt0096283}",
+    "title": "My Neighbor Totoro",
+    "original_title": "My Neighbor Totoro",
+    "year": "1988",
+    "duration": "86 min",
+    "director": "Hayao Miyazaki",
+    "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+    ],
+    "outline": "Two young girls, 10-year-old Satsuki and her 4-year-old sister Mei, move into a house in the country with their father to be closer to their hospitalized mother. Satsuki and Mei discover that the nearby forest is inhabited by magical creatures called Totoros (pronounced toe-toe-ro). They soon befriend these Totoros, and have several magical adventures.",
+    "imdb_id": "tt0096283",
+    "imdb_link": "https://www.imdb.com/title/tt0096283/",
+    "imdb_rating": "8.1",
+    "stars": [
+        "Hitoshi Takagi",
+        "Noriko Hidaka",
+        "Chika Sakamoto"
+    ],
+    "rated": "G",
+    "country": "Japan",
+    "language": "Japanese",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Mein Nachbar Totoro_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_german": [
+        "Japanisch",
+        "deu"
+    ],
+    "audio_languages_english": [
+        "Japanese",
+        "deu"
+    ],
+    "subtitles_languages_german": [
+        "deu"
+    ],
+    "subtitles_languages_english": [
+        "deu"
+    ]
+}

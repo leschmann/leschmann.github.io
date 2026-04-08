@@ -1,6 +1,6 @@
 {
     "folder_name": "Shaun das Schaf (2007) {tmdb-3902}",
-    "folder_path": "G:\\Serien - TV Shows\\Shaun das Schaf (2007) {tmdb-3902}",
+    "folder_path": "F:\\Serien - TV Shows\\Shaun das Schaf (2007) {tmdb-3902}",
     "title": "Shaun the Sheep",
     "original_title": "Shaun the Sheep",
     "year": "2007",
@@ -20,7 +20,7 @@
     "stars": [],
     "poster_url": "https://image.tmdb.org/t/p/w500/z2gPfTQd3I0JLWOAEdKYMQRLoun.jpg",
     "cover_file": "Shaun das Schaf_cover.jpg",
-    "folder_location": "FFM DVD 00001 - 00600",
+    "folder_location": "FFM DVD 01092 - 00000",
     "local_episodes": {
         "Behind The Scenes": {
             "behind the scenes - season 2": ""
@@ -42,14 +42,30 @@
             "E14": "Die Landmaus",
             "E15": "Das Date",
             "E16": "Ausverkauf",
+            "E17": "Partylöwen",
             "E18": "Körpertausch",
             "E19": "Frisch verliebt",
             "E20": "Die Hundehütte",
+            "E21": "Schiff ahoi!",
             "E22": "Abgehoben",
             "E23": "Die Entführung",
+            "E24": "Fit wie Bitzer",
             "E25": "Ein schwerer Brocken",
             "E26": "Schweineärger",
-            "E29": "Triller-Pfeifer"
+            "E27": "Bitzer - Das Ungeheuer aus dem Teich",
+            "E28": "Zebra-Enten",
+            "E29": "Triller-Pfeifer",
+            "E30": "Raserei",
+            "E31": "Die diebische Elster",
+            "E32": "Operation Mieze",
+            "E33": "Die Schlammschlacht",
+            "E34": "Das Roll-Schaf",
+            "E35": "Fuchs im Schafspelz",
+            "E36": "Bitzer-Billard",
+            "E37": "Das Windrad",
+            "E38": "Ein warmes Plätzchen",
+            "E39": "Winter-Olympiade",
+            "E40": "Fröhliche Weihnachten"
         }
     },
     "audio_languages_german": [

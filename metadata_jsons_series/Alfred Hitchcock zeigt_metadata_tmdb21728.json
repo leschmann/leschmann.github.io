@@ -23,7 +23,19 @@
     "cover_file": "Alfred Hitchcock zeigt_cover.jpg",
     "folder_location": "FFM DVD 01092 - 00000",
     "local_episodes": {
+        "Season 01": {
+            "E01": "Folge 1",
+            "E04": "Der letzte Zeuge",
+            "E05": "Ein Mord, wie er im Buche steht",
+            "E11": "Die Rechnung ist fällig",
+            "E22": "Folge 22",
+            "E24": "Einer weiß mehr",
+            "E28": "Die Straße führt nach Dos Cucharos"
+        },
         "Season 02": {
+            "E06": "Der Mann von nebenan",
+            "E08": "Folge 8",
+            "E09": "Kobalt 60",
             "E15": "Folge 15",
             "E19": "Folge 19",
             "E26": "Folge 26",

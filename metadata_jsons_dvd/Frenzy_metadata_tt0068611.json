@@ -1,0 +1,79 @@
+{
+    "num": "01004",
+    "folder_name": "01004 Frenzy (1972) {imdb-tt0068611}",
+    "folder_path": "E:\\Movies\\01004 Frenzy (1972) {imdb-tt0068611}",
+    "title": "Frenzy",
+    "original_title": "Frenzy",
+    "year": "1972",
+    "duration": "116 min",
+    "director": "Alfred Hitchcock",
+    "genres": [
+        "Drama",
+        "Thriller"
+    ],
+    "outline": "London is terrorized by a vicious sex killer known as The Necktie Murderer. Following the brutal slaying of his ex-wife, down-on-his-luck Richard Blaney is suspected by the police of being the killer. He goes on the run, determined to prove his innocence.",
+    "imdb_id": "tt0068611",
+    "imdb_link": "https://www.imdb.com/title/tt0068611/",
+    "imdb_rating": "7.4",
+    "stars": [
+        "Jon Finch",
+        "Barry Foster",
+        "Barbara Leigh-Hunt"
+    ],
+    "rated": "R",
+    "country": "United Kingdom",
+    "language": "English",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYWQ3OGZkYTgtZjVmZi00Yjg4LThkNjEtOTdjM2I4YTUwNmVhXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Frenzy_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_german": [
+        "Englisch",
+        "Italienisch",
+        "Japanisch",
+        "Portugiesisch",
+        "Russisch",
+        "Spanisch",
+        "deu",
+        "fra"
+    ],
+    "audio_languages_english": [
+        "English",
+        "Italian",
+        "Japanese",
+        "Portuguese",
+        "Russian",
+        "Spanish",
+        "deu",
+        "fra"
+    ],
+    "subtitles_languages_german": [
+        "Dänisch",
+        "Englisch",
+        "Finnisch",
+        "Italienisch",
+        "Japanisch",
+        "Norwegisch",
+        "Portugiesisch",
+        "Russisch",
+        "Schwedisch",
+        "Spanisch",
+        "deu",
+        "fra",
+        "nld"
+    ],
+    "subtitles_languages_english": [
+        "Danish",
+        "English",
+        "Finnish",
+        "Italian",
+        "Japanese",
+        "Norwegian",
+        "Portuguese",
+        "Russian",
+        "Spanish",
+        "Swedish",
+        "deu",
+        "fra",
+        "nld"
+    ]
+}

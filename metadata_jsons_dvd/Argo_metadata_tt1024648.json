@@ -1,0 +1,62 @@
+{
+    "num": "01086",
+    "folder_name": "01086 Argo (2012) {imdb-tt1024648}",
+    "folder_path": "E:\\Movies\\01086 Argo (2012) {imdb-tt1024648}",
+    "title": "Argo",
+    "original_title": "Argo",
+    "year": "2012",
+    "duration": "120 min",
+    "director": "Ben Affleck",
+    "genres": [
+        "Biography",
+        "Drama",
+        "History"
+    ],
+    "outline": "In 1979, the American embassy in Iran was invaded by Iranian revolutionaries and several Americans were taken hostage. However, six managed to escape to the official residence of the Canadian Ambassador and the CIA was ordered to get them out of the country. With few options, exfiltration expert Tony Mendez devised a daring plan: create a phony Canadian film project looking to shoot in Iran and smuggle the Americans out as its production crew. With the help of some trusted Hollywood contacts, Mendez created the ruse and proceeded to Iran as its associate producer. However, time was running out with the Iranian security forces closing in on the truth while both his charges and the White House had grave doubts about the operation themselves.",
+    "imdb_id": "tt1024648",
+    "imdb_link": "https://www.imdb.com/title/tt1024648/",
+    "imdb_rating": "7.7",
+    "stars": [
+        "Ben Affleck",
+        "Bryan Cranston",
+        "John Goodman"
+    ],
+    "rated": "R",
+    "country": "United Kingdom, United States",
+    "language": "English, Persian, German, Arabic",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BM2QyMGUyZTEtMjE4Yi00M2RiLTgwN2QtZDMxZDNiMTFkMTFjXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Argo_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch",
+        "Spanisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German",
+        "Spanish"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch",
+        "Dänisch",
+        "Englisch",
+        "Finnisch",
+        "Isländisch",
+        "Norwegisch",
+        "Portugiesisch",
+        "Schwedisch",
+        "Spanisch"
+    ],
+    "subtitles_languages_english": [
+        "Danish",
+        "English",
+        "Finnish",
+        "German",
+        "Icelandic",
+        "Norwegian",
+        "Portuguese",
+        "Spanish",
+        "Swedish"
+    ]
+}

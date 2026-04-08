@@ -1,0 +1,67 @@
+{
+    "folder_name": "Mord ist ihr Hobby (1984) {tmdb-484}",
+    "folder_path": "F:\\Serien - TV Shows\\Mord ist ihr Hobby (1984) {tmdb-484}",
+    "title": "Murder, She Wrote",
+    "original_title": "Murder, She Wrote",
+    "year": "1984",
+    "seasons_count": 12,
+    "creator": "Richard Levinson, William Link, Peter S. Fischer",
+    "network": "CBS",
+    "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+    ],
+    "outline": "An unassuming mystery writer turned sleuth uses her professional insight to help solve real-life homicide cases.",
+    "tmdb_id": "484",
+    "tmdb_link": "https://www.themoviedb.org/tv/484",
+    "tmdb_rating": 7.5,
+    "stars": [
+        "Angela Lansbury"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3UxBFG4fiuZ0P9n2sCrjXh64Avy.jpg",
+    "cover_file": "Mord ist ihr Hobby_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Der Mord an Sherlock Holmes",
+            "E02": "Jessica und die Damen vom Boot",
+            "E03": "Doppeltes Spiel",
+            "E04": "Im falschen Film",
+            "E05": "Ein Hundeleben",
+            "E06": "Der Studienfreund",
+            "E07": "Ohne jede Chance",
+            "E08": "Ein nahezu perfekter Mord",
+            "E09": "Der Tod kommt zum Applaus",
+            "E10": "Blind mit offenen Augen",
+            "E11": "Jessica in Amt und Würden",
+            "E12": "Zum Broadway um jeden Preis",
+            "E13": "Mörderische Freundschaft",
+            "E14": "Gefährliche Kreuzfahrten",
+            "E15": "Der tödliche Pfeil",
+            "E16": "Jugendsünde mit Folgen",
+            "E17": "Ein plötzlicher Tod",
+            "E18": "Der Tod eines Schriftstellers",
+            "E19": "Der Tod kommt mit dem Bus",
+            "E20": "Mord mit Vorsatz",
+            "E21": "Der Tod des Showstars",
+            "E22": "Dunkle Vergangenheit"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "subtitles_languages_english": [
+        "English",
+        "German"
+    ]
+}

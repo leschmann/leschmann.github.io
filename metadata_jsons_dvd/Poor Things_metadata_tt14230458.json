@@ -1,0 +1,70 @@
+{
+    "num": "00506",
+    "folder_name": "00506 Poor Things (2023) {imdb-tt14230458}",
+    "folder_path": "G:\\Movies\\00506 Poor Things (2023) {imdb-tt14230458}",
+    "title": "Poor Things",
+    "original_title": "Poor Things",
+    "year": "2023",
+    "duration": "141 min",
+    "director": "Yorgos Lanthimos",
+    "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "outline": "An account of the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+    "imdb_id": "tt14230458",
+    "imdb_link": "https://www.imdb.com/title/tt14230458/",
+    "imdb_rating": "7.8",
+    "stars": [
+        "Emma Stone",
+        "Mark Ruffalo",
+        "Willem Dafoe"
+    ],
+    "rated": "R",
+    "country": "Ireland, United Kingdom, United States, Hungary",
+    "language": "English, French, Portuguese",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYWU2MjRjZTYtMjVkMS00MTBjLWFiMTAtYmZlYTk1YjkyMWFkXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Poor Things_cover.jpg",
+    "folder_location": "FFM DVD 00001 - 00600",
+    "audio_languages_german": [
+        "Englisch",
+        "Italienisch",
+        "Spanisch",
+        "deu",
+        "fra"
+    ],
+    "audio_languages_english": [
+        "English",
+        "Italian",
+        "Spanish",
+        "deu",
+        "fra"
+    ],
+    "subtitles_languages_german": [
+        "Dänisch",
+        "Englisch",
+        "Finnisch",
+        "Italienisch",
+        "Japanisch",
+        "Norwegisch",
+        "Schwedisch",
+        "Spanisch",
+        "deu",
+        "fra",
+        "nld"
+    ],
+    "subtitles_languages_english": [
+        "Danish",
+        "English",
+        "Finnish",
+        "Italian",
+        "Japanese",
+        "Norwegian",
+        "Spanish",
+        "Swedish",
+        "deu",
+        "fra",
+        "nld"
+    ]
+}

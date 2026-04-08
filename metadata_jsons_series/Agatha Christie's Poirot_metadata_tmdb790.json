@@ -1,6 +1,6 @@
 {
     "folder_name": "Agatha Christie's Poirot (1989) {tmdb-790}",
-    "folder_path": "E:\\Serien - TV Shows\\Agatha Christie's Poirot (1989) {tmdb-790}",
+    "folder_path": "F:\\Serien - TV Shows\\Agatha Christie's Poirot (1989) {tmdb-790}",
     "title": "Agatha Christie's Poirot",
     "original_title": "Agatha Christie's Poirot",
     "year": "1989",
@@ -21,7 +21,7 @@
     ],
     "poster_url": "https://image.tmdb.org/t/p/w500/6f4IVfbn8knb7RjdZlGLuW5guDc.jpg",
     "cover_file": "Agatha Christie's Poirot_cover.jpg",
-    "folder_location": "FFM DVD 00601 - 01091",
+    "folder_location": "FFM DVD 01092 - 00000",
     "audio_languages_english": [
         "English",
         "German"
@@ -86,6 +86,32 @@
             "E06": "Die Pralinenschachtel",
             "E07": "Auch Pünktlichkeit kann töten",
             "E08": "Der Juwelenraub im Grand Hotel"
+        },
+        "Season 06": {
+            "E01": "Hercule Poirots Weihnachten",
+            "E02": "Die Kleptomanin",
+            "E03": "Mord auf dem Golfplatz",
+            "E04": "Der Ball spielende Hund"
+        },
+        "Season 07": {
+            "E01": "Alibi",
+            "E02": "Dreizehn bei Tisch"
+        },
+        "Season 08": {
+            "E01": "Das Böse unter der Sonne",
+            "E02": "Mord in Mesopotamien"
+        },
+        "Season 09": {
+            "E01": "Das unvollendete Bildnis",
+            "E02": "Morphium",
+            "E03": "Tod auf dem Nil",
+            "E04": "Das Eulenhaus"
+        },
+        "Season 10": {
+            "E01": "Der blaue Express",
+            "E02": "Mit offenen Karten",
+            "E03": "Der Wachsblumenstrauß",
+            "E04": "Der Todeswirbel"
         }
     }
 }

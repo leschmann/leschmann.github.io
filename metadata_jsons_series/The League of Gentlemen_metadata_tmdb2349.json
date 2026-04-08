@@ -1,0 +1,47 @@
+{
+    "folder_name": "The League of Gentlemen (1999) {tmdb-2349}",
+    "folder_path": "F:\\Serien - TV Shows\\The League of Gentlemen (1999) {tmdb-2349}",
+    "title": "The League of Gentlemen",
+    "original_title": "The League of Gentlemen",
+    "year": "1999",
+    "seasons_count": 3,
+    "creator": "Steve Pemberton, Mark Gatiss, Reece Shearsmith, Jeremy Dyson",
+    "network": "BBC Two",
+    "genres": [
+        "Comedy"
+    ],
+    "outline": "The League of Gentlemen is a British sitcom broadcast on BBC Two over three series from 1999 to 2002. In the fictional Northern England town of Royston Vasey—based on Bacup, Lancashire—the lives are explored of dozens of bizarre citizens, much of whom are played by three of the show's four writers—Mark Gatiss, Steve Pemberton, and Reece Shearsmith—who, along with Jeremy Dyson, formed the titular comedy troupe in 1995.\n\nThe programme was followed by a film in 2005, and a three-part revival miniseries in December 2017 to celebrate the group's 20th anniversary.",
+    "tmdb_id": "2349",
+    "tmdb_link": "https://www.themoviedb.org/tv/2349",
+    "tmdb_rating": 7.7,
+    "stars": [
+        "Mark Gatiss",
+        "Steve Pemberton",
+        "Reece Shearsmith",
+        "Jeremy Dyson",
+        "Isabelle Estelle Corbusier"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wLAWxtYXvqUo4uVwiVsU7ACui6w.jpg",
+    "cover_file": "The League of Gentlemen_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Folge 1",
+            "E02": "Folge 2",
+            "E03": "Folge 3",
+            "E04": "Folge 4",
+            "E05": "Folge 5",
+            "E06": "Folge 6"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

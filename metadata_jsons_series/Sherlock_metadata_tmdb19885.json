@@ -1,0 +1,47 @@
+{
+    "folder_name": "Sherlock (2010) {tmdb-19885}",
+    "folder_path": "F:\\Serien - TV Shows\\Sherlock (2010) {tmdb-19885}",
+    "title": "Sherlock",
+    "original_title": "Sherlock",
+    "year": "2010",
+    "seasons_count": 4,
+    "creator": "Mark Gatiss, Steven Moffat",
+    "network": "BBC One",
+    "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+    ],
+    "outline": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "tmdb_id": "19885",
+    "tmdb_link": "https://www.themoviedb.org/tv/19885",
+    "tmdb_rating": 8.5,
+    "stars": [
+        "Benedict Cumberbatch",
+        "Martin Freeman"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+    "cover_file": "Sherlock_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Ein Fall von Pink",
+            "E02": "Der blinde Banker",
+            "E03": "Das große Spiel"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch",
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English",
+        "German"
+    ],
+    "subtitles_languages_german": [
+        "Englisch"
+    ],
+    "subtitles_languages_english": [
+        "English"
+    ]
+}

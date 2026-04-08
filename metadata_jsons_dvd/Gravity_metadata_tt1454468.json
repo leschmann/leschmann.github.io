@@ -1,0 +1,70 @@
+{
+    "num": "00996",
+    "folder_name": "00996 Gravity (2013) {imdb-tt1454468}",
+    "folder_path": "E:\\Movies\\00996 Gravity (2013) {imdb-tt1454468}",
+    "title": "Gravity",
+    "original_title": "Gravity",
+    "year": "2013",
+    "duration": "91 min",
+    "director": "Alfonso Cuarón",
+    "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "outline": "Dr. Ryan Stone (Sandra Bullock) is a brilliant medical engineer on her first shuttle mission, with veteran astronaut Matt Kowalski (George Clooney) in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The shuttle is destroyed, leaving Stone and Kowalsky completely alone - tethered to nothing but each other and spiraling out into the blackness.",
+    "imdb_id": "tt1454468",
+    "imdb_link": "https://www.imdb.com/title/tt1454468/",
+    "imdb_rating": "7.7",
+    "stars": [
+        "Sandra Bullock",
+        "George Clooney",
+        "Ed Harris"
+    ],
+    "rated": "PG-13",
+    "country": "United Kingdom, United States",
+    "language": "English, Greenlandic",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SX300.jpg",
+    "cover_file": "Gravity_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_german": [
+        "Englisch",
+        "Italienisch",
+        "Spanisch",
+        "deu",
+        "fra"
+    ],
+    "audio_languages_english": [
+        "English",
+        "Italian",
+        "Spanish",
+        "deu",
+        "fra"
+    ],
+    "subtitles_languages_german": [
+        "Dänisch",
+        "Englisch",
+        "Finnisch",
+        "Italienisch",
+        "Norwegisch",
+        "Schwedisch",
+        "Spanisch",
+        "deu",
+        "fra",
+        "isl",
+        "nld"
+    ],
+    "subtitles_languages_english": [
+        "Danish",
+        "English",
+        "Finnish",
+        "Italian",
+        "Norwegian",
+        "Spanish",
+        "Swedish",
+        "deu",
+        "fra",
+        "isl",
+        "nld"
+    ]
+}

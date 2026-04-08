@@ -1,0 +1,71 @@
+{
+    "folder_name": "La Linea (1978) {tmdb-12516}",
+    "folder_path": "F:\\Serien - TV Shows\\La Linea (1978) {tmdb-12516}",
+    "title": "La Linea",
+    "original_title": "La Linea",
+    "year": "1978",
+    "seasons_count": 2,
+    "creator": "Osvaldo Cavandoli",
+    "network": "Rai 1",
+    "genres": [
+        "Animation",
+        "Comedy"
+    ],
+    "outline": "Features a man known as \"Mr. Linea\" drawn as a single outline of an infinite line, which encounters various obstacles during his walking, and often turns to the cartoonist, represented as a live-action hand holding a pencil, to draw him a solution. All episodes are short subjects, ranging from 2:30 to 6:40 in runtime.",
+    "tmdb_id": "12516",
+    "tmdb_link": "https://www.themoviedb.org/tv/12516",
+    "tmdb_rating": 7.3,
+    "stars": [
+        "Carlo Bonomi",
+        "Osvaldo Cavandoli"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dzIBm3qZvWY9jomjR7Qt8pPewOH.jpg",
+    "cover_file": "La Linea_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Angeln",
+            "E02": "Die Ölkrise",
+            "E03": "Der Krieg",
+            "E04": "Die Jagd",
+            "E05": "Verschmutzung",
+            "E06": "Die Überraschungsbox",
+            "E07": "Der Urlaub",
+            "E08": "Das Entenküken",
+            "E09": "Die Fliege",
+            "E10": "Das Auto",
+            "E11": "Die Safari",
+            "E12": "Die Familie",
+            "E13": "Das Konzert",
+            "E14": "Olympia",
+            "E15": "Stabhochsprung",
+            "E16": "Ringe",
+            "E17": "Abschuss des Hammers",
+            "E18": "Schwimmen",
+            "E19": "Bogenschießen",
+            "E20": "Basketball",
+            "E21": "Rugby",
+            "E22": "Nautische Kunst",
+            "E23": "Baseball",
+            "E24": "Gymnastik",
+            "E25": "Judo",
+            "E26": "Skifahren",
+            "E27": "Verkehr",
+            "E28": "Die Schlange",
+            "E29": "Der Zauberer",
+            "E30": "Die Schildkröte",
+            "E31": "Vorgeschichte",
+            "E32": "Der Wilde Westen",
+            "E33": "Das Fahrrad",
+            "E34": "Der Affe"
+        }
+    },
+    "audio_languages_german": [
+        "Englisch"
+    ],
+    "audio_languages_english": [
+        "English"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}

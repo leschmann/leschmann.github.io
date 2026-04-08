@@ -1,0 +1,79 @@
+{
+    "num": "01005",
+    "folder_name": "01005 Die zwölf Geschworenen (1957) {imdb-tt0050083}",
+    "folder_path": "E:\\Movies\\01005 Die zwölf Geschworenen (1957) {imdb-tt0050083}",
+    "title": "12 Angry Men",
+    "original_title": "12 Angry Men",
+    "year": "1957",
+    "duration": "96 min",
+    "director": "Sidney Lumet",
+    "genres": [
+        "Crime",
+        "Drama"
+    ],
+    "outline": "The defense and the prosecution have rested, and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, AND each other. Based on the play, all of the action takes place on the stage of the jury room.",
+    "imdb_id": "tt0050083",
+    "imdb_link": "https://www.imdb.com/title/tt0050083/",
+    "imdb_rating": "9.0",
+    "stars": [
+        "Henry Fonda",
+        "Lee J. Cobb",
+        "Martin Balsam"
+    ],
+    "rated": "Approved",
+    "country": "United States",
+    "language": "English",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BYjE4NzdmOTYtYjc5Yi00YzBiLWEzNDEtNTgxZGQ2MWVkN2NiXkEyXkFqcGc@._V1_SX300.jpg",
+    "cover_file": "Die zwölf Geschworenen_cover.jpg",
+    "folder_location": "FFM DVD 00601 - 01091",
+    "audio_languages_german": [
+        "Englisch",
+        "Italienisch",
+        "Polnisch",
+        "Spanisch",
+        "deu",
+        "fra"
+    ],
+    "audio_languages_english": [
+        "English",
+        "Italian",
+        "Polish",
+        "Spanish",
+        "deu",
+        "fra"
+    ],
+    "subtitles_languages_german": [
+        "Dänisch",
+        "Englisch",
+        "Finnisch",
+        "Italienisch",
+        "Norwegisch",
+        "Polnisch",
+        "Portugiesisch",
+        "Schwedisch",
+        "Spanisch",
+        "deu",
+        "fra",
+        "isl",
+        "kor",
+        "nld",
+        "zho"
+    ],
+    "subtitles_languages_english": [
+        "Danish",
+        "English",
+        "Finnish",
+        "Italian",
+        "Norwegian",
+        "Polish",
+        "Portuguese",
+        "Spanish",
+        "Swedish",
+        "deu",
+        "fra",
+        "isl",
+        "kor",
+        "nld",
+        "zho"
+    ]
+}

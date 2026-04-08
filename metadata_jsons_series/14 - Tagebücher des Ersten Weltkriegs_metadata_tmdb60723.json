@@ -1,0 +1,49 @@
+{
+    "folder_name": "14 - Tagebücher des Ersten Weltkriegs (2014) {tmdb-60723}",
+    "folder_path": "F:\\Serien - TV Shows\\14 - Tagebücher des Ersten Weltkriegs (2014) {tmdb-60723}",
+    "title": "14: Diaries of the Great War",
+    "original_title": "14 - Tagebücher des Ersten Weltkriegs",
+    "year": "2014",
+    "seasons_count": 1,
+    "creator": "N/A",
+    "network": "ARTE, ARTE",
+    "genres": [
+        "Drama",
+        "War & Politics"
+    ],
+    "outline": "When war broke out in Europe in 1914, most people thought the conflict would be over by Christmas; they could not imagine how wrong they were. An attack in Sarajevo ended up becoming a snowball that swept the world: a new kind of warfare had begun, waged with techniques and means never seen before. By November 1918, ten million people had died and the political map of the planet had been redrawn.",
+    "tmdb_id": "60723",
+    "tmdb_link": "https://www.themoviedb.org/tv/60723",
+    "tmdb_rating": 7.6,
+    "stars": [
+        "Udo Samel",
+        "Natalia Witmer",
+        "Alban Casterman",
+        "Mikaël Fitoussi",
+        "Antoine de Prekel",
+        "Jonas Leonhardi"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9pl0aK0p9r1TjWvLbs4jCJXNpp9.jpg",
+    "cover_file": "14 - Tagebücher des Ersten Weltkriegs_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Der Abgrund",
+            "E02": "Der Angriff",
+            "E03": "Die Verwundung",
+            "E04": "Die Sehnsucht"
+        }
+    },
+    "audio_languages_german": [
+        "deu"
+    ],
+    "audio_languages_english": [
+        "deu"
+    ],
+    "subtitles_languages_german": [
+        "deu"
+    ],
+    "subtitles_languages_english": [
+        "deu"
+    ]
+}

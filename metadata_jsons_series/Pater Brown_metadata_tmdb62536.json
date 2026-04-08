@@ -1,0 +1,52 @@
+{
+    "folder_name": "Pater Brown (1966) {tmdb-62536}",
+    "folder_path": "F:\\Serien - TV Shows\\Pater Brown (1966) {tmdb-62536}",
+    "title": "Pater Brown",
+    "original_title": "Pater Brown",
+    "year": "1966",
+    "seasons_count": 5,
+    "creator": "N/A",
+    "network": "WDR Fernsehen",
+    "genres": [
+        "Crime"
+    ],
+    "outline": "",
+    "tmdb_id": "62536",
+    "tmdb_link": "https://www.themoviedb.org/tv/62536",
+    "tmdb_rating": 0.0,
+    "stars": [
+        "Josef Meinrad",
+        "Ernst Fritz Fürbringer",
+        "Guido Wieland",
+        "Eduard Linkers"
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kTXMwqImx9w9DAzqmAfh5ClCTqa.jpg",
+    "cover_file": "Pater Brown_cover.jpg",
+    "folder_location": "FFM DVD 01092 - 00000",
+    "local_episodes": {
+        "Season 01": {
+            "E01": "Der Fehler der Maschine",
+            "E02": "Der Admiral im Tümpel",
+            "E03": "Der Mann mit dem Zylinder",
+            "E04": "Das unlösbare Problem",
+            "E05": "Der Kopf Caesars",
+            "E06": "Das Lied an die fliegenden Fische",
+            "E07": "Das Auge des Apoll"
+        },
+        "Season 02": {
+            "E01": "Die drei Sternschnuppen",
+            "E02": "Das Alibi einer Schauspielerin",
+            "E03": "Ein Glas Whisky",
+            "E05": "Die Sünden des Prinzen Saradin",
+            "E06": "Das Paradies der Diebe"
+        }
+    },
+    "audio_languages_german": [
+        "Deutsch"
+    ],
+    "audio_languages_english": [
+        "German"
+    ],
+    "subtitles_languages_german": [],
+    "subtitles_languages_english": []
+}
