@@ -1,53 +1,23 @@
-import os
 import re
+import sys
 import json
 import shutil
 import time
 import requests
-import subprocess
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python_code_common"))
+from common import PROJECT_ROOT, SERIES_DRIVES, TMDB_API_KEY, extract_mkv_languages
+
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
-
-DRIVE_CONFIG = {
-    r"G:\Serien - TV Shows": "FFM DVD 00001 - 00600",
-    r"F:\Serien - TV Shows": "FFM DVD 01092 - 00000",
-    r"E:\Serien - TV Shows": "FFM DVD 00601 - 01091",
-}
-
-# ❗ HIER DEINEN TMDB API KEY EINTRAGEN ❗
-TMDB_API_KEY = "6a0da576bde6cc997fec24a6b700791c"
+# Laufwerke, TMDB API Key und Sprachtabellen stehen in python_code_common/common.py
 
 FORCE_MKV_RESCAN = ["790", "1399", "1418"]
-
-SCRIPT_DIR = os.path.dirname(__file__)
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
 # Matches: Agatha Christie's Poirot (1989) {tmdb-790}
 FOLDER_RE = re.compile(
     r"^(?P<title>.+?)\s+\((?P<year>\d{4})\)\s+\{tmdb-(?P<tmdb_id>\d+)\}$"
 )
-
-# ─── LANGUAGE MAPPINGS (Genau wie bei Filmen) ──────────────────────────────────
-LANGUAGE_MAP_EN = {"ara": "Arabic", "bul": "Bulgarian", "chi": "Chinese", "cze": "Czech", "dan": "Danish",
-                   "dut": "Dutch", "eng": "English", "est": "Estonian", "fin": "Finnish", "fre": "French",
-                   "ger": "German", "gre": "Greek", "heb": "Hebrew", "hin": "Hindi", "hrv": "Croatian",
-                   "hun": "Hungarian", "ice": "Icelandic", "ita": "Italian", "jpn": "Japanese", "lav": "Latvian",
-                   "lit": "Lithuanian", "nor": "Norwegian", "pol": "Polish", "por": "Portuguese", "rum": "Romanian",
-                   "rus": "Russian", "sh": "Serbo-Croatian", "slv": "Slovenian", "spa": "Spanish", "srp": "Serbian",
-                   "swe": "Swedish", "tha": "Thai", "tur": "Turkish", "ukr": "Ukrainian", "und": "Unknown"}
-
-LANGUAGE_MAP_DE = {
-    "ara": "Arabisch", "bul": "Bulgarisch", "chi": "Chinesisch", "cze": "Tschechisch",
-    "dan": "Dänisch", "dut": "Niederländisch", "eng": "Englisch", "est": "Estnisch",
-    "fin": "Finnisch", "fre": "Französisch", "ger": "Deutsch", "gre": "Griechisch",
-    "heb": "Hebräisch", "hin": "Hindi", "hrv": "Kroatisch", "hun": "Ungarisch",
-    "ice": "Isländisch", "ita": "Italienisch", "jpn": "Japanisch", "lav": "Lettisch",
-    "lit": "Litauisch", "nor": "Norwegisch", "pol": "Polnisch", "por": "Portugiesisch",
-    "rum": "Rumänisch", "rus": "Russisch", "sh":  "Serbokroatisch", "slv": "Slowenisch",
-    "spa": "Spanisch", "srp": "Serbisch", "swe": "Schwedisch", "tha": "Thailändisch",
-    "tur": "Türkisch", "ukr": "Ukrainisch", "und": "Unbekannt"
-}
 
 # ─── SCHEMA ────────────────────────────────────────────────────────────────────
 NEW_MEDIA_FIELDS = {
@@ -119,37 +89,6 @@ def get_sample_mkv(series_path: Path) -> Path | None:
     for mkv_file in series_path.rglob("*.mkv"):
         return mkv_file
     return None
-
-
-def extract_mkv_languages(mkv_path: Path):
-    cmd = ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", str(mkv_path)]
-    try:
-        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8")
-        if result.returncode != 0: return [], [], [], []
-        data = json.loads(result.stdout)
-
-        audio_codes = set()
-        sub_codes = set()
-
-        for stream in data.get("streams", []):
-            ctype = stream.get("codec_type")
-            lang = stream.get("tags", {}).get("language", "und").lower().strip()
-            if ctype == "audio":
-                audio_codes.add(lang)
-            elif ctype == "subtitle":
-                sub_codes.add(lang)
-
-        # Beide Sprachen (Deutsch & Englisch) übersetzen
-        aud_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in audio_codes}))
-        aud_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in audio_codes}))
-
-        sub_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in sub_codes}))
-        sub_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in sub_codes}))
-
-        # Rückgabe in der korrekten Reihenfolge: Audio-DE, Audio-EN, Sub-DE, Sub-EN
-        return aud_de, aud_en, sub_de, sub_en
-    except:
-        return [], [], [], []
 
 
 # ─── TMDB API ──────────────────────────────────────────────────────────────────
@@ -285,11 +224,11 @@ def process_root(root: str, drive_name: str) -> list[dict]:
 if __name__ == "__main__":
     if not TMDB_API_KEY or TMDB_API_KEY == "DEIN_TMDB_API_KEY_HIER":
         print("❌ FEHLER: Bitte trage oben im Skript deinen TMDB_API_KEY ein!")
-        exit(1)
+        sys.exit(1)
 
     print("=== TV Shows Metadaten Scanner ===")
     all_series = []
-    for root, name in DRIVE_CONFIG.items():
+    for root, name in SERIES_DRIVES.items():
         all_series.extend(process_root(root, name))
 
     print(f"\n✅ {len(all_series)} Serien gescannt.")

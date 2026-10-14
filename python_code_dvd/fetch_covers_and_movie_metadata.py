@@ -1,19 +1,17 @@
-import os
 import re
+import sys
 import json
 import shutil
 import time
 import requests
-import subprocess
 from pathlib import Path
 
-# ─── CONFIG ────────────────────────────────────────────────────────────────────
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python_code_common"))
+from common import (PROJECT_ROOT, MOVIE_DRIVES, OMDB_API_KEYS, check_ffprobe_installed,
+                    get_largest_mkv, extract_mkv_languages)
 
-DRIVE_CONFIG = {
-    r"G:\Movies": "FFM DVD 00001 - 00600",
-    r"F:\Movies": "FFM DVD 01092 - 00000",
-    r"E:\Movies": "FFM DVD 00601 - 01091",
-}
+# ─── CONFIG ────────────────────────────────────────────────────────────────────
+# Laufwerke, API-Keys und Sprachtabellen stehen in python_code_common/common.py
 
 # Liste von Film-Nummern (5-stellig), bei denen die MKV-Analyse ERZWUNGEN werden soll,
 # auch wenn die Felder schon im JSON existieren (z. B. nach manuellen Änderungen).
@@ -22,40 +20,9 @@ FORCE_MKV_RESCAN = [
     # "00003",
 ]
 
-SCRIPT_DIR = os.path.dirname(__file__)
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-
-OMDB_API_KEYS = ["dea6b6b3", "1f927d1"]
-
 FOLDER_RE = re.compile(
     r"^(?P<num>\d+)\s+(?P<title>.+?)\s+\((?P<year>\d{4})\)\s+\{imdb-(?P<imdb_id>tt\d+)\}$"
 )
-
-# ─── LANGUAGE MAPPINGS ─────────────────────────────────────────────────────────
-
-LANGUAGE_MAP_EN = {
-    "ara": "Arabic", "bul": "Bulgarian", "chi": "Chinese", "cze": "Czech",
-    "dan": "Danish", "dut": "Dutch", "eng": "English", "est": "Estonian",
-    "fin": "Finnish", "fre": "French", "ger": "German", "gre": "Greek",
-    "heb": "Hebrew", "hin": "Hindi", "hrv": "Croatian", "hun": "Hungarian",
-    "ice": "Icelandic", "ita": "Italian", "jpn": "Japanese", "lav": "Latvian",
-    "lit": "Lithuanian", "nor": "Norwegian", "per": "Persian", "pol": "Polish",
-    "por": "Portuguese", "rum": "Romanian", "rus": "Russian", "sh": "Serbo-Croatian",
-    "slv": "Slovenian", "spa": "Spanish", "srp": "Serbian", "swe": "Swedish", "tha": "Thai",
-    "tur": "Turkish", "ukr": "Ukrainian", "und": "Unknown"
-}
-
-LANGUAGE_MAP_DE = {
-    "ara": "Arabisch", "bul": "Bulgarisch", "chi": "Chinesisch", "cze": "Tschechisch",
-    "dan": "Dänisch", "dut": "Niederländisch", "eng": "Englisch", "est": "Estnisch",
-    "fin": "Finnisch", "fre": "Französisch", "ger": "Deutsch", "gre": "Griechisch",
-    "heb": "Hebräisch", "hin": "Hindi", "hrv": "Kroatisch", "hun": "Ungarisch",
-    "ice": "Isländisch", "ita": "Italienisch", "jpn": "Japanisch", "lav": "Lettisch",
-    "lit": "Litauisch", "nor": "Norwegisch", "per": "Persisch", "pol": "Polnisch", "por": "Portugiesisch",
-    "rum": "Rumänisch", "rus": "Russisch", "sh": "Serbokroatisch", "slv": "Slowenisch",
-    "spa": "Spanisch", "srp": "Serbisch", "swe": "Schwedisch", "tha": "Thailändisch",
-    "tur": "Türkisch", "ukr": "Ukrainisch", "und": "Unbekannt"
-}
 
 # ─── SCHEMA ────────────────────────────────────────────────────────────────────
 
@@ -76,54 +43,6 @@ LOCAL_FIELDS = {"num", "folder_name", "folder_path", "folder_location"}
 
 def missing_fields(metadata: dict) -> set[str]:
     return EXPECTED_FIELDS - set(metadata.keys())
-
-
-# ─── MKV ANALYSIS HELPERS ──────────────────────────────────────────────────────
-
-def check_ffprobe_installed():
-    try:
-        subprocess.run(["ffprobe", "-version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        return True
-    except FileNotFoundError:
-        return False
-
-
-def get_largest_mkv(folder_path: Path) -> Path | None:
-    mkvs = list(folder_path.glob("*.mkv"))
-    return max(mkvs, key=lambda p: p.stat().st_size) if mkvs else None
-
-
-def extract_mkv_languages(mkv_path: Path):
-    """Liest die MKV aus und gibt die 4 formatierten Sprachlisten zurück."""
-    cmd = ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", str(mkv_path)]
-    try:
-        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8")
-        if result.returncode != 0:
-            return [], [], [], []
-
-        data = json.loads(result.stdout)
-        audio_codes = set()
-        sub_codes = set()
-
-        for stream in data.get("streams", []):
-            ctype = stream.get("codec_type")
-            lang = stream.get("tags", {}).get("language", "und").lower().strip()
-
-            if ctype == "audio":
-                audio_codes.add(lang)
-            elif ctype == "subtitle":
-                sub_codes.add(lang)
-
-        # Übersetze die 3-stelligen Codes mit Fallback auf den Originalcode, falls unbekannt
-        aud_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in audio_codes}))
-        aud_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in audio_codes}))
-        sub_de = sorted(list({LANGUAGE_MAP_DE.get(c, c) for c in sub_codes}))
-        sub_en = sorted(list({LANGUAGE_MAP_EN.get(c, c) for c in sub_codes}))
-
-        return aud_de, aud_en, sub_de, sub_en
-    except Exception as e:
-        print(f"        ✗ ffprobe Fehler: {e}")
-        return [], [], [], []
 
 
 # ─── OMDB API & HELPERS ────────────────────────────────────────────────────────
@@ -348,7 +267,7 @@ def process_root(root: str, drive_name: str) -> list[dict]:
 
 def scan_all_configured() -> list[dict]:
     all_movies: list[dict] = []
-    for root, drive_name in DRIVE_CONFIG.items():
+    for root, drive_name in MOVIE_DRIVES.items():
         all_movies.extend(process_root(root, drive_name))
     return all_movies
 
@@ -361,7 +280,7 @@ if __name__ == "__main__":
     if not check_ffprobe_installed():
         print("❌ FEHLER: 'ffprobe' wurde nicht gefunden!")
         print("Bitte installiere ffmpeg, damit MKV-Sprachen ausgelesen werden können.")
-        exit(1)
+        sys.exit(1)
 
     print("Scanning all configured drives...\n")
     movies = scan_all_configured()
