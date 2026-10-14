@@ -1,19 +1,16 @@
 import os
-import json
+import sys
 import shutil
 import glob
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python_code_common"))
+from common import SERIES_DRIVES, SERIES_METADATA_DIR, SERIES_HTML_DIR, load_json, normalize_languages, write_js_constants
 
 # --- Config ---
-DRIVE_CONFIG = {
-    r"G:\Serien - TV Shows": "TV Harddrive G",
-    r"E:\Serien - TV Shows": "TV Harddrive E",
-    r"F:\Serien - TV Shows": "TV Harddrive F",
-}
-
-SCRIPT_DIR = os.path.dirname(__file__)
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "metadata_jsons_series")
-DATA_JS_PATH = os.path.join(PROJECT_ROOT, "html_series_collection/data.js")
+# Laufwerke stehen in python_code_common/common.py
+OUTPUT_DIR = str(SERIES_METADATA_DIR)
+DATA_JS_PATH = str(SERIES_HTML_DIR / "data.js")
 
 
 def update_data_js():
@@ -24,8 +21,7 @@ def update_data_js():
     all_audio, all_subs = set(), set()
 
     for path in json_files:
-        with open(path, "r", encoding="utf-8-sig") as f:
-            meta = json.load(f)
+        meta = load_json(path)
 
         genres_list = meta.get("genres", [])
         stars_list = meta.get("stars", [])
@@ -55,8 +51,9 @@ def update_data_js():
             "folder_location": meta.get("folder_location", "N/A"),
             "folder_path": meta.get("folder_path", ""),
 
-            "audio_languages_english": meta.get("audio_languages_english", []),
-            "subtitles_languages_english": meta.get("subtitles_languages_english", []),
+            # Codes wie "deu" werden hier zu "German" übersetzt
+            "audio_languages_english": normalize_languages(meta.get("audio_languages_english", []), "en"),
+            "subtitles_languages_english": normalize_languages(meta.get("subtitles_languages_english", []), "en"),
 
             # 🔥 HIER DIE EPISODEN EINGEFÜGT 🔥
             "local_episodes": meta.get("local_episodes", {}),
@@ -72,25 +69,14 @@ def update_data_js():
 
     series_list.sort(key=lambda m: m["title"].lower())
 
-    with open(DATA_JS_PATH, "w", encoding="utf-8") as f:
-        f.write("const allMovies = ")  # Wir nennen es allMovies, damit app.js nicht angepasst werden muss!
-        json.dump(series_list, f, ensure_ascii=False)
-        f.write(";\n\n")
-        f.write("const allGenres = ");
-        json.dump(sorted(all_genres), f, ensure_ascii=False);
-        f.write(";\n\n")
-        f.write("const allDirectors = ");
-        json.dump(sorted(all_creators), f, ensure_ascii=False);
-        f.write(";\n\n")
-        f.write("const allStars = ");
-        json.dump(sorted(all_stars), f, ensure_ascii=False);
-        f.write(";\n\n")
-        f.write("const allAudioLanguagesEnglish = ");
-        json.dump(sorted(all_audio), f, ensure_ascii=False);
-        f.write(";\n\n")
-        f.write("const allSubtitleLanguagesEnglish = ");
-        json.dump(sorted(all_subs), f, ensure_ascii=False);
-        f.write(";\n")
+    write_js_constants(DATA_JS_PATH, {
+        "allMovies": series_list,  # Wir nennen es allMovies, damit app.js nicht angepasst werden muss!
+        "allGenres": sorted(all_genres),
+        "allDirectors": sorted(all_creators),
+        "allStars": sorted(all_stars),
+        "allAudioLanguagesEnglish": sorted(all_audio),
+        "allSubtitleLanguagesEnglish": sorted(all_subs),
+    })
 
     print(f"\n[data.js] Updated → {len(series_list)} TV Shows.")
 
@@ -101,7 +87,7 @@ def sync_metadata():
     copied = 0
     updated = 0
 
-    for drive_path in DRIVE_CONFIG.keys():
+    for drive_path in SERIES_DRIVES.keys():
         if not os.path.exists(drive_path): continue
         for d in os.listdir(drive_path):
             folder_path = os.path.join(drive_path, d)

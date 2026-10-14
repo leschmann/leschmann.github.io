@@ -20,6 +20,15 @@ const starFilter = document.getElementById('starFilter');
 const sizeSlider = document.getElementById('sizeSlider');
 const modal = document.getElementById('movieModal');
 
+// Platzhalter für Serien ohne Cover (eingebettet, braucht keinen externen Dienst)
+const NO_COVER = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">' +
+    '<rect width="300" height="450" fill="#1f1f1f"/>' +
+    '<rect x="105" y="165" width="90" height="70" rx="10" fill="none" stroke="#555" stroke-width="6"/>' +
+    '<path d="M140 183v34l28-17z" fill="#555"/>' +
+    '<text x="150" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#777" text-anchor="middle">No Cover</text>' +
+    '</svg>');
+
 if (window.innerWidth <= 800) {
     sidebar.classList.add('hidden');
     document.documentElement.style.setProperty('--card-size', '140px');
@@ -39,7 +48,9 @@ window.openModal = function(tmdbId) {
     const m = allMovies.find(show => show.tmdb_id === tmdbId);
     if (!m) return;
 
-    document.getElementById('modalImg').src = m.img_uri;
+    const modalImg = document.getElementById('modalImg');
+    modalImg.onerror = () => { modalImg.onerror = null; modalImg.src = NO_COVER; };
+    modalImg.src = m.img_uri;
     document.getElementById('modalTitle').textContent = `${m.title} (${m.year > 0 ? m.year : '?'})`;
     document.getElementById('modalMeta').innerHTML = `
         <span>⭐ ${m.imdb_rating_str}</span>
@@ -180,7 +191,7 @@ function renderMovies(movies) {
         card.setAttribute('onclick', `openModal('${movie.tmdb_id}')`);
 
         card.innerHTML = `
-            <img src="${movie.img_uri}" class="cover-img" alt="Cover">
+            <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src=NO_COVER;">
             <div class="movie-info">
                 <div class="title" title="${fullTitle}">${fullTitle}</div>
                 <div class="meta">

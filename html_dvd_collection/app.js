@@ -21,6 +21,15 @@ const starFilter = document.getElementById('starFilter');
 const sizeSlider = document.getElementById('sizeSlider');
 const modal = document.getElementById('movieModal');
 
+// Platzhalter für Filme ohne Cover (eingebettet, braucht keinen externen Dienst)
+const NO_COVER = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">' +
+    '<rect width="300" height="450" fill="#1f1f1f"/>' +
+    '<rect x="105" y="165" width="90" height="70" rx="10" fill="none" stroke="#555" stroke-width="6"/>' +
+    '<path d="M140 183v34l28-17z" fill="#555"/>' +
+    '<text x="150" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#777" text-anchor="middle">No Cover</text>' +
+    '</svg>');
+
 // --- MOBILE INITIALIZATION ---
 if (window.innerWidth <= 800) {
     sidebar.classList.add('hidden');
@@ -36,20 +45,104 @@ sizeSlider.addEventListener('input', (e) => {
     document.documentElement.style.setProperty('--card-size', `${e.target.value}px`);
 });
 
+// Bewertung, US-Freigabe, FSK (falls bekannt) und Laufzeit – für Karte und Popup
+function metaBadges(m) {
+    const fsk = m.fsk && m.fsk !== 'N/A' ? `<span class="fsk-badge fsk-${m.fsk}">FSK ${m.fsk}</span>` : '';
+    return `<span>⭐ ${m.imdb_rating_str}</span><span>${m.us_rating}</span>${fsk}<span>${m.duration_str}</span>`;
+}
+
+// --- ELTERNLEITFADEN (IMDb) ---
+const PG_CATEGORIES = {
+    nudity: 'Sex und Nacktheit',
+    violence: 'Gewalt und Blut',
+    profanity: 'Vulgäre Ausdrücke',
+    alcohol: 'Alkohol, Drogen und Rauchen',
+    frightening: 'Erschreckende und heftige Szenen',
+};
+const PG_SEVERITIES = { none: 'Keine', mild: 'Leicht', moderate: 'Moderat', severe: 'Stark' };
+
+let parentalGuidesPromise = null;
+let modalToken = 0;
+
+function escapeHtml(text) {
+    return String(text).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+}
+
+// parental_guides.js wird erst beim ersten Öffnen eines Films mit Leitfaden geladen (per <script>, klappt auch lokal)
+function loadParentalGuides() {
+    if (!parentalGuidesPromise) {
+        parentalGuidesPromise = new Promise(resolve => {
+            const script = document.createElement('script');
+            script.src = 'parental_guides.js';
+            script.onload = () => resolve(typeof parentalGuides !== 'undefined' ? parentalGuides : {});
+            script.onerror = () => resolve({});
+            document.head.appendChild(script);
+        });
+    }
+    return parentalGuidesPromise;
+}
+
+function renderParentalGuide(m, guide) {
+    const url = `https://www.imdb.com/de/title/${m.imdb_id}/parentalguide/`;
+    let html = `<div class="pg-header"><h3>Elternleitfaden</h3><a href="${url}" target="_blank" rel="noopener">Auf IMDb ansehen ↗</a></div>`;
+    if (!guide) return html;
+
+    if (guide.rating_reason) {
+        html += `<div class="pg-reason"><span class="pg-label">Einstufung des Films (MPA)</span>${escapeHtml(guide.rating_reason)}</div>`;
+    }
+
+    html += '<div class="pg-categories">';
+    guide.categories.forEach(cat => {
+        const name = PG_CATEGORIES[cat.id] || escapeHtml(cat.id);
+        const severity = PG_SEVERITIES[cat.severity]
+            ? `<span class="pg-sev pg-sev-${cat.severity}">${PG_SEVERITIES[cat.severity]}</span>`
+            : '<span class="pg-sev">–</span>';
+
+        if (cat.items.length === 0) {
+            html += `<div class="pg-cat pg-cat-static"><span class="pg-cat-name">${name}</span>${severity}</div>`;
+            return;
+        }
+
+        const more = cat.total_items > cat.items.length
+            ? `<a class="pg-more" href="${url}#${cat.id}" target="_blank" rel="noopener">Alle ${cat.total_items} Einträge auf IMDb ↗</a>`
+            : '';
+        html += `
+            <details class="pg-cat">
+                <summary><span class="pg-cat-name">${name}</span>${severity}</summary>
+                <ul class="pg-items">${cat.items.map(text => `<li>${escapeHtml(text)}</li>`).join('')}</ul>
+                ${more}
+            </details>`;
+    });
+    html += '</div>';
+
+    if (guide.machine_translated) {
+        html += '<p class="pg-note">Kommentare von IMDb-Nutzern, maschinell übersetzt.</p>';
+    }
+    return html;
+}
+
 // --- MODAL OVERLAY LOGIC ---
 window.openModal = function(imdbId) {
     const m = allMovies.find(movie => movie.imdb_id === imdbId);
     if (!m) return;
+    const token = ++modalToken;
 
-    document.getElementById('modalImg').src = m.img_uri;
+    const modalImg = document.getElementById('modalImg');
+    modalImg.onerror = () => { modalImg.onerror = null; modalImg.src = NO_COVER; };
+    modalImg.src = m.img_uri;
     document.getElementById('modalTitle').textContent = `${m.title} (${m.year > 0 ? m.year : '?'})`;
-    document.getElementById('modalMeta').innerHTML = `
-        <span>⭐ ${m.imdb_rating_str}</span>
-        <span>${m.fsk_rating}</span>
-        <span>${m.duration_str}</span>
-    `;
+    document.getElementById('modalMeta').innerHTML = metaBadges(m);
     document.getElementById('modalGenres').textContent = m.genres_str;
     document.getElementById('modalPlot').textContent = m.outline;
+
+    // Elternleitfaden: Link sofort, Details sobald parental_guides.js geladen ist
+    const parentalContainer = document.getElementById('modalParental');
+    parentalContainer.innerHTML = renderParentalGuide(m, null);
+    if (m.has_parental_guide) {
+        loadParentalGuides().then(guides => {
+            if (token === modalToken) parentalContainer.innerHTML = renderParentalGuide(m, guides[m.imdb_id]);
+        });
+    }
 
     // 🔥 Audio und Subs im Popup anzeigen
     const audioStr = m.audio_languages_english && m.audio_languages_english.length > 0 ? m.audio_languages_english.join(', ') : 'Unknown';
@@ -148,14 +241,10 @@ function renderMovies(movies) {
         card.setAttribute('onclick', `openModal('${movie.imdb_id}')`);
 
         card.innerHTML = `
-            <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x450/000000/FFFFFF/?text=No+Cover';">
+            <img src="${movie.img_uri}" class="cover-img" alt="Cover" onerror="this.onerror=null; this.src=NO_COVER;">
             <div class="movie-info">
                 <div class="title" title="${fullTitle}">${fullTitle}</div>
-                <div class="meta">
-                    <span>⭐ ${movie.imdb_rating_str}</span>
-                    <span>${movie.fsk_rating}</span>
-                    <span>${movie.duration_str}</span>
-                </div>
+                <div class="meta">${metaBadges(movie)}</div>
                 <div class="genres" title="${movie.genres_str}">${movie.genres_str}</div>
             </div>
         `;

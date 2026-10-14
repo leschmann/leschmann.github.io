@@ -1,15 +1,13 @@
 import os
+import sys
 import json
-import subprocess
 from pathlib import Path
 
-# ─── CONFIG ────────────────────────────────────────────────────────────────────
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python_code_common"))
+from common import MOVIE_DRIVES, check_ffprobe_installed, get_largest_mkv, ffprobe_streams
 
-# Hier wieder deine Laufwerke eintragen
-DRIVE_CONFIG = {
-    r"F:\Movies": "FFM DVD 00001 - 00600",
-    # r"E:\Movies": "FFM DVD 00601 - 01200",
-}
+# ─── CONFIG ────────────────────────────────────────────────────────────────────
+# Laufwerke stehen in python_code_common/common.py (nicht angeschlossene werden übersprungen)
 
 SCRIPT_DIR = os.path.dirname(__file__)
 REPORT_FILE = os.path.join(SCRIPT_DIR, "media_analysis_report.json")
@@ -17,76 +15,41 @@ REPORT_FILE = os.path.join(SCRIPT_DIR, "media_analysis_report.json")
 
 # ───────────────────────────────────────────────────────────────────────────────
 
-def check_ffprobe_installed():
-    """Prüft, ob ffprobe im System gefunden wird."""
-    try:
-        subprocess.run(["ffprobe", "-version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        return True
-    except FileNotFoundError:
-        return False
-
-
-def get_largest_mkv(folder_path: Path) -> Path | None:
-    """Findet alle .mkv Dateien in einem Ordner und gibt die größte zurück."""
-    mkvs = list(folder_path.glob("*.mkv"))
-    if not mkvs:
-        return None
-
-    # max() sucht das Element mit dem höchsten Wert der key-Funktion (hier: Dateigröße)
-    largest_mkv = max(mkvs, key=lambda p: p.stat().st_size)
-    return largest_mkv
-
-
 def analyze_mkv_with_ffprobe(file_path: Path) -> dict:
     """Führt ffprobe aus und extrahiert Audio- und Untertitelspuren."""
-    cmd = [
-        "ffprobe",
-        "-v", "quiet",
-        "-print_format", "json",
-        "-show_streams",
-        str(file_path)
-    ]
+    streams = ffprobe_streams(file_path)
+    if streams is None:
+        print(f"      ✗ Fehler beim Ausführen von ffprobe für {file_path.name}")
+        return {}
 
-    try:
-        result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8")
-        if result.returncode != 0:
-            print(f"      ✗ Fehler beim Ausführen von ffprobe für {file_path.name}")
-            return {}
+    audio_tracks = []
+    subtitle_tracks = []
 
-        probe_data = json.loads(result.stdout)
+    for stream in streams:
+        codec_type = stream.get("codec_type")
+        tags = stream.get("tags", {})
 
-        audio_tracks = []
-        subtitle_tracks = []
+        # Manche Spuren haben keine Sprach-Tags, dann nehmen wir 'und' (undefined)
+        language = tags.get("language", "und")
+        title = tags.get("title", "")
+        codec_name = stream.get("codec_name", "unknown")
 
-        for stream in probe_data.get("streams", []):
-            codec_type = stream.get("codec_type")
-            tags = stream.get("tags", {})
-
-            # Manche Spuren haben keine Sprach-Tags, dann nehmen wir 'und' (undefined)
-            language = tags.get("language", "und")
-            title = tags.get("title", "")
-            codec_name = stream.get("codec_name", "unknown")
-
-            track_info = {
-                "index": stream.get("index"),
-                "language": language,
-                "codec": codec_name,
-                "title": title
-            }
-
-            if codec_type == "audio":
-                audio_tracks.append(track_info)
-            elif codec_type == "subtitle":
-                subtitle_tracks.append(track_info)
-
-        return {
-            "audio": audio_tracks,
-            "subtitles": subtitle_tracks
+        track_info = {
+            "index": stream.get("index"),
+            "language": language,
+            "codec": codec_name,
+            "title": title
         }
 
-    except Exception as e:
-        print(f"      ✗ Exception bei ffprobe: {e}")
-        return {}
+        if codec_type == "audio":
+            audio_tracks.append(track_info)
+        elif codec_type == "subtitle":
+            subtitle_tracks.append(track_info)
+
+    return {
+        "audio": audio_tracks,
+        "subtitles": subtitle_tracks
+    }
 
 
 def format_size(size_bytes: int) -> str:
@@ -106,7 +69,7 @@ def run_analysis():
     total_folders = 0
     folders_with_mkv = 0
 
-    for root_path_str, drive_name in DRIVE_CONFIG.items():
+    for root_path_str, drive_name in MOVIE_DRIVES.items():
         root_path = Path(root_path_str)
         if not root_path.exists():
             print(f"\n⚠ Laufwerk nicht gefunden, überspringe: {root_path_str}")
